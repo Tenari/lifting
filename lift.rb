@@ -41,7 +41,7 @@ def print_workouts(data, workouts)
         str += "                     "
       end
     end
-    puts str
+    puts str unless str.strip == ""
   end
 end
 
@@ -75,7 +75,7 @@ def show_program(data)
       end
       workouts.push(wk)
     end
-    puts "week #{week_num}: #{week[:format]} | #{week[:reps]} reps per set"
+    puts "week #{week_num} totals: #{week[:format]} | #{week[:reps]} reps per set"
     print_sets(data, sets)
     print_workouts(data, workouts)
   end
@@ -109,5 +109,24 @@ if ARGV[0] == 'show'
 elsif ARGV[0] == 'add'
   if ARGV[1] == 'exercise'
     add_exercise(data, ARGV)
+  end
+elsif ARGV[0] == 'program'
+  show_program(data)
+  keep_going = true
+  while keep_going do
+    puts "what now? (type 'help' if you need it)"
+    help = "\tedit week 1\n\tadd week\n\trm week 1\n\tq   (quit)"
+    val = STDIN.gets.strip
+    if val == 'help'
+      puts help
+    elsif val.match('edit week')
+      week = val.split(" ").last.to_i - 1
+      week_obj = data[:program][week]
+      puts "which workout?"
+      workout = STDIN.gets.to_i - 1
+      wk = week_obj[:workouts][workout]
+    elsif val == 'q'
+      keep_going = false
+    end
   end
 end
