@@ -1,0 +1,96 @@
+---
+:last_workout:
+  :date: 2019-07-07
+:muscles:
+- chest
+- shoulders
+- back
+- biceps
+- triceps
+- quads
+- hams
+- calfs
+- abs
+- traps
+- forearms
+:exercises:
+  :bench:
+    :primary: chest
+    :secondary: triceps
+    :max: 213
+    :compound: true
+  :db flyes:
+    :primary: chest
+    :max: 0
+  :press:
+    :primary: shoulders
+    :secondary: triceps
+    :max: 146
+    :compund: true
+  :bar upright row:
+    :primary: shoulders
+    :secondary: biceps
+    :max: 0
+  :db bent reverse fly:
+    :primary: shoulders
+    :max: 0
+  :chin up:
+    :primary: back
+    :secondary: biceps
+    :max: 25
+  :low bar bent row:
+    :primary: back
+    :max: 200
+  :squat:
+    :max: 268
+    :primary: quads
+    :secondary: hams
+    :compound: true
+  :front squat:
+    :max: 220
+    :primary: quads
+    :compound: true
+  :deadlift:
+    :max: 303
+    :primary: hams
+    :secondary: quads
+    :compound: true
+  :bar standing curl:
+    :max: 90
+    :primary: biceps
+  :db standing curl:
+    :max: 45
+    :primary: biceps
+:program:
+- :chest: 12
+  :shoulders: 12
+  :biceps: 6
+  :triceps: 6
+  :format: rWrWrWr
+  :reps: 15
+  :workouts:
+  - :press: 2
+    :db bent reverse fly: 2
+    :chin up: 2
+  - :bench: 2
+    :db flyes: 2
+    :low bar bent row: 2
+  - :press: 2
+    :db bent reverse fly: 2
+    :chin up: 2
+- :chest: 12
+  :shoulders: 12
+  :biceps: 6
+  :triceps: 6
+  :format: rWrWrWr
+  :reps: 15
+  :workouts:
+  - :bench: 2
+    :db flyes: 2
+    :low bar bent row: 2
+  - :press: 2
+    :db bent reverse fly: 2
+    :chin up: 2
+  - :bench: 2
+    :db flyes: 2
+    :low bar bent row: 2
