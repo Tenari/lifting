@@ -12,7 +12,7 @@
 - calfs
 - abs
 - traps
-- forearms
+- forearm
 :exercises:
   :bench:
     :primary: chest
@@ -26,7 +26,7 @@
     :primary: shoulders
     :secondary: triceps
     :max: 146
-    :compund: true
+    :compound: true
   :bar upright row:
     :primary: shoulders
     :secondary: biceps
@@ -61,6 +61,21 @@
   :db standing curl:
     :max: 45
     :primary: biceps
+  :db overhead extension:
+    :max: 0
+    :primary: triceps
+  :calfs:
+    :max: 135
+    :primary: calfs
+  :crunch:
+    :max: 0
+    :primary: abs
+  :bar shrug:
+    :max: 200
+    :primary: traps
+  :wrist curl:
+    :max: 20
+    :primary: forearm
 :program:
 - :chest: 12
   :shoulders: 12
