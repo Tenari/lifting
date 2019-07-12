@@ -76,6 +76,12 @@
   :wrist curl:
     :max: 20
     :primary: forearm
+  :goodmorning:
+    :max: 0
+    :primary: hams
+  :nosebreaker:
+    :max: 0
+    :primary: triceps
 :program:
 - :chest: 12
   :shoulders: 12
