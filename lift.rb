@@ -45,6 +45,18 @@ def print_workouts(data, workouts)
   end
 end
 
+def print_full_workout(data, reps, workout)
+  puts "do #{reps} reps per set. Rest 2 minutes between sets"
+  workout.each do |lift, sets|
+    puts ("%-25s %s @ %s lbs" % [lift, sets, weight_for(data, reps, lift)])
+  end
+end
+
+def weight_for(data, reps, lift)
+  arr = [nil, 100, 95, 91, 88, 85, 83, 81, 79, 77, 75, 73, 72, 70, 69, 68, 66, 65, 64, 63, 62]
+  data[:exercises][lift][:max] * arr[reps].to_f / 100.0
+end
+
 def show_matching_lifts(data, muscle)
   puts("%-20s %-5s %s" % ["lift", "1RM", 'primary/secondary'])
   data[:exercises].each do |name, details|
@@ -123,8 +135,9 @@ elsif ARGV[0] == 'program'
       week = val.split(" ").last.to_i - 1
       week_obj = data[:program][week]
       puts "which workout?"
-      workout = STDIN.gets.to_i - 1
-      wk = week_obj[:workouts][workout]
+      workout_index = STDIN.gets.to_i - 1
+      workout = week_obj[:workouts][workout_index]
+      print_full_workout(data, week_obj[:reps], workout)
     elsif val == 'q'
       keep_going = false
     end
