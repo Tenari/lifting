@@ -7,9 +7,11 @@
 #   ./lift.rb show lifts [muscle]               shows the list of lifts matching [muscle]
 #   ./lift.rb add exercise -n name -1rm 100     adds an exercise to the list of active lifts
 #   ./lift.rb program                           begins interactive programming mode
+#   ./lift.rb log [muscle] [set..] -rir 2       adds the set(s) to your history
 require 'date'
 require 'yaml'
 
+RM_CONVERSION = [nil, 100, 95, 91, 88, 85, 83, 81, 79, 77, 75, 73, 72, 70, 69, 68, 66, 65, 64, 63, 62]
 def print_sets(data, sets)
   data[:muscles].each do |muscle|
     printf("%-10s", muscle)
@@ -53,8 +55,13 @@ def print_full_workout(data, reps, workout)
 end
 
 def weight_for(data, reps, lift)
-  arr = [nil, 100, 95, 91, 88, 85, 83, 81, 79, 77, 75, 73, 72, 70, 69, 68, 66, 65, 64, 63, 62]
-  data[:exercises][lift][:max] * arr[reps].to_f / 100.0
+  data[:exercises][lift][:max] * RM_CONVERSION[reps].to_f / 100.0
+end
+
+# calculate based off 1 rep in reserve (rir) 
+def set_to_max(reps, weight, rir)
+  mod = rir.to_i - 1
+  (100.0 * weight.to_i / RM_CONVERSION[mod+reps.to_i].to_f).round
 end
 
 def show_matching_lifts(data, muscle)
@@ -108,7 +115,29 @@ def add_exercise(data, args)
   File.write(FILENAME, YAML.dump(data))
 end
 
-today = Date.today
+def log_sets(data, args)
+  lift = args[0].to_sym
+  data[:history] ||= {}
+  data[:history][Date.today] ||= {}
+  record = data[:history][Date.today][lift] || {sets: []}
+  rir = 1
+  args.each_with_index do |arg, index|
+    if arg.include?('x')
+      record[:sets].push({weight: arg.split('x').first.to_i, reps: arg.split('x').last.to_i})
+    elsif arg == '-rir'
+      rir = args[index+1].to_i
+    end
+  end
+  record[:sets].each do |set|
+    set[:rir] ||= rir
+  end
+  data[:history][Date.today][lift] = record
+  # update the max
+  new_max = record[:sets].map{|set| set_to_max(set[:reps], set[:weight], set[:rir]) }.max
+  data[:exercises][lift][:max] = [data[:exercises][lift][:max], new_max].max
+  File.write(FILENAME, YAML.dump(data))
+end
+
 FILENAME = 'lifting_data.yml'
 data = YAML.load_file(FILENAME)
 
@@ -122,6 +151,9 @@ elsif ARGV[0] == 'add'
   if ARGV[1] == 'exercise'
     add_exercise(data, ARGV)
   end
+#   ./lift.rb log [lift] [set..] -rir 2       adds the set(s) to your history
+elsif ARGV[0] == 'log'
+  log_sets(data, ARGV.drop(1))
 elsif ARGV[0] == 'program'
   show_program(data)
   keep_going = true

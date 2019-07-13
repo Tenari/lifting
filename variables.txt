@@ -1,6 +1,6 @@
 sets per week per muscle (volume)
-rep range per set (determined by RPE and weight lifted)
-RPE per set (reps left in the tank)
+rep range per set (determined by RIR and weight lifted)
+RIR per set (reps left in the tank)
 frequency per muscle
 rest between sets
 tempo
@@ -29,7 +29,7 @@ Basic plan:
 split similar muscles to different days (shoulders/chest quads/hams triceps/biceps)
 start at bottom of productive volume range (MEV) and cycle up to top (MRV)
 start at top of productive rep range and cycle down to bottom of productive rep range (15 down to 6)
-Move RPE from 7 to 9 (3 in tank to 1 in tank)
+Move RIR from 7 to 9 (3 in tank to 1 in tank)
 1st 2 week 3 days /week, 2nd 2 weeks 4 days/week
 keep rest between sets constant (2 minutes)
 keep tempo constant (fast concentric 3sec eccentric, no holds)
@@ -37,11 +37,11 @@ always just do 2 sets for "little" muscles, dont try to hit set targets.
 little muscles start at 18 reps and work down to 9
 try BFR on biceps on first week
 
-week 1:  6 sets, 14 reps, RPE 7, rWrWrWr
-week 2:  8 sets, 11 reps, RPE 7, rWrWrWr
-week 3: 10 sets,  8 reps, RPE 8, WWrWWrr
-week 4: 12 sets,  6 reps, RPE 9, WWrWWrr
-week 5:  3 sets, 15 reps, RPE 6, rWrrWrr
+week 1:  6 sets, 14 reps, RIR 7, rWrWrWr
+week 2:  8 sets, 11 reps, RIR 7, rWrWrWr
+week 3: 10 sets,  8 reps, RIR 8, WWrWWrr
+week 4: 12 sets,  6 reps, RIR 9, WWrWWrr
+week 5:  3 sets, 15 reps, RIR 6, rWrrWrr
 
 workout 1.1 chest, back, biceps, quads, calfs, traps
 workout 1.2 shoulders, triceps, hams, abs, forearm
@@ -64,7 +64,9 @@ workout 4.4 shoulders, triceps, hams, abs, forearm
 workout 5.1 chest, back, biceps, quads, calfs, traps
 workout 5.2 shoulders, triceps, hams, abs, forearm
 
-workout 1.1 @ RPE 7
+---
+
+workout 1.1 @ RIR 7
   bench               4x14
   low bar bent row    3x14
   front squat         4x14
@@ -73,7 +75,7 @@ workout 1.1 @ RPE 7
   calfs               2x18
   bar shrug           2x18
 
-workout 1.2 @ RPE 7
+workout 1.2 @ RIR 7
   press               4x14
   goodmorning         4x14
   ...
@@ -81,7 +83,7 @@ workout 1.2 @ RPE 7
   crunch              2
   wrist curl          2x18
 
-workout 1.3 @ RPE 7
+workout 1.3 @ RIR 7
   bench               4x14
   low bar bent row    3x14
   front squat         4x14
@@ -92,7 +94,7 @@ workout 1.3 @ RPE 7
 
 ---
 
-workout 2.1 @ RPE 7
+workout 2.1 @ RIR 7
   press               3x11
   db bent reverse fly 2x11
   low bar bent row    4x11
@@ -103,7 +105,7 @@ workout 2.1 @ RPE 7
   reverse crunch      2
   wrist curl          2x18
 
-workout 2.2 @ RPE 7
+workout 2.2 @ RIR 7
   bench               3x11
   db flyes            3x11
   front squat         3x11
@@ -113,7 +115,7 @@ workout 2.2 @ RPE 7
   calfs               2x15
   bar shrug           2x15
 
-workout 2.3 @ RPE 7
+workout 2.3 @ RIR 7
   press               3x11
   db bent reverse fly 2x11
   low bar bent row    4x11
@@ -126,7 +128,7 @@ workout 2.3 @ RPE 7
 
 ---
 
-workout 3.1 @ RPE 8
+workout 3.1 @ RIR 8
   bench               3x8
   db flyes            2x8
   low bar bent row    3x8
@@ -136,17 +138,17 @@ workout 3.1 @ RPE 8
   calfs               2x12
   bar shrug           2x12
 
-workout 3.2 @ RPE 8
+workout 3.2 @ RIR 8
   press               3x8
   db bent reverse fly 2x8
-  chin up             2 sets RPE 8
+  chin up             2 sets RIR 8
   deadlift            3x8
   ...
   nosebreaker         2x12
   reverse crunch      2
   wrist curl          2x12
 
-workout 3.3 @ RPE 8
+workout 3.3 @ RIR 8
   bench               3x8
   db flyes            2x8
   low bar bent row    3x8
@@ -156,10 +158,10 @@ workout 3.3 @ RPE 8
   calfs               2x12
   bar shrug           2x12
 
-workout 3.4 @ RPE 8
+workout 3.4 @ RIR 8
   press               3x8
   db bent reverse fly 2x8
-  chin up             2 sets RPE 8
+  chin up             2 sets RIR 8
   goodmorning         3x8
   ...
   db overhead extension 2x12
@@ -168,7 +170,7 @@ workout 3.4 @ RPE 8
 
 ---
 
-workout 4.1 @ RPE 9
+workout 4.1 @ RIR 9
   bench               3x6
   db flyes            3x6
   low bar bent row    3x6
@@ -178,17 +180,17 @@ workout 4.1 @ RPE 9
   calfs               2x9
   bar shrug           2x9
 
-workout 4.2 @ RPE 9
+workout 4.2 @ RIR 9
   press               3x6
   db bent reverse fly 3x6
-  chin up             3 sets RPE 9
+  chin up             3 sets RIR 9
   deadlift            3x6
   ...
   nosebreaker         2x9
   reverse crunch      2
   wrist curl          2x12
 
-workout 4.3 @ RPE 9
+workout 4.3 @ RIR 9
   bench               3x6
   db flyes            3x6
   low bar bent row    3x6
@@ -198,10 +200,10 @@ workout 4.3 @ RPE 9
   calfs               2x9
   bar shrug           2x9
 
-workout 4.4 @ RPE 9
+workout 4.4 @ RIR 9
   press               3x6
   db bent reverse fly 3x6
-  chin up             3 sets RPE 9
+  chin up             3 sets RIR 9
   goodmorning         3x6
   ...
   db overhead extension 2x9
@@ -210,7 +212,7 @@ workout 4.4 @ RPE 9
 
 ---
 
-workout 5.1 @ RPE 6
+workout 5.1 @ RIR 6
   bench               3x15
   low bar bent row    2x15
   front squat         3x15
@@ -219,9 +221,9 @@ workout 5.1 @ RPE 6
   calfs               2x18
   bar shrug           2x18
 
-workout 5.2 @ RPE 6
+workout 5.2 @ RIR 6
   press               3x15
-  chin up             1 set RPE 6
+  chin up             1 set RIR 6
   goodmorning         3x15
   ...
   nosebreaker         2x18
