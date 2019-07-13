@@ -29,3 +29,148 @@ Key principles to bodybuilding, in no particular order:
   - you could do less rest between sets
 - most supplements are useless wastes of money, and the ones that arent only account for a VERY small percentage of your overall muscle growth (5% or less)
 - 
+
+## Step by Step Overview
+
+if you are a raw total beginner
+
+1. get a place to workout (home or gym)
+2. schedule time to workout (initially 3 days per week)
+3. write out training plan + log
+4. Watch youtube videos on technique for the exercises in your plan
+5. calculate caloric needs for growth (strict meal planning not necessary initially)
+6. make sure you eat enough protein g and enough calories every day
+7. take "before" picture and measurements (weight, arm, leg, neck, etc)
+8. use peaking calculator to estimate where you could legitimately end up
+9. follow the beginning lifting program for at least 3 months
+
+if you have already gotten easy newbie gains
+
+1. strict macro-counting meal plan
+2. supplements
+3. follow 3 cycles bulking, 1 cycle cutting meso-cycles lifting plan generator, starting at 6-10 sets and working your way up based on your own body feedback
+4. repeat step 3 for 3 years
+
+if you are an advanced lifter
+
+1. great go figure your own shit out
+
+## Beginners
+
+### Where to workout
+
+Home is better than gym if you have space and can afford the upfront cost. Some people live in cramped quarters or are bad with money and live paycheck to paycheck. For these people the only real option is gym.
+
+If doing gym, pick whatever gym is closest, cheapest and has a squat rack/bench presses. Smith-machines are NOT squat racks.
+
+If doing home, buy a:
+- [squat stand](https://www.amazon.com/gp/product/B01855EGXI) ($70)
+- inclineable bench ($80 - $150)
+- olympic barbell + plate set ($225 at academy)
+- 2 bumper 45-lb plates ($120)
+- 2 Loadable 20" Olympic Dumbbells (~$60)
+
+total cost: $625 max. Cheaper if you can get em used, which is often possible. a $40 gym membership means this is a cheaper route in less than 16 months, not to mention more convenient. Worth it.
+
+### Training logging
+
+I suggest using the tool in this repo.
+
+```
+$ ./lift.rb log 'bench' 150x8 150x8 150x7 -rpe 8
+```
+
+And your activity will be recorded, and your bench strength will be updated for future reference giving weight/rep-range combos.
+
+But if you are afraid of terminal or something, just use a spreadsheet
+
+### Training planning
+
+I suggest using the tool in this repo.
+
+```
+./lift.rb generate program --beginner
+```
+
+And it will schedule your first 3 months of lifting. Then you can just `./lift.rb show week` each week to see what you'll be doing in the gym.
+
+But if you are afraid of terminal or something, do the following:
+
+If you fail to get all 6 reps in any (or all) of your sets for a lift, that's fine, just retry the same weight next time.
+
+```
+week 1:
+workout 1: squat, bench, pull up
+workout 2: deadlift, press, bent row
+workout 3: squat, bench, pull up
+
+week 2:
+workout 1: deadlift, press, bent row
+workout 2: squat, bench, pull up
+workout 3: deadlift, press, bent row
+
+workout 1.1:
+  squat     work up to until a set of 6 feels pretty heavy
+  bench     work up to until a set of 6 feels pretty heavy
+  pull up   as many as you can in one set
+workout 1.2:
+  deadlift  work up to until a set of 6 feels pretty heavy
+  press     work up to until a set of 6 feels pretty heavy
+  bent row  work up to until a set of 6 feels pretty heavy
+workout 1.3:
+  squat     2x6 at 10 lbs more than last time
+  bench     2x6 at 5 lbs more than last time
+  pull up   same number as last time
+
+workout 2.1:
+  deadlift  2x6 at 10 lbs more than last time
+  press     2x6 at 5 lbs more than last time
+  bent row  2x6 at 5 lbs more than last time
+workout 2.2:
+  squat     2x6 at 10 lbs more than last time
+  bench     2x6 at 5 lbs more than last time
+  pull up   1 more than last time
+workout 2.3:
+  deadlift  2x6 at 10 lbs more than last time
+  press     2x6 at 5 lbs more than last time
+  bent row  2x6 at 5 lbs more than last time
+```
+
+and from then on just repeat the following program until you fail to add 5 lbs to the lift 3 times in a row.
+```
+week 1:
+workout 1: squat, bench, pull up
+workout 2: deadlift, press, bent row
+workout 3: squat, bench, pull up
+
+week 2:
+workout 1: deadlift, press, bent row
+workout 2: squat, bench, pull up
+workout 3: deadlift, press, bent row
+
+workout 1.1:
+  squat     3x6 at +5lbs
+  bench     3x6 at +5lbs
+  pull up   2 sets, +0 reps and +0 reps
+workout 1.2:
+  deadlift  3x6 @ +5lbs
+  press     3x6 @ +5lbs
+  bent row  2x6 @ +5lbs
+workout 1.3:
+  squat     3x6 at +5 lbs
+  bench     3x6 at +5 lbs
+  pull up   2 sets, +1 reps and +0 reps
+
+workout 2.1:
+  deadlift  3x6 @ +5lbs
+  press     3x6 @ +5lbs
+  bent row  2x6 @ +5lbs
+workout 2.2:
+  squat     3x6 at +5lbs
+  bench     3x6 at +5lbs
+  pull up   2 sets, +0 reps and +1 reps
+workout 2.3:
+  deadlift  3x6 @ +5lbs
+  press     3x6 @ +5lbs
+  bent row  2x6 @ +5lbs
+```
