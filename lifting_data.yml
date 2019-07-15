@@ -17,7 +17,7 @@
   :bench:
     :primary: chest
     :secondary: triceps
-    :max: 217
+    :max: 223
     :compound: true
   :db flyes:
     :primary: chest
@@ -30,7 +30,7 @@
   :bar upright row:
     :primary: shoulders
     :secondary: biceps
-    :max: 0
+    :max: 114
   :db bent reverse fly:
     :primary: shoulders
     :max: 0
@@ -40,9 +40,9 @@
     :max: 25
   :low bar bent row:
     :primary: back
-    :max: 201
+    :max: 222
   :squat:
-    :max: 268
+    :max: 276
     :primary: quads
     :secondary: hams
     :compound: true
@@ -51,12 +51,12 @@
     :primary: quads
     :compound: true
   :deadlift:
-    :max: 329
+    :max: 341
     :primary: hams
     :secondary: quads
     :compound: true
   :bar standing curl:
-    :max: 100
+    :max: 102
     :primary: biceps
   :db standing curl:
     :max: 45
@@ -71,7 +71,7 @@
     :max: 0
     :primary: abs
   :bar shrug:
-    :max: 209
+    :max: 240
     :primary: traps
   :wrist curl:
     :max: 20
@@ -159,3 +159,57 @@
       - :weight: 165
         :reps: 7
         :rir: 1
+  2019-07-14:
+    :squat:
+      :sets:
+      - :weight: 235
+        :reps: 5
+        :rir: 1
+    :bar upright row:
+      :sets:
+      - :weight: 95
+        :reps: 5
+        :rir: 2
+      - :weight: 95
+        :reps: 5
+        :rir: 1
+      - :weight: 90
+        :reps: 8
+        :rir: 1
+    :deadlift:
+      :sets:
+      - :weight: 290
+        :reps: 5
+        :rir: 1
+    :bench:
+      :sets:
+      - :weight: 185
+        :reps: 5
+        :rir: 2
+      - :weight: 185
+        :reps: 5
+        :rir: 2
+      - :weight: 185
+        :reps: 5
+        :rir: 2
+    :low bar bent row:
+      :sets:
+      - :weight: 160
+        :reps: 10
+        :rir: 3
+    :bar standing curl:
+      :sets:
+      - :weight: 90
+        :reps: 5
+        :rir: 0
+      - :weight: 90
+        :reps: 5
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 175
+        :reps: 8
+        :rir: 3
+      - :weight: 175
+        :reps: 10
+        :rir: 2
