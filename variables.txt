@@ -55,8 +55,8 @@ Program Summary:
 
 week 1:  6 sets, 14 reps, RIR 3, rWrWrWr
 week 2:  8 sets, 11 reps, RIR 3, rWrWrWr
-week 3: 10 sets,  8 reps, RIR 2, WWrWWrr
-week 4: 12 sets,  6 reps, RIR 1, WWrWWrr
+week 3: 10 sets,  8 reps, RIR 2, rWWrWWr
+week 4: 12 sets,  6 reps, RIR 1, rWWrWWr
 week 5:  3 sets, 15 reps, RIR 4, rWrrWrr
 
 workout 1.1 chest, back, biceps, quads, calfs, traps
