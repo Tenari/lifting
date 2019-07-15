@@ -82,6 +82,9 @@
   :nosebreaker:
     :max: 0
     :primary: triceps
+  :stiff-leg deadlift:
+    :max: 0
+    :primary: hams
 :program:
 - :chest: 12
   :shoulders: 12

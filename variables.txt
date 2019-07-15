@@ -39,10 +39,10 @@ try BFR on biceps on first week
 
 Exercises:
   Chest       bench, db flyes
-  Shoulder    ?behind neck press?, bar upright row, db lat raise, db bent reverse fly
+  Shoulder    bar upright row, db lat raise, db bent reverse fly (?behind neck press?)
   Back        low bar bent row, chin up
   Quads       front squat, squat
-  Hams        goodmorning, deadlift
+  Hams        goodmorning, stiff-leg deadlift
   ...
   Biceps      bar standing curl, db standing curl
   Triceps     db overhead extension, nosebreaker
@@ -92,7 +92,7 @@ workout 1.1 @ RIR 3
   bar shrug           2x18
 
 workout 1.2 @ RIR 3
-  press               4x14
+  upright row         4x14
   goodmorning         4x14
   ...
   db overhead extension 2x18
@@ -111,11 +111,11 @@ workout 1.3 @ RIR 3
 ---
 
 workout 2.1 @ RIR 3
-  press               3x11
+  upright row         3x11
   db bent reverse fly 2x11
   low bar bent row    4x11
   goodmorning         3x11
-  deadlift            2x11
+  stiff-leg deadlift  2x11
   ...
   nosebreaker         2x15
   reverse crunch      2
@@ -132,11 +132,11 @@ workout 2.2 @ RIR 3
   bar shrug           2x15
 
 workout 2.3 @ RIR 3
-  press               3x11
+  upright row         3x11
   db bent reverse fly 2x11
   low bar bent row    4x11
   goodmorning         3x11
-  deadlift            2x11
+  stiff-leg deadlift  2x11
   ...
   db overhead extension 2x15
   crunch              2
@@ -155,10 +155,10 @@ workout 3.1 @ RIR 2
   bar shrug           2x12
 
 workout 3.2 @ RIR 2
-  press               3x8
+  upright row         3x8
   db bent reverse fly 2x8
   chin up             2 sets RIR 2
-  deadlift            3x8
+  stiff-leg deadlift  3x8
   ...
   nosebreaker         2x12
   reverse crunch      2
@@ -175,7 +175,7 @@ workout 3.3 @ RIR 2
   bar shrug           2x12
 
 workout 3.4 @ RIR 2
-  press               3x8
+  upright row         3x8
   db bent reverse fly 2x8
   chin up             2 sets RIR 2
   goodmorning         3x8
@@ -197,10 +197,10 @@ workout 4.1 @ RIR 1
   bar shrug           2x9
 
 workout 4.2 @ RIR 1
-  press               3x6
+  upright row         3x6
   db bent reverse fly 3x6
   chin up             3 sets RIR 1
-  deadlift            3x6
+  stiff-leg deadlift  3x6
   ...
   nosebreaker         2x9
   reverse crunch      2
@@ -217,7 +217,7 @@ workout 4.3 @ RIR 1
   bar shrug           2x9
 
 workout 4.4 @ RIR 1
-  press               3x6
+  upright row         3x6
   db bent reverse fly 3x6
   chin up             3 sets RIR 1
   goodmorning         3x6
@@ -238,7 +238,7 @@ workout 5.1 @ RIR 4
   bar shrug           2x18
 
 workout 5.2 @ RIR 4
-  press               3x15
+  upright row         3x15
   chin up             1 set RIR 4
   goodmorning         3x15
   ...
