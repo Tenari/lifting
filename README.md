@@ -23,14 +23,17 @@ example:
 
 Then devise your lifting program and insert it day by day by:
 
-1. making a file called workout.txt that looks like ```
+1. making a file called workout.txt that looks like
+```
 bench 4x14 3
 front_squat 4x14 3
 upright_row 2x18 3
 db_standing_curl 2x18 3
 calfs 2x18 3
 bar_shrug 2x18 3
-``` where each row is `lift [sets]x[reps] rir` (rir = reps in reserve)
+```
+where each row is `lift [sets]x[reps] rir` (rir = reps in reserve)
+
 2. running `./lift.rb add workout workout.txt 2019-07-17`
 
 then you can see your next workout by running
