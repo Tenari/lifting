@@ -27,7 +27,7 @@
     :secondary: triceps
     :max: 146
     :compound: true
-  :bar upright row:
+  :upright row:
     :primary: shoulders
     :secondary: biceps
     :max: 114
@@ -85,6 +85,9 @@
   :stiff-leg deadlift:
     :max: 0
     :primary: hams
+  :db lat raises:
+    :primary: shoulders
+    :max: 45
 :program:
 - :chest: 12
   :shoulders: 12
@@ -168,7 +171,7 @@
       - :weight: 235
         :reps: 5
         :rir: 1
-    :bar upright row:
+    :upright row:
       :sets:
       - :weight: 95
         :reps: 5
@@ -216,3 +219,136 @@
       - :weight: 175
         :reps: 10
         :rir: 2
+:schedule:
+  2019-07-24:
+    bench:
+      :sets: 4
+      :reps: 14
+      :rir: 3
+    front squat:
+      :sets: 4
+      :reps: 14
+      :rir: 3
+    upright row:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+    bar standing curl:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+      :notes: try BFR
+    calfs:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+    bar shrug:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+  2019-07-17:
+    bench:
+      :sets: 3
+      :reps: 15
+      :rir: 4
+    front squat:
+      :sets: 3
+      :reps: 15
+      :rir: 4
+    upright row:
+      :sets: 2
+      :reps: 15
+      :rir: 4
+    bar standing curl:
+      :sets: 2
+      :reps: 18
+      :rir: 4
+      :notes: try BFR
+    calfs:
+      :sets: 2
+      :reps: 18
+      :rir: 4
+    bar shrug:
+      :sets: 2
+      :reps: 18
+      :rir: 4
+  2019-07-20:
+    low bar bent row:
+      :sets: 3
+      :reps: 15
+      :rir: 4
+    goodmorning:
+      :sets: 3
+      :reps: 15
+      :rir: 4
+    db lat raises:
+      :sets: 2
+      :reps: 18
+      :rir: 4
+    nosebreaker:
+      :sets: 2
+      :reps: 18
+      :rir: 4
+    crunch:
+      :sets: 2
+      :reps: 18
+      :rir: 4
+    wrist curl:
+      :sets: 2
+      :reps: 18
+      :rir: 4
+  2019-07-26:
+    low bar bent row:
+      :sets: 4
+      :reps: 14
+      :rir: 3
+    chin up:
+      :sets: 2
+      :reps: 14
+      :rir: 3
+    goodmorning:
+      :sets: 4
+      :reps: 14
+      :rir: 3
+    db lat raise:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+    db overhead extension:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+    crunch:
+      :sets: 2
+      :reps: 20
+      :rir: 3
+    wrist curl:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+  2019-07-28:
+    bench:
+      :sets: 4
+      :reps: 14
+      :rir: 3
+    front squat:
+      :sets: 4
+      :reps: 14
+      :rir: 3
+    upright row:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+    db standing curl:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+      :notes: try BFR
+    calfs:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+    bar shrug:
+      :sets: 2
+      :reps: 18
+      :rir: 3

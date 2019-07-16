@@ -43,7 +43,7 @@ Exercises:
   Quads       front squat, squat
   Hams        goodmorning, stiff-leg deadlift
   ...
-  Shoulder    bar upright row, db lat raise, db bent reverse fly (?behind neck press?)
+  Shoulder    upright row, db lat raise, db bent reverse fly (?behind neck press?)
   Biceps      bar standing curl, db standing curl
   Triceps     db overhead extension, nosebreaker
   Calfs       calfs

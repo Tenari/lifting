@@ -7,11 +7,12 @@
 #   ./lift.rb show lifts [muscle]               shows the list of lifts matching [muscle]
 #   ./lift.rb add exercise -n name -1rm 100     adds an exercise to the list of active lifts
 #   ./lift.rb program                           begins interactive programming mode
+#   ./lift.rb add workout [filename|string]     format is `[lift] [sets]x[reps] [rir] [optional notes]\n`
 #   ./lift.rb log [muscle] [set..] -rir 2       adds the set(s) to your history
 require 'date'
 require 'yaml'
 
-RM_CONVERSION = [nil, 100, 95, 91, 88, 85, 83, 81, 79, 77, 75, 73, 72, 70, 69, 68, 66, 65, 64, 63, 62]
+RM_CONVERSION = [nil, 100, 95, 91, 88, 85, 83, 81, 79, 77, 75, 73, 72, 70, 69, 68, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 49]
 def print_sets(data, sets)
   data[:muscles].each do |muscle|
     printf("%-10s", muscle)
@@ -54,7 +55,8 @@ def print_full_workout(data, reps, workout)
   end
 end
 
-def weight_for(data, reps, lift)
+def weight_for(data, reps, lift, rir = 1)
+  reps += rir - 1
   data[:exercises][lift][:max] * RM_CONVERSION[reps].to_f / 100.0
 end
 
@@ -100,6 +102,34 @@ def show_program(data)
   end
 end
 
+def show_workout(data, args, specific_date = nil)
+  date = specific_date || Date.today
+  while true do
+    if workout = data[:schedule][date]
+      puts date
+      puts "LIFT                      WEIGHT VOLUME  RiR   notes"
+      workout.each do |lift, details|
+        weight = weight_for(data, details[:reps].to_i, lift.to_sym, details[:rir]).round.to_i
+        puts("%-25s %-6s %sx%-5s %-5s %s" % [lift, weight, details[:sets], details[:reps], details[:rir], details[:notes]])
+      end
+      break
+    else
+      date += 1
+    end
+    break if specific_date
+  end
+end
+
+def show_week(data, args)
+  date = Date.today
+  show_workout(data, args, date)
+  show_workout(data, args, date+1)
+  show_workout(data, args, date+2)
+  show_workout(data, args, date+3)
+  show_workout(data, args, date+4)
+  show_workout(data, args, date+5)
+  show_workout(data, args, date+6)
+end
 def add_exercise(data, args)
   exercise = {}
   mapping = {'-n' => :name, '-1rm' => :max, '-p' => :primary, '-s' => :secondary, '-c' => :compound}
@@ -112,6 +142,29 @@ def add_exercise(data, args)
     end
   end
   data[:exercises][exercise.delete(:name).to_sym] = exercise
+  File.write(FILENAME, YAML.dump(data))
+end
+
+#   ./lift.rb add workout [filename|string] yyyy-mm-dd     format is `[lift] [sets]x[reps] [rir] [optional notes]\n`
+def add_workout(data, args)
+  return puts "./lift.rb add workout [filename|string] yyyy-mm-dd     format is `[lift] [sets]x[reps] [rir] [optional notes]\\n`" if args.count != 4
+  workout = {}
+  workout_data = args[2]
+  workout_data = File.read(workout_data).to_s if File.exists?(workout_data)
+  workout_data.split("\n").each do |line|
+    parts = line.split(" ", 4)
+    lift = parts.first.gsub('_', " ")
+    sets = parts[1].split('x').first.to_i
+    reps = parts[1].split('x').last.to_i
+    workout[lift] = {
+      sets: sets,
+      reps: reps,
+      rir: parts[2].to_i,
+    }
+    workout[lift][:notes] = parts[3] if parts[3]
+  end
+  data[:schedule] ||= {}
+  data[:schedule][Date.parse(args[3])] = (data[:schedule][Date.parse(args[3])] || {}).merge(workout)
   File.write(FILENAME, YAML.dump(data))
 end
 
@@ -146,11 +199,13 @@ if ARGV[0] == 'show'
     show_program(data)
   elsif ARGV[1] == 'lifts'
     show_matching_lifts(data, ARGV[2])
+  elsif ARGV[1] == 'workout'
+    show_workout(data, ARGV)
+  elsif ARGV[1] == 'week'
+    show_week(data, ARGV)
   end
 elsif ARGV[0] == 'add'
-  if ARGV[1] == 'exercise'
-    add_exercise(data, ARGV)
-  end
+  self.send("add_#{ARGV[1]}", data, ARGV)
 #   ./lift.rb log [lift] [set..] -rir 2       adds the set(s) to your history
 elsif ARGV[0] == 'log'
   log_sets(data, ARGV.drop(1))
