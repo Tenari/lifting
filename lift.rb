@@ -67,10 +67,11 @@ def set_to_max(reps, weight, rir)
 end
 
 def show_matching_lifts(data, muscle)
-  puts("%-20s %-5s %s" % ["lift", "1RM", 'primary/secondary'])
+  maxlength = data[:exercises].keys.map(&:to_s).map(&:length).max
+  puts("%-#{maxlength}s %-5s %s" % ["LIFT", "1RM", 'primary/secondary'])
   data[:exercises].each do |name, details|
-    next unless details[:primary] == muscle || details[:secondary] == muscle
-    puts("%-20s %-5s %s" % [name, details[:max], details[:primary] == muscle ? 'primary' : 'secondary'])
+    next unless details[:primary] == muscle || details[:secondary] == muscle || muscle.nil?
+    puts("%-#{maxlength}s %-5s %s" % [name, details[:max], details[:primary] == muscle ? 'primary' : 'secondary'])
   end
 end
 
