@@ -112,6 +112,7 @@ def show_workout(data, args, specific_date = nil)
         weight = weight_for(data, details[:reps].to_i, lift.to_sym, details[:rir]).round.to_i
         puts("%-25s %-6s %sx%-5s %-5s %s" % [lift, weight, details[:sets], details[:reps], details[:rir], details[:notes]])
       end
+      print "\n"
       break
     else
       date += 1
@@ -191,6 +192,15 @@ def log_sets(data, args)
   File.write(FILENAME, YAML.dump(data))
 end
 
+def reset_data(data)
+  data[:exercises].each do |lift, details|
+    details[:max] = 0
+  end
+  data[:history] = {}
+  data[:schedule] = {}
+  File.write(FILENAME, YAML.dump(data))
+end
+
 FILENAME = 'lifting_data.yml'
 data = YAML.load_file(FILENAME)
 
@@ -229,4 +239,6 @@ elsif ARGV[0] == 'program'
       keep_going = false
     end
   end
+elsif ARGV[0] == 'reset'
+  reset_data(data)
 end
