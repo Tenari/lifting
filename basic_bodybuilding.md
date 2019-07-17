@@ -1,10 +1,10 @@
 # Basic Bodybuilding
 
-### in one sentence
+## in one sentence
 
 Make a plan and be consistent in following it, because year in and year out dedication is what makes impressive physiques.
 
-### in one minute
+## in one minute
 
 Because consistency is key, be sure to create a log of your workouts as you go.
 
@@ -18,19 +18,23 @@ Good recovery means sleeping 7.5-9 hours per day, and keeping your stress levels
 
 Good training means lifting enough sets of heavy enough weights enough times per week to stimulate the muscles so that they grow. Compound barbell lifts are a good starting place, but may have a limiting fatigue to stimulus ratio as you get more advanced. Adding weight to the bar, or reps to the set, or sets to the session or in some way making the muscle stimulus increase from session to session, and week to week is fundamental to building muscle. Varying exercise selection is important in order to activate the full range of muscle fibers. Deloading is necessary for intermediate and advanceed trainees.
 
-### in one hour
+## in one hour
 
 
-#### What bodybuilding is
+### What bodybuilding is
 
-Bodybuilding is manipulating the muscle and fat portions of your body compisition in order to create and maintain an aesthetic physique. For most men this boils down to keeping your body fat percentage (BF%) between 6-15% and raising your [Fat Free Mass Index](#ffmi-calc) (FFMI) to your genetic ceiling (between 24 and 27). In other words, build muscle and lose fat.
+Bodybuilding is manipulating the muscle and fat portions of your body compisition in order to create and maintain an aesthetic physique. For most men this boils down to keeping your ![Body Fat Percentage](https://web.archive.org/web/20190717145633if_/http://approvemymacros.com/wp-content/uploads/2017/12/BODY-FAT-PERCENT-CHART.jpg "body fat % estimator") (BF%) between 6-15% and raising your [Fat Free Mass Index](#ffmi-calc) (FFMI) to your genetic ceiling (between 24 and 27).
+
+In other words, **build muscle** and **lose fat**.
 
 
-#### Why bodybuilding?
+
+
+### Why bodybuilding?
 
 Do I even need to answer this? Obviously you got interested in lifting because you want to look better. Don't bullshit me. More importantly, don't bullshit yourself. If you want to look better, sexier, buffer, jacked, ripped, or whatever, admit it consciously to yourself. Too much time is wasted in the gym by people who keep changing their training goals every week and then wonder why they don't make any impressive progress. If you're trying to get big one week and then trying to just lift strong the next week, and then doing cardio the week after that... Well you'll be way ahead of all the assholes sitting on the couch, but you're definitely not making optimal gains. If you really truly want to workout but not because you want to look better, fine. This isn't for you. But please don't pretend you want "general fitness" when what you really want is for Stacy to notice you and come over to your place after the party.
 
-#### Noob gainz
+### Noob gainz
 
 When you first start lifting you will get very quick strength gains, followed by very quick hypertrophic gains. ("Hypertrophy" is the science word for muscles getting bigger). Unfortunately, after you have been (seriously) training for anywhere between 1 month and 6 months, those gains taper off and all of a sudden you have to get smarter with your program or else you'll stall out and start to get frustrated. I certainly did, anyway.
 
