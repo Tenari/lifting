@@ -36,62 +36,60 @@ So while this document will try to go into all the details, please do not miss t
 
 Do I even need to answer this? Obviously you got interested in lifting because you want to look better. Don't bullshit me. More importantly, don't bullshit yourself. If you want to look better, sexier, buffer, jacked, ripped, or whatever, admit it consciously to yourself. Too much time is wasted in the gym by people who keep changing their training goals every week and then wonder why they don't make any impressive progress. If you're trying to get big one week and then trying to just lift strong the next week, and then doing cardio the week after that... Well you'll be way ahead of all the assholes sitting on the couch, but you're definitely not making optimal gains. If you really truly want to workout but not because you want to look better, fine. This isn't for you. But please don't pretend you want "general fitness" when what you really want is for Stacy to notice you and come over to your place after the party.
 
-### Noob gainz
+### Guides
+
+- [Beginner](#beginner)
+  - [Nutrition](#beginner-nutrition)
+  - [Recovery](#beginner-recovery)
+  - [Training](#beginner-training)
+- [Intermediate](#intermediate)
+  - [Nutrition](#intermediate-nutrition)
+  - [Recovery](#intermediate-recovery)
+  - [Training](#intermediate-training)
+- [Advanced](#advanced)
+  - [Nutrition](#advanced-nutrition)
+  - [Recovery](#advanced-recovery)
+  - [Training](#advanced-training)
+
+### Beginner
 
 When you first start lifting you will get very quick strength gains, followed by very quick hypertrophic gains. ("Hypertrophy" is the science word for muscles getting bigger). Unfortunately, after you have been (seriously) training for anywhere between 1 month and 6 months, those gains taper off and all of a sudden you have to get smarter with your program or else you'll stall out and start to get frustrated. I certainly did, anyway.
 
 So basically, when you're first starting out, *what* you do in the gym kinda doesn't matter. Just go. But as you progress, it continues to matter more and more, until you're eeking out tiny gainz on super complex mesocycles manipulating many variables. I will supply a full plan for beginners and so on, but you can get through the newbie stage with pretty much anything. Starting Strength is what I did initially and it built me up to a 255lb squat for 5 reps in 6 months. Stronglifts, 5/3/1, whatever. Just do something.
 
-### Guides
-
-- Beginner
-  - Nutrition
-  - Recovery
-  - Training
-- Intermediate
-  - Nutrition
-  - Recovery
-  - Training
-- Advanced
-  - Nutrition
-  - Recovery
-  - Training
-
-### Beginner
-
-#### Nutrition
+#### Beginner Nutrition
 
 If you are higher than 20% bf%, you'll want to start off in a [calorie deficit](#energy-balance). In lieu of complicated calorie tracking you can probably achieve this by doing any or all of the following:
 
-1. Restrict eating only to mealtimes. No snacks between meals.
-2. Remove soda from your diet.
-3. Remove or reduce alcohol intake.
-4. Count how many times you eat food from a restaurant in a normal week, and limit that number to a few less than normal.
-5. Restricting meals to only what can fit on one plate. No seconds.
-6. Skipping breakfast.
-7. Drinking water when you are hungry for a snack instead of eating the snack.
-8. Eating more raw vegetables. (High satiety to calorie ratio)
+- Restrict eating only to mealtimes. No snacks between meals.
+- Remove soda from your diet.
+- Remove or reduce alcohol intake.
+- Count how many times you eat food from a restaurant in a normal week, and limit that number to a few less than normal.
+- Restricting meals to only what can fit on one plate. No seconds.
+- Skipping breakfast.
+- Drinking water when you are hungry for a snack instead of eating the snack.
+- Eating more raw vegetables. (High satiety to calorie ratio)
 
 If you are lower than 20% bf%, you'll want to start off in a [calorie surplus](#energy-balance). In lieu of complicated calorie tracking you can probably achieve this by doing any or all of the following:
 
-1. Ensure you eat at least 3 meals per day.
-2. Eat until it feels like you are forcing it at each meal.
-3. Drink whole milk. (Low satiety to calorie ratio)
-4. Add in protein shakes.
+- Ensure you eat at least 3 meals per day.
+- Eat until it feels like you are forcing it at each meal.
+- Drink whole milk. (Low satiety to calorie ratio)
+- Add in protein shakes.
 
-#### Recovery
+#### Beginner Recovery
 
 Set a bed time and stick to it at least 6 out of 7 nights per week. Proper sleep is integral to muscle growth. Sleep is when a lot of the muscle damage from training is repaired, and new tissue is built.
 
-#### Training
+#### Beginner Training
 
 There are several steps that should be completed before you lift any weights:
 
 1. [get a place to workout (home or gym)](#where-to-workout)
 2. schedule time to workout (initially 3 days per week)
 3. write out training [plan](#training-planning) + [log](#training-logging)
-4. Watch youtube videos on technique for the exercises in your plan
-5. take "before" picture and measurements (weight, arm, leg, neck, etc)
+4. Watch youtube [videos](#youtube-exercise-technique) on technique for the exercises in your plan
+5. take ["before" picture](#before) and measurements (weight, arm, leg, neck, etc)
 6. use peaking [calculator](http://weightrainer.net/maximum_bodypred.html) to estimate where you could legitimately end up
 
 ##### Where to workout
@@ -213,6 +211,56 @@ workout 2.3:
   press     3x6 @ +5lbs
   bent row  2x6 @ +5lbs
 ```
+##### YouTube exercise technique
+
+- [back](https://www.youtube.com/watch?v=nhoikoUEI8U) [squat](https://www.youtube.com/watch?v=bEv6CCg2BC8)
+- [bench](https://www.youtube.com/watch?v=vcBig73ojpE) [press](https://www.youtube.com/watch?v=4T9UQ4FBVXI)
+- [deadlift](https://www.youtube.com/watch?v=VL5Ab0T07e4) or [sumo deadlift](https://www.youtube.com/watch?v=tNn7AlPITOw)
+- [bent row](https://www.youtube.com/watch?v=axoeDmW0oAY)
+- [pull up](https://www.youtube.com/results?search_query=pull+up+technique)
+
+##### Before
+
+It is smart to take a few underwear pics before you really get training. I suggest good lighting, stand up straight, and take one picture flexing and one picture relaxed.
+
+It is also smart to record initial scale weight.
+
+It is also smart to record initial body part measurements with some measuring tape:
+
+Measurement Procedure: (from [here](http://www.weightrainer.net/maximum_potential.html))
+
+- chest - measured relaxed (not flexed or expanded), arms at sides, tape under armpits
+- biceps - flexed, at largest point
+- forearms - fist clenched, hand out straight, measured at largest point
+- neck - below Adam's apple at smallest point
+- thighs - standing relaxed, midway between hip and knee
+- calves - standing relaxed, at largest point
+
+For all measurements tape should be snug but not compressing the flesh.
+
+### Intermediate
+
+By my reckoning, you are an intermediate lifter if you are currently failing to make progress on a reasonable beginner program. For young men, this can take around 6 months of consistent lifting. The rate of strength gains, weight gain, fat loss, etc will all drastically slow down here and it will probably feel like you are hitting plateaus. However, consistency and a little extra effort will see you still making noticable gains on a longer time horizon.
+
+#### Intermediate Nutrition
+
+Time to start calorie counting.
+
+#### Intermediate Recovery
+
+Ensure 7.5 to 9 hours sleep per night. Reduce stress in daily life. Take up daily prayer (or meditation if you're a godless heathen).
+
+#### Intermediate Training
+
+Exercise variation, rep variation, periodization, increased volume, deload weeks.
+
+### Advanced
+
+#### Advanced Nutrition
+
+#### Advanced Recovery
+
+#### Advanced Training
 
 ---
 
@@ -253,12 +301,6 @@ if you are an advanced lifter
 
 1. great go figure your own shit out
 
-
-### Beginners
-
-
-
-
 # notes to self
 
 https://www.youtube.com/watch?v=thHy0dfwN7g @ 14:20 very good summary of Training aspect of bodybuilding
@@ -271,11 +313,15 @@ FFMI = (Lean / 2.2) / ((Height in ft x 12.0 + in) x 0.0254)2 x 2.20462
 
 ##### body-fat-estimator
 
+Estimate your body fat percentage by comparing to this chart
+
 ![Body Fat Percentage](https://web.archive.org/web/20190717145633if_/http://approvemymacros.com/wp-content/uploads/2017/12/BODY-FAT-PERCENT-CHART.jpg "body fat % estimator")
 
 ##### Energy balance
 
+```
 calories absorbed per day - calories burned per day = energy balance
+```
 
 If your energy balance is negative (you burn more than you absorb), you are in a **calorie deficit**. Calorie deficits cause your body to burn stored fat, which lowers your bodyfat percentage.
 
