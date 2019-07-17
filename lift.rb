@@ -9,6 +9,7 @@
 #   ./lift.rb program                           begins interactive programming mode
 #   ./lift.rb add workout [filename|string]     format is `[lift] [sets]x[reps] [rir] [optional notes]\n`
 #   ./lift.rb log [muscle] [set..] -rir 2       adds the set(s) to your history
+#   ./lift.rb schedule program --beginner       schedules the default beginner program
 require 'date'
 require 'yaml'
 
