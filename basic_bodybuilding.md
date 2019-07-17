@@ -23,7 +23,7 @@ Good training means lifting enough sets of heavy enough weights enough times per
 
 ### What bodybuilding is
 
-Bodybuilding is manipulating the muscle and fat portions of your body compisition in order to create and maintain an aesthetic physique. For most men this boils down to keeping your ![Body Fat Percentage](https://web.archive.org/web/20190717145633if_/http://approvemymacros.com/wp-content/uploads/2017/12/BODY-FAT-PERCENT-CHART.jpg "body fat % estimator") (BF%) between 6-15% and raising your [Fat Free Mass Index](#ffmi-calc) (FFMI) to your genetic ceiling (between 24 and 27).
+Bodybuilding is manipulating the muscle and fat portions of your body compisition in order to create and maintain an aesthetic physique. For most men this boils down to keeping your [Body Fat Percentage](#body-fat-estimator) (BF%) between 6-15% and raising your [Fat Free Mass Index](#ffmi-calc) (FFMI) to your genetic ceiling (between 24 and 27).
 
 In other words, **build muscle** and **lose fat**.
 
@@ -218,3 +218,7 @@ https://www.youtube.com/watch?v=thHy0dfwN7g @ 14:20 very good summary of Trainin
 Lean = Weight in kg x (1.0 - (Body fat %/ 100.0))
 
 FFMI = (Lean / 2.2) / ((Height in ft x 12.0 + in) x 0.0254)2 x 2.20462
+
+##### body-fat-estimator
+
+![Body Fat Percentage](https://web.archive.org/web/20190717145633if_/http://approvemymacros.com/wp-content/uploads/2017/12/BODY-FAT-PERCENT-CHART.jpg "body fat % estimator")
