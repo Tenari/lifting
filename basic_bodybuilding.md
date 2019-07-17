@@ -1,16 +1,45 @@
 # Basic Bodybuilding
 
-Experiment with yourself! Human bodies have a wide range of variation in ability and responsiveness to training. Be your own scientist. If you or someone smart that you respect disagrees with a recommendation here, then by all means, compare the two approaches. But keep notes. The difference between someone serious about something and someone who is just dicking around is note taking and deep thought.
+### in one sentence
 
-## Why bodybuilding?
+Make a plan and be consistent in following it, because year in and year out dedication is what makes impressive physiques.
+
+### in one minute
+
+Because consistency is key, be sure to create a log of your workouts as you go.
+
+Expectations should match reality. Do not compare yourself to steriod using 10+ year lifters if you are a natural 2nd year lifter. Do your research about what is a [reasonable result](http://weightrainer.net/maximum_bodypred.html) for your body.
+
+Nutrition, Recovery, and Training are the three pillars under which all aspects of bodybuilding fall, and each one is vitally important. Neglect one at your peril.
+
+Good nutrition means eating the correct number of calories, from food sources which give you the correct grams of protein, carbohydrates, and fat. About 1 gram of protein per pound of body weight is a good rule of thumb. Good nutrition requires planning out your meals and preparing them yourself, as well as restricting restaurant visits. Supplements beyond multivitiamins and creatine and whey protein and caffeine are generally a waste of money.
+
+Good recovery means sleeping 7.5-9 hours per day, and keeping your stress levels low. Setting a regular bedtime and sticking to it is good. Naps are good. Prayer or meditation is good. Stretching, hot baths, music, journalling, or other legitimately relaxing activities are good.
+
+Good training means lifting enough sets of heavy enough weights enough times per week to stimulate the muscles so that they grow. Compound barbell lifts are a good starting place, but may have a limiting fatigue to stimulus ratio as you get more advanced. Adding weight to the bar, or reps to the set, or sets to the session or in some way making the muscle stimulus increase from session to session, and week to week is fundamental to building muscle. Varying exercise selection is important in order to activate the full range of muscle fibers. Deloading is necessary for intermediate and advanceed trainees.
+
+### in one hour
+
+
+#### What bodybuilding is
+
+Bodybuilding is manipulating the muscle and fat portions of your body compisition in order to create and maintain an aesthetic physique. For most men this boils down to keeping your body fat percentage (BF%) between 6-15% and raising your [Fat Free Mass Index](#ffmi-calc) (FFMI) to your genetic ceiling (between 24 and 27). In other words, build muscle and lose fat.
+
+
+#### Why bodybuilding?
 
 Do I even need to answer this? Obviously you got interested in lifting because you want to look better. Don't bullshit me. More importantly, don't bullshit yourself. If you want to look better, sexier, buffer, jacked, ripped, or whatever, admit it consciously to yourself. Too much time is wasted in the gym by people who keep changing their training goals every week and then wonder why they don't make any impressive progress. If you're trying to get big one week and then trying to just lift strong the next week, and then doing cardio the week after that... Well you'll be way ahead of all the assholes sitting on the couch, but you're definitely not making optimal gains. If you really truly want to workout but not because you want to look better, fine. This isn't for you. But please don't pretend you want "general fitness" when what you really want is for Stacy to notice you and come over to your place after the party.
 
-## Noob gainz
+#### Noob gainz
 
 When you first start lifting you will get very quick strength gains, followed by very quick hypertrophic gains. ("Hypertrophy" is the science word for muscles getting bigger). Unfortunately, after you have been (seriously) training for anywhere between 1 month and 6 months, those gains taper off and all of a sudden you have to get smarter with your program or else you'll stall out and start to get frustrated. I certainly did, anyway.
 
-So basically, when you're first starting out, *what* you doin the gym kinda doesn't matter. Just go. But as you progress, it continues to matter more and more, until you're eeking out tiny gainz on super complex mesocycles manipulating many variables. I will supply a full plan for beginners and so on, but You can get through the newbie stage with prett much anything. Starting Strength is what I did initially and it built me up to a 255lb squat for 5 reps (repititions) in 6 months. Stronglifts, 5/3/1, whatever. Just do something.
+So basically, when you're first starting out, *what* you doin the gym kinda doesn't matter. Just go. But as you progress, it continues to matter more and more, until you're eeking out tiny gainz on super complex mesocycles manipulating many variables. I will supply a full plan for beginners and so on, but you can get through the newbie stage with pretty much anything. Starting Strength is what I did initially and it built me up to a 255lb squat for 5 reps in 6 months. Stronglifts, 5/3/1, whatever. Just do something.
+
+---
+
+Experiment with yourself! Human bodies have a wide range of variation in ability and responsiveness to training. Be your own scientist. If you or someone smart that you respect disagrees with a recommendation here, then by all means, compare the two approaches. But keep notes. The difference between someone serious about something and someone who is just dicking around is note taking and deep thought.
+
 
 ## Principles
 
@@ -174,3 +203,14 @@ workout 2.3:
   press     3x6 @ +5lbs
   bent row  2x6 @ +5lbs
 ```
+
+# notes to self
+
+https://www.youtube.com/watch?v=thHy0dfwN7g @ 14:20 very good summary of Training aspect of bodybuilding
+
+
+##### ffmi-calc
+
+Lean = Weight in kg x (1.0 - (Body fat %/ 100.0))
+
+FFMI = (Lean / 2.2) / ((Height in ft x 12.0 + in) x 0.0254)2 x 2.20462

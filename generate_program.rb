@@ -3,9 +3,9 @@ class LiftingProgram
   def self.generate(data, musclegroup_sets_per_week)
     # auto-generated program rules:
     # 1 big compound lift for upper body and 1 big compound lift for lower body each day
-    # work one from following pairs: chest/shoulders hams/quads biceps/triceps abs/calfs traps+neck/forearm
+    # work one from following pairs: chest/back hams/quads biceps/triceps abs/calfs traps+neck/forearm
     pairs = {
-      chest: :shoulders, shoulders: :chest,
+      chest: :back, back: :chest,
       hams: :quads, quads: :hams,
       biceps: :triceps, triceps: :biceps,
       abs: :calfs, calfs: :abs,
