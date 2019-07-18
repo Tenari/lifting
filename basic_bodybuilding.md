@@ -14,7 +14,7 @@ Nutrition, Recovery, and Training are the three pillars under which all aspects 
 
 **Good nutrition** means eating the correct number of calories, from food sources which give you the correct grams of protein, carbohydrates, and fat. About 1 gram of protein per pound of body weight is a good rule of thumb. Good nutrition requires planning out your meals and preparing them yourself, as well as restricting restaurant visits. Supplements beyond multivitiamins and creatine and whey protein and caffeine are generally a waste of money.
 
-**Good recovery** means sleeping 7.5-9 hours per day, and keeping your stress levels low. Setting a regular bedtime and sticking to it is good. Naps are good. Prayer or meditation is good. Stretching, hot baths, music, journalling, or other legitimately relaxing activities are good.
+**Good recovery** means sleeping 7.5-9 hours per day, and keeping your stress levels low. Setting a regular bedtime and sticking to it is good. Naps are good. Prayer or meditation is good. Stretching, foam-rolling, massages, hot baths, music, journalling, or other legitimately relaxing activities are good.
 
 **Good training** means lifting enough sets of heavy enough weights enough times per week to stimulate the muscles so that they grow. Compound barbell lifts are a good starting place, but may have a limiting fatigue to stimulus ratio as you get more advanced. Adding weight to the bar, or reps to the set, or sets to the session or in some way making the muscle stimulus increase from session to session, and week to week is fundamental to building muscle. Varying exercise selection is important in order to activate the full range of muscle fibers. Deloading is often necessary for intermediate and advanceed trainees.
 
@@ -55,7 +55,7 @@ Do I even need to answer this? Obviously you got interested in lifting because y
 
 When you first start lifting you will get very quick strength gains, followed by very quick hypertrophic gains. ("Hypertrophy" is the science word for muscles getting bigger). Unfortunately, after you have been (seriously) training for anywhere between 1 month and 6 months, those gains taper off and all of a sudden you have to get smarter with your program or else you'll stall out and start to get frustrated. I certainly did, anyway.
 
-So basically, when you're first starting out, *what* you do in the gym kinda doesn't matter. Just go. But as you progress, it continues to matter more and more, until you're eeking out tiny gainz on super complex mesocycles manipulating many variables. I will supply a full plan for beginners and so on, but you can get through the newbie stage with pretty much anything. Starting Strength is what I did initially and it built me up to a 255lb squat for 5 reps in 6 months. Stronglifts, 5/3/1, whatever. Just do something.
+So basically, when you're first starting out, *what* you do in the gym kinda doesn't matter. Just go. But as you progress, it continues to matter more and more, until you're eeking out tiny gainz on super complex mesocycles manipulating many variables. I will supply a full plan for beginners and so on, but you can get through the newbie stage with pretty much anything. Starting Strength is what I did initially and it built me up to a 255lb squat for 5 reps in 6 months with a pretty nice foundation layer of muscle. Stronglifts, 5/3/1, whatever. Just do something.
 
 #### Beginner Nutrition
 
@@ -242,30 +242,90 @@ For all measurements tape should be snug but not compressing the flesh.
 
 By my reckoning, you are an intermediate lifter if you are currently failing to make progress on a reasonable beginner program. For young men, this can take around 6 months of consistent lifting. The rate of strength gains, weight gain, fat loss, etc will all drastically slow down here and it will probably feel like you are hitting plateaus. However, consistency and a little extra effort will see you still making noticable gains on a longer time horizon.
 
+
 #### Intermediate Nutrition
 
-Time to start calorie counting.
+Time to start calorie counting. For a few typical days, track protein grams per day consumed and total calories consumed using something like myfitnesspal or a spreadsheet and nutrition facts labels and google. Then, use a calorie calculator to figure out what your muscle gain calorie/day and protein/day requirements are. By now most people will be at or below 20% body fat so eating in a caloric surplus for a "bulking" phase is reasonable. If you are still above 20%, consider just eating maintenance calories for continued body recomposition. If your "typical" protein and calories are drastically off, take steps to getting them in line. It's probably not entirely necessary to autistically track every single meal and plan meals out weeks in advance at this point, but if you're not seeing progress, it's probably because you're not eating correct amounts of calories or protein.
+
+Supplement wise, whey protein, creatine, and caffiene are probably worth your time at this point. Drink/take some caffeine before workouts, because it improves performance by reducing tiredness and blunting pain. Drink a whey protein shake shortly after workouts. Mix some creatine in for conveninece.
+
+Alternating bulking/cutting cycles starts to be your going-forward plan. As a naturally skinny guy I find that 3 5-week cycles bulking, followed by 1 cycle cutting works well for me.
 
 #### Intermediate Recovery
 
-Ensure 7.5 to 9 hours sleep per night. Reduce stress in daily life. Take up daily prayer (or meditation if you're a godless heathen).
+Things to start implementing:
+- Ensure 7.5 to 9 hours sleep per night.
+- Reduce stress in daily life.
+- Take up daily prayer (or meditation if you're a godless heathen).
+- Eat anti-inflammatory foods.
+- Warm up adequatley before workouts, and strech thoroughly after workouts.
 
 #### Intermediate Training
 
-Exercise variation, rep variation, periodization, increased volume, deload weeks.
+More complicated plans become reasonable at this level. There are a number of [variables](#training-variables-summary) you will need to start manipulating: exercise variation, rep variation, periodization, volume, frequency, rest periods, tempo, splits, etc.
+
+Because of the wide range of variation in respone to various training stimuli that exists among the human population, things that work for one person are not guaranteed to work for someone else to the same degree. Thus, self experimentation and taking notes and listening to your body to customize your plan to yourself begins to take on increasing importance. If you or someone smart that you respect disagrees with a recommendation here, then by all means, compare the two approaches. But keep good notes, and stick to the things you try long enough to really see if they work. No program is going to get you the same results you did early on, so don't be disappointed with a month of work and only modest gains.
+
+##### Programming
+
+Exercise variation becomes necessary in order to hit parts of the muscle which were not being hit enough by the beginner lifts, and to prevent overuse/joint injuries and strain.
+
+Rep variation becomes necessary in order to see progressive overload, and because of joint recovery and other concerns. The "hypertrophy rep range" is 6-15 reps. However this range is not magic, it just makes hitting sufficient volume and intensity targets practical. Highly fatiguing exercises should be generally trained on the lower end of that rep range, and less fatiguing exercises should generally be on the higher end of that rep range.
+
+Periodization becomes necessary at least to some degree, since it is highly likely that a lack of deload weeks will lead to overtraining, which causes lost strength and increased pain.
+
+Increased volume becomes necessary because volume is a primary driver of hypertrophy, and we already got all the easy gains. From here on out, bigger muscles take a lot more work.
+
+Frequency refers to how many times per week a muscle is worked. As your routine changes, and potentially becomes split, it is important to remember that there is some evidence showing benefit to training muscles 2-3 times per week as opposed to just 1 time per week.
+
+Rest periods can be shortened to make sets more difficult, but it is not clear that this has benefit to hypertrophy, so I recommend 2 minutes between sets, or very short rest periods of 10-20 seconds for superset-like effects.
+
+Tempo refers to the speed with which repetitions are performed.
+
+It is time to start thinking of your workouts by muscle group. You should be trying to hit muscles with the maximum amount of volume that you can effectively recover from.
+
+The muscles I organize my workouts around are:
+
+- Big
+  - chest
+  - back
+  - quads
+  - hams
+- little
+  - shoulders
+  - biceps
+  - triceps
+  - calfs
+  - abs
+  - traps
+  - forearm
+
+It is convenient for me to split my routine by (more or less) opposing muscle groups. Since I have week shoulder development, and since broad shoulders are the hallmark of a bro who even lifts, I put shoulders in every day. This looks like:
+
+```
+day 1: chest, quads, shoulders, biceps,  calfs, traps
+day 2: back,  hams,  shoulders, triceps, abs,   forearms
+```
+
+The big muscles mostly are trained via big compound movements like bench press, bent row, squat, and deadlift. Notice that the "big" muscles come first in the workouts, followed by the little muscles that need to be trained with isolation exercises. This is a fatigue/performance management strategy.
 
 ### Advanced
 
+Autoregulation.
+
 #### Advanced Nutrition
+
+Autoregulation because macro tracking is [psychologically costly](https://www.youtube.com/watch?v=thHy0dfwN7g).
 
 #### Advanced Recovery
 
 #### Advanced Training
 
+##### Shoulders
+
+the goal of the shoulder exercises is to target the side and rear delts since the front delts will be getting plenty of stimulation from bench pressing and other chest exercises. The overhead standing press, despite being super fun and cool and alpha chad is also overkill if you're bench pressing + doing isolation biceps+triceps work.
+
 ---
-
-Experiment with yourself! Human bodies have a wide range of variation in ability and responsiveness to training. Be your own scientist. If you or someone smart that you respect disagrees with a recommendation here, then by all means, compare the two approaches. But keep notes. The difference between someone serious about something and someone who is just dicking around is note taking and deep thought.
-
 
 ## Principles
 
@@ -283,27 +343,18 @@ Key principles to bodybuilding, in no particular order:
   - you could do more workouts per week
   - you could do less rest between sets
 - most supplements are useless wastes of money, and the ones that arent only account for a VERY small percentage of your overall muscle growth (5% or less)
-- 
-
-## Step by Step Overview
-
-if you are a raw total beginner
-
-
-if you have already gotten easy newbie gains
-
-1. strict macro-counting meal plan
-2. supplements
-3. follow 3 cycles bulking, 1 cycle cutting meso-cycles lifting plan generator, starting at 6-10 sets and working your way up based on your own body feedback
-4. repeat step 3 for 3 years
-
-if you are an advanced lifter
-
-1. great go figure your own shit out
 
 # notes to self
 
 https://www.youtube.com/watch?v=thHy0dfwN7g @ 14:20 very good summary of Training aspect of bodybuilding
+
+https://www.youtube.com/watch?v=wyuvCUA4bNg some notes about programming
+
+https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
+
+##### training variables summary
+
+![variables](https://pbs.twimg.com/media/DzwWEiAU8AAYgmM.jpg "hypertrophy variables")
 
 ##### ffmi-calc
 
@@ -332,3 +383,30 @@ The percentage of calories that your body absorbs from the total amount you cons
 ##### Macronutrients
 
 The three macronutrients you need are protein, carbohydrates (carbs), and fat. These are measured in grams on the nutrition facts on food packaging. Protein has 4 calories per gram, Carbs have 4 calories per gram, and Fat has 9 calories per gram. Protein for a bodybuilder should be within the range of 0.8 to 1.2 g per day per pound of body weight. The remaining needed calories can be split between carbs and fat based on individual needs.
+
+##### effective volume
+
+First 10ish reps are easy, only the last few reps are stimulus to the muscle that will actually cause growth. So, here's where advanced techniques like dropsets and myoreps come in as ways to get more "effective volume" in less time spent in the gym. It's reasonable to say that a 2-drop set might be equivalent to 2 or 3 normal sets across, but in substantially less time, and using lighter weights, so presumably form is less likely to suffer, and fatigue is likely to be similar or even less than in straight sets. The differences here are pretty minimal, at least as far as current literature shows, so personal experimentation will have to lead the way to show if these techniques are useful to you.
+
+##### soreness
+
+Soreness is NOT necessary for hypertrophy. In fact, there is some evidence that being too sore is negative for hypertrophy, though light soreness is normal and fine. Soreness usually happens when you first work heavy a movement you have not worked in a long time. Im not sure what the biological mechanisms are but it seems to work very similarly to calluses. If you have no calluses on your feet and go running a lot all on one day, you are likely to get blisters, which are painful (like initial muscle soreness). But if you keep up the running regimen, you are going to develop calluses, and your feet will no longer hurt. Similarly, the first time you squat real heavy in a while, you are likely to become very sore, but if you keep squatting heavy on a regular basis that soreness should pretty much all go away.
+
+##### reps in reserve
+
+"RIR 3" means "reps in reserve 3".
+
+which means you should keep going in reps until you feel that you could only get 3 more reps if your life depended on it
+
+the [set]x[rep] targets next to exercises are just that: targets
+
+the RIR determines how many reps you really do
+
+so for a 3x14 goal, RIR 3 you just use a weight that you think you can do 14 reps and leave 3 in the tank
+
+but if you get to rep 12 and you know you have at most one left in you, that's fine just stop, and lower the weight for the next set
+
+it can be difficult to tell how many reps you truly have left in the tank if you dont have a lot of experience, so just do your best at that, and know that noobs tend to vastly overestimate how close they are to true muscular failure
+
+like a study found that on average, people could get 6 reps more than they thought was possible with a given weight they thought was a "10 rep" weight
+

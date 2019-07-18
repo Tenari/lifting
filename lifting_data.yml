@@ -63,7 +63,7 @@
     :max: 0
     :primary: triceps
   :calfs:
-    :max: 135
+    :max: 158
     :primary: calfs
   :crunch:
     :max: 0
@@ -217,6 +217,63 @@
       - :weight: 175
         :reps: 10
         :rir: 2
+  2019-07-17:
+    :bench:
+      :sets:
+      - :weight: 145
+        :reps: 15
+        :rir: 3
+      - :weight: 145
+        :reps: 13
+        :rir: 2
+      - :weight: 140
+        :reps: 11
+        :rir: 1
+    :front squat:
+      :sets:
+      - :weight: 140
+        :reps: 15
+        :rir: 3
+      - :weight: 135
+        :reps: 15
+        :rir: 3
+      - :weight: 135
+        :reps: 13
+        :rir: 4
+    :upright row:
+      :sets:
+      - :weight: 75
+        :reps: 13
+        :rir: 2
+      - :weight: 75
+        :reps: 11
+        :rir: 3
+    :bar standing curl:
+      :sets:
+      - :weight: 60
+        :reps: 13
+        :rir: 4
+    :db standing curl:
+      :sets:
+      - :weight: 25
+        :reps: 10
+        :rir: 2
+    :calfs:
+      :sets:
+      - :weight: 60
+        :reps: 20
+        :rir: 5
+      - :weight: 95
+        :reps: 18
+        :rir: 5
+    :bar shrug:
+      :sets:
+      - :weight: 145
+        :reps: 18
+        :rir: 4
+      - :weight: 145
+        :reps: 15
+        :rir: 4
 :schedule:
   2019-07-24:
     bench:
