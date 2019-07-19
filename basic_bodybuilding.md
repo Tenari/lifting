@@ -352,9 +352,103 @@ https://www.youtube.com/watch?v=wyuvCUA4bNg some notes about programming
 
 https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
 
+# concepts tree
+
+- theory
+  - ffmi
+  - body fat %
+  - goals
+    - body measurements
+    - rates of change
+  - aesthetics
+    - shirt on vs shirt off
+    - genetics
+      - muscle belly length
+  - hypertrophy drivers
+    - resistance training
+      - mechanical tension
+        - muscle fiber recruitment %
+        - weight
+        - time under load
+      - contractile events
+      - stretch under load
+    - high protein diet
+  - experts
+    - dr israetel, dr eric helms, dr brad shoenfeld, dr bret contreras
+- practice
+  - consistency
+  - nutrition
+    - energy balance
+      - metabolic rate
+      - bulking
+      - cutting
+      - macronutrients
+        - protein
+        - fat
+        - carbs
+    - supplements
+      - creatine
+      - caffeine
+      - whey protein
+      - multivitamin
+  - recovery
+    - sleep
+    - mind
+  - training
+    - progression
+    - programming
+      - novice
+        - pre-built
+      - intermediate
+        - periodization
+        - deloads
+      - advanced
+        - specificity
+        - overreaching
+    - exercises
+      - fatigue to stimulus ratio
+      - compound
+      - isolation
+      - machine
+      - free weight
+        - dumbell
+        - barbell
+      - muscle targets
+        - quads
+        - hams
+        - glutes
+        - side/rear delts
+        - pecs + front delts
+        - biceps
+        - triceps
+        - upper back
+        - lower back
+        - abs
+        - calves
+        - forearms
+        - traps
+    - technique
+    - rest time
+    - intensity
+      - reps in reserve
+      - training to failure
+    - volume
+      - very low volume (HIT)
+      - maintenance volume
+      - minimum effective volume
+      - maximum recoverable volume
+    - rep range
+      - powerlifting vs hypertrophy
+      - pivotal reps
+      - myoreps
+      - dropsets
+    - tempo
+      - super slow
+      - eccentric vs concentric
+
 ##### training variables summary
 
-![variables](https://pbs.twimg.com/media/DzwWEiAU8AAYgmM.jpg "hypertrophy variables")
+![variables](https://web.archive.org/web/20190303150229if_/https://pbs.twimg.com/media/DzwWEiAU8AAYgmM.jpg "hypertrophy variables")
 
 ##### ffmi-calc
 

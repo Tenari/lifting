@@ -40,7 +40,7 @@ try BFR on biceps on first week
 Exercises:
   Chest       bench, db flyes
   Back        low bar bent row, chin up
-  Quads       front squat, squat
+  Quads       front squat, squat, barbell hack squat
   Hams        goodmorning, stiff-leg deadlift
   ...
   Shoulder    upright row, db lat raise, db bent reverse fly (?behind neck press?)
