@@ -66,26 +66,26 @@
     :max: 158
     :primary: calfs
   :crunch:
-    :max: 0
+    :max: 18
     :primary: abs
   :bar shrug:
     :max: 240
     :primary: traps
   :wrist curl:
-    :max: 20
+    :max: 28
     :primary: forearm
   :goodmorning:
-    :max: 0
+    :max: 117
     :primary: hams
   :nosebreaker:
-    :max: 0
+    :max: 69
     :primary: triceps
   :stiff-leg deadlift:
     :max: 0
     :primary: hams
   :db lat raises:
     :primary: shoulders
-    :max: 45
+    :max: 28
 :program:
 - :chest: 12
   :shoulders: 12
@@ -274,6 +274,61 @@
       - :weight: 145
         :reps: 15
         :rir: 4
+  2019-07-20:
+    :low bar bent row:
+      :sets:
+      - :weight: 140
+        :reps: 15
+        :rir: 4
+      - :weight: 140
+        :reps: 13
+        :rir: 4
+      - :weight: 135
+        :reps: 13
+        :rir: 3
+    :goodmorning:
+      :sets:
+      - :weight: 75
+        :reps: 14
+        :rir: 4
+      - :weight: 75
+        :reps: 15
+        :rir: 4
+      - :weight: 75
+        :reps: 12
+        :rir: 5
+    :db lat raises:
+      :sets:
+      - :weight: 19
+        :reps: 13
+        :rir: 3
+      - :weight: 10
+        :reps: 18
+        :rir: 3
+    :nosebreaker:
+      :sets:
+      - :weight: 45
+        :reps: 14
+        :rir: 4
+      - :weight: 45
+        :reps: 15
+        :rir: 3
+    :crunch:
+      :sets:
+      - :weight: 10
+        :reps: 20
+        :rir: 4
+      - :weight: 11
+        :reps: 18
+        :rir: 4
+    :wrist curl:
+      :sets:
+      - :weight: 19
+        :reps: 13
+        :rir: 3
+      - :weight: 19
+        :reps: 10
+        :rir: 3
 :schedule:
   2019-07-24:
     bench:
@@ -365,7 +420,7 @@
       :sets: 4
       :reps: 14
       :rir: 3
-    db lat raise:
+    db lat raises:
       :sets: 2
       :reps: 18
       :rir: 3

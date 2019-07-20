@@ -321,6 +321,8 @@ Autoregulation because macro tracking is [psychologically costly](https://www.yo
 
 #### Advanced Training
 
+A large part of advanced training centers around fatigue management. The distinction between local (limited to one muscle group) fatigue and systemic (total body) fatigue becomes relevant. It may be that in order to progress on everything at once, your muscles require so much total work that the sum of the local fatigues will exceed your systemic fatigue. This is where the concept of fatigue rationing or management comes in, and you basically have to pick some body parts to just put on maintenance volume and other body parts to actually seek progression on, and then rotate through which muscles are being progressed.
+
 ##### Shoulders
 
 the goal of the shoulder exercises is to target the side and rear delts since the front delts will be getting plenty of stimulation from bench pressing and other chest exercises. The overhead standing press, despite being super fun and cool and alpha chad is also overkill if you're bench pressing + doing isolation biceps+triceps work.
@@ -364,6 +366,8 @@ https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
     - shirt on vs shirt off
     - genetics
       - muscle belly length
+      - hardgainer
+      - ectomorph, mesomorph, endomorph
   - hypertrophy drivers
     - resistance training
       - mechanical tension
@@ -373,19 +377,28 @@ https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
       - contractile events
       - stretch under load
     - high protein diet
+  - muscle memory
+    - myonuclei
   - experts
     - dr israetel, dr eric helms, dr brad shoenfeld, dr bret contreras
 - practice
   - consistency
   - nutrition
+    - diets
+      - carnivore
+      - keto
+      - vegetarian
+      - vegan
     - energy balance
       - metabolic rate
       - bulking
       - cutting
+        - periodized dieting
       - macronutrients
         - protein
         - fat
         - carbs
+    - nutrient timing
     - supplements
       - creatine
       - caffeine
@@ -396,6 +409,8 @@ https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
     - mind
   - training
     - progression
+      - plateaus
+      - measurement
     - programming
       - novice
         - pre-built
@@ -405,6 +420,9 @@ https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
       - advanced
         - specificity
         - overreaching
+        - experimentation
+          - 1 variable at a time
+          - allow things to run their course
     - exercises
       - fatigue to stimulus ratio
       - compound
@@ -428,6 +446,7 @@ https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
         - forearms
         - traps
     - technique
+    - frequency
     - rest time
     - intensity
       - reps in reserve
@@ -438,13 +457,14 @@ https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
       - minimum effective volume
       - maximum recoverable volume
     - rep range
-      - powerlifting vs hypertrophy
+      - powerlifting vs hypertrophy vs metabolic endurance
       - pivotal reps
       - myoreps
       - dropsets
     - tempo
       - super slow
       - eccentric vs concentric
+    - blood flow restriction
 
 ##### training variables summary
 
@@ -504,3 +524,17 @@ it can be difficult to tell how many reps you truly have left in the tank if you
 
 like a study found that on average, people could get 6 reps more than they thought was possible with a given weight they thought was a "10 rep" weight
 
+##### plateaus
+
+from https://www.youtube.com/watch?v=4VxbIQBs51A
+
+first of all, many people think they are in a plateau when in actually they have just moved on to the intermediate stage of lifting and their rate of gains have slowed and their expectations are out of line with reality. If however from one month to the next you show no measurable improvment either in strength or muscle mass, then you can be considered to have plateaued.
+
+To address true plateaus ask yoru self these question:
+- Am I taking [deload](https://www.strongerbyscience.com/grow-like-a-new-lifter-again/) weeks?
+- Am I getting enough calories? and enough protein?
+- am I getting enough sleep?
+- am I doing enough volume/do I know my volume landmarks?
+- am I maxed out on systemic fatigue without being able to reach high enough local levels of fatigue?
+- try an extended low volume phase to resensitize your body to high volume lifting
+- have you focused on choosing exercises and using techinque that really targets the muscle that is stalled?
