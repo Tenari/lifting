@@ -203,7 +203,7 @@ def reset_data(data)
   File.write(FILENAME, YAML.dump(data))
 end
 
-FILENAME = 'lifting_data.yml'
+FILENAME = 'data.yml'
 data = YAML.load_file(FILENAME)
 
 if ARGV[0] == 'show'
