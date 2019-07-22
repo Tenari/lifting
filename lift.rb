@@ -12,127 +12,32 @@
 #   ./lift.rb schedule program --beginner       schedules the default beginner program
 require 'date'
 require 'yaml'
+require './printing.rb'
+require './show.rb'
 
 RM_CONVERSION = [nil, 100, 95, 91, 88, 85, 83, 81, 79, 77, 75, 73, 72, 70, 69, 68, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 49]
-def print_sets(data, sets)
-  data[:muscles].each do |muscle|
-    printf("%-10s", muscle)
-  end
-  print "\n"
-  data[:muscles].each do |muscle|
-    printf("%-10s", (sets[muscle]||0))
-  end
-  print "\n"
-end
+RR_INDEX = {max: 1, low: 6, mid: 11, high: 21}
 
-def print_workouts(data, workouts)
-  print "\n"
-  header = ""
-  count = 0
-  workouts.each do |wk|
-    count += 1
-    header += "workout ##{count}           "
-  end
-  puts header
-
-  data[:muscles].count.times do |time|
-    str = ""
-    workouts.each do |wk|
-      muscle = wk.keys[time]
-      if wk[muscle]
-        str += ("%-10s %-10s" % [muscle, wk[muscle]])
-      else
-        str += "                     "
-      end
-    end
-    puts str unless str.strip == ""
-  end
-end
-
-def print_full_workout(data, reps, workout)
-  puts "do #{reps} reps per set. Rest 2 minutes between sets"
-  workout.each do |lift, sets|
-    puts ("%-25s %s @ %s lbs" % [lift, sets, weight_for(data, reps, lift)])
+def rep_range_key(reps)
+  case reps.to_i
+  when 1..5
+    :max
+  when 6..10
+    :low
+  when 11..20
+    :mid
+  when 21..30
+    :high
   end
 end
 
 def weight_for(data, reps, lift, rir = 1)
   reps += rir - 1
-  data[:exercises][lift][:max] * RM_CONVERSION[reps].to_f / 100.0
+  key = rep_range_key(reps)
+  key = :max if !data[:exercises][lift][key]
+  data[:exercises][lift][key] * RM_CONVERSION[reps].to_f / RM_CONVERSION[RRINDEX[key]].to_f
 end
 
-# calculate based off 1 rep in reserve (rir) 
-def set_to_max(reps, weight, rir)
-  mod = rir.to_i - 1
-  (100.0 * weight.to_i / RM_CONVERSION[mod+reps.to_i].to_f).round
-end
-
-def show_matching_lifts(data, muscle)
-  maxlength = data[:exercises].keys.map(&:to_s).map(&:length).max
-  puts("%-#{maxlength}s %-5s %s" % ["LIFT", "1RM", 'primary/secondary'])
-  data[:exercises].each do |name, details|
-    next unless details[:primary] == muscle || details[:secondary] == muscle || muscle.nil?
-    puts("%-#{maxlength}s %-5s %s" % [name, details[:max], details[:primary] == muscle ? 'primary' : 'secondary'])
-  end
-end
-
-def show_program(data)
-  week_num = 0
-  data[:program].each do |week|
-    week_num += 1
-    sets = {}
-    workouts = []
-    week[:workouts].each do |workout|
-      wk = {}
-      workout.each do |lift, set_count|
-        sets[data[:exercises][lift][:primary]] ||= 0
-        sets[data[:exercises][lift][:primary]] += set_count
-        wk[data[:exercises][lift][:primary]] ||= 0
-        wk[data[:exercises][lift][:primary]] += set_count
-        if data[:exercises][lift][:secondary]
-          sets[data[:exercises][lift][:secondary]] ||= 0
-          sets[data[:exercises][lift][:secondary]] += (set_count * 0.5)
-          wk[data[:exercises][lift][:secondary]] ||= 0
-          wk[data[:exercises][lift][:secondary]] += (set_count * 0.5)
-        end
-      end
-      workouts.push(wk)
-    end
-    puts "week #{week_num} totals: #{week[:format]} | #{week[:reps]} reps per set"
-    print_sets(data, sets)
-    print_workouts(data, workouts)
-  end
-end
-
-def show_workout(data, args, specific_date = nil)
-  date = specific_date || Date.today
-  while true do
-    if workout = data[:schedule][date]
-      puts date
-      puts "LIFT                      WEIGHT VOLUME  RiR   notes"
-      workout.each do |lift, details|
-        weight = weight_for(data, details[:reps].to_i, lift.to_sym, details[:rir]).round.to_i
-        puts("%-25s %-6s %sx%-5s %-5s %s" % [lift, weight, details[:sets], details[:reps], details[:rir], details[:notes]])
-      end
-      print "\n"
-      break
-    else
-      date += 1
-    end
-    break if specific_date
-  end
-end
-
-def show_week(data, args)
-  date = Date.today
-  show_workout(data, args, date)
-  show_workout(data, args, date+1)
-  show_workout(data, args, date+2)
-  show_workout(data, args, date+3)
-  show_workout(data, args, date+4)
-  show_workout(data, args, date+5)
-  show_workout(data, args, date+6)
-end
 def add_exercise(data, args)
   exercise = {}
   mapping = {'-n' => :name, '-1rm' => :max, '-p' => :primary, '-s' => :secondary, '-c' => :compound}
@@ -148,12 +53,28 @@ def add_exercise(data, args)
   File.write(FILENAME, YAML.dump(data))
 end
 
-#   ./lift.rb add workout [filename|string] yyyy-mm-dd     format is `[lift] [sets]x[reps] [rir] [optional notes]\n`
 def add_workout(data, args)
-  return puts "./lift.rb add workout [filename|string] yyyy-mm-dd     format is `[lift] [sets]x[reps] [rir] [optional notes]\\n`" if args.count != 4
+  return puts "./lift.rb add workout [filename|string] yyyy-mm-dd [-m]\n     format is `[lift] [sets]x[reps] [rir] [optional notes]\\n`" unless [4,5].include?(args.count)
+  current_date = Date.parse(args[3])
+  if args.include?("-m")
+    workouts_data = args[2]
+    workouts_data = File.read(workouts_data).to_s if File.exists?(workouts_data)
+    workouts_data.split("=====\n").each do |workout_data|
+      if workout_data.length > 12
+        add_workout_logic(data, workout_data, current_date)
+      else
+        current_date = Date.parse(workout_data)
+      end
+    end
+  else
+    workout_data = args[2]
+    workout_data = File.read(workout_data).to_s if File.exists?(workout_data)
+    add_workout_logic(data, workout_data, current_date)
+  end
+end
+
+def add_workout_logic(data, workout_data, date)
   workout = {}
-  workout_data = args[2]
-  workout_data = File.read(workout_data).to_s if File.exists?(workout_data)
   workout_data.split("\n").each do |line|
     parts = line.split(" ", 4)
     lift = parts.first.gsub('_', " ")
@@ -167,7 +88,7 @@ def add_workout(data, args)
     workout[lift][:notes] = parts[3] if parts[3]
   end
   data[:schedule] ||= {}
-  data[:schedule][Date.parse(args[3])] = (data[:schedule][Date.parse(args[3])] || {}).merge(workout)
+  data[:schedule][date] = (data[:schedule][date] || {}).merge(workout)
   File.write(FILENAME, YAML.dump(data))
 end
 
@@ -189,8 +110,13 @@ def log_sets(data, args)
   end
   data[:history][Date.today][lift] = record
   # update the max
-  new_max = record[:sets].map{|set| set_to_max(set[:reps], set[:weight], set[:rir]) }.max
-  data[:exercises][lift][:max] = [data[:exercises][lift][:max], new_max].max
+  record[:sets].each do |set|
+    max_key = rep_range_key(set[:reps].to_i)
+    # calculate based off 1 rep in reserve (rir) 
+    mod = set[:rir].to_i - 1
+    new_max = (RM_CONVERSION[RRINDEX[key]].to_f * set[:weight].to_i / RM_CONVERSION[mod+reps.to_i].to_f).round
+    data[:exercises][lift][key] = new_max if new_max > data[:exercises][lift][key]
+  end
   File.write(FILENAME, YAML.dump(data))
 end
 
@@ -208,21 +134,22 @@ data = YAML.load_file(FILENAME)
 
 if ARGV[0] == 'show'
   if ARGV[1] == 'program'
-    show_program(data)
+    Show.program(data)
   elsif ARGV[1] == 'lifts'
-    show_matching_lifts(data, ARGV[2])
+    Show.matching_lifts(data, ARGV[2])
   elsif ARGV[1] == 'workout'
-    show_workout(data, ARGV)
+    Show.workout(data, ARGV)
   elsif ARGV[1] == 'week'
-    show_week(data, ARGV)
+    Show.week(data, ARGV)
+  elsif ARGV[1] == 'schedule'
+    Show.schedule(data, ARGV)
   end
 elsif ARGV[0] == 'add'
   self.send("add_#{ARGV[1]}", data, ARGV)
-#   ./lift.rb log [lift] [set..] -rir 2       adds the set(s) to your history
 elsif ARGV[0] == 'log'
-  log_sets(data, ARGV.drop(1))
+  log_sets(data, ARGV.drop(1)) # ./lift.rb log [lift] [set..] -rir 2       adds the set(s) to your history
 elsif ARGV[0] == 'program'
-  show_program(data)
+  Show.program(data)
   keep_going = true
   while keep_going do
     puts "what now? (type 'help' if you need it)"
@@ -236,7 +163,7 @@ elsif ARGV[0] == 'program'
       puts "which workout?"
       workout_index = STDIN.gets.to_i - 1
       workout = week_obj[:workouts][workout_index]
-      print_full_workout(data, week_obj[:reps], workout)
+      Printing.full_workout(data, week_obj[:reps], workout)
     elsif val == 'q'
       keep_going = false
     end
