@@ -268,6 +268,8 @@ Because of the wide range of variation in respone to various training stimuli th
 
 ##### Programming
 
+Programming is the bodybuilder's term for planning your workouts. The more advanced you are, the more complicated your plans will likely become. Programming can be rigid or flexible, vague or specific, depending on your circumstances, but in general a more clear plan is better than a less clear one because it reduces the time you waste in the gym, and can help you stay motivated and avoid overtraining.
+
 Exercise variation becomes necessary in order to hit parts of the muscle which were not being hit enough by the beginner lifts, and to prevent overuse/joint injuries and strain.
 
 Rep variation becomes necessary in order to see progressive overload, and because of joint recovery and other concerns. The "hypertrophy rep range" is 6-15 reps. However this range is not magic, it just makes hitting sufficient volume and intensity targets practical. Highly fatiguing exercises should be generally trained on the lower end of that rep range, and less fatiguing exercises should generally be on the higher end of that rep range.
@@ -407,30 +409,66 @@ https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
   - recovery
     - sleep
     - mind
+    - body
   - training
     - progression
       - plateaus
       - measurement
     - programming
-      - novice
-        - pre-built
-      - intermediate
-        - periodization
+      - pre-built
+      - periodization
+        - specific models https://www.youtube.com/watch?v=1KWsgdDX79w
+          - linear
+          - reverse linear / (pseudo reverse linear)
+          - undulating
+          - conjugate
+          - block
         - deloads
-      - advanced
-        - specificity
-        - overreaching
-        - experimentation
-          - 1 variable at a time
-          - allow things to run their course
+        - variables
+          - exercise selection
+          - technique
+          - volume
+            - very low volume (HIT)
+            - maintenance volume
+            - minimum effective volume
+            - maximum recoverable volume
+          - rep range
+            - powerlifting vs hypertrophy vs metabolic endurance
+            - pivotal reps
+            - myoreps
+            - dropsets
+          - intensity
+            - reps in reserve
+            - training to failure
+            - blood flow restriction
+          - frequency
+            - mwf
+            - push pull legs
+            - upper lower
+            - bro split
+          - rest time
+          - tempo
+            - super slow
+            - eccentric vs isometric vs concentric
+      - specificity
+      - overreaching
+      - experimentation
+        - 1 variable at a time
+        - allow things to run their course
+    - overtraining
     - exercises
+      - pump
+      - mind-muscle connection
       - fatigue to stimulus ratio
-      - compound
-      - isolation
-      - machine
-      - free weight
-        - dumbell
-        - barbell
+        - compound
+        - isolation
+      - equipment
+        - machine
+        - cable
+        - free weight
+          - dumbell
+          - barbell
+        - calisthenics
       - muscle targets
         - quads
         - hams
@@ -445,26 +483,6 @@ https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
         - calves
         - forearms
         - traps
-    - technique
-    - frequency
-    - rest time
-    - intensity
-      - reps in reserve
-      - training to failure
-    - volume
-      - very low volume (HIT)
-      - maintenance volume
-      - minimum effective volume
-      - maximum recoverable volume
-    - rep range
-      - powerlifting vs hypertrophy vs metabolic endurance
-      - pivotal reps
-      - myoreps
-      - dropsets
-    - tempo
-      - super slow
-      - eccentric vs concentric
-    - blood flow restriction
 
 ##### training variables summary
 

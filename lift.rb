@@ -35,7 +35,7 @@ def weight_for(data, reps, lift, rir = 1)
   reps += rir - 1
   key = rep_range_key(reps)
   key = :max if !data[:exercises][lift][key]
-  data[:exercises][lift][key] * RM_CONVERSION[reps].to_f / RM_CONVERSION[RRINDEX[key]].to_f
+  data[:exercises][lift][key] * RM_CONVERSION[reps].to_f / RM_CONVERSION[RR_INDEX[key]].to_f
 end
 
 def add_exercise(data, args)
@@ -114,8 +114,8 @@ def log_sets(data, args)
     max_key = rep_range_key(set[:reps].to_i)
     # calculate based off 1 rep in reserve (rir) 
     mod = set[:rir].to_i - 1
-    new_max = (RM_CONVERSION[RRINDEX[key]].to_f * set[:weight].to_i / RM_CONVERSION[mod+reps.to_i].to_f).round
-    data[:exercises][lift][key] = new_max if new_max > data[:exercises][lift][key]
+    new_max = (RM_CONVERSION[RR_INDEX[max_key]].to_f * set[:weight].to_i / RM_CONVERSION[mod+set[:reps].to_i].to_f).round
+    data[:exercises][lift][max_key] = new_max if new_max > (data[:exercises][lift][max_key]||0)
   end
   File.write(FILENAME, YAML.dump(data))
 end
