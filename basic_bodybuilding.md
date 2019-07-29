@@ -101,7 +101,7 @@ If doing gym, pick whatever gym is closest, cheapest and has a squat rack/bench 
 If doing home, buy a:
 - [squat stand](https://www.amazon.com/gp/product/B01855EGXI) ($70)
 - inclineable bench ($80 - $150)
-- olympic barbell + plate set ($225 at academy)
+- olympic barbell + plate set ($225 at [academy](https://www.academy.com/shop/pdp/cap-barbell-300-lb-olympic-grip-weight-set))
 - 2 bumper 45-lb plates ($120)
 - 2 Loadable 20" Olympic Dumbbells (~$60)
 
@@ -512,6 +512,18 @@ If your energy balance is positive (you absorb more than you burn), you are in a
 
 The percentage of calories that your body absorbs from the total amount you consume is variable, but usually pretty high. The # of calories that your body burns per day is more variable, and affected by how much you weigh, by how physically active you are, how long you have been in an energy deficit/surplus, how deep your energy deficit/surplus is, among other things.
 
+> People often confuse the concept of "all calories being equal" and the laws of energy balance. Without question, there are differences in how various macronutrients -- and specific foods within the given macronutrients -- affect weight loss. But this doesn't negate the fact that energy balance still dictates weight gain/loss. Realize that there are two sides to the energy balance equation: Energy-in (what you consume) and energy-out (what you expend). ⁣
+> 
+> Foods have a thermic effect, whereby a certain percentage of calories are oxidized during digestion. Protein has a much higher thermic effect compared to carbs or fats, and thus on a calorie-for-calorie basis will cause less weight gain compared to the other macros. There are even differences in the thermic effect of the same macronutrients: for example, a significantly greater number of calories are expended in the digestion of olive oil (a monounsaturated fat) versus cream (a saturated fat). Moreover, protein can be directly used for building lean tissue, while other macronutrients cannot, thereby altering the composition of how weight is gained. ⁣
+> 
+> Fiber also plays a role in the process, as much of ingested fiber is not readily digestible and thus is excreted without being absorbed. Fiber also can bind to other nutrients and impede their digestion as well, further reducing energy intake. ⁣
+> 
+> Finally, and importantly, different foods have varying effects on satiety. Highly palatable foods (generally combinations of fat and simple sugars: think ice cream and donuts) make you want to eat more compared to whole, unprocessed foods, thus altering the energy balance equation in favor of weight gain.⁣
+> 
+> Bottom line: While a calorie isn't necessarily a calorie, energy balance nevertheless determines whether you gain or lose weight.⁣
+
+-- brad schoenfeld
+
 ##### Macronutrients
 
 The three macronutrients you need are protein, carbohydrates (carbs), and fat. These are measured in grams on the nutrition facts on food packaging. Protein has 4 calories per gram, Carbs have 4 calories per gram, and Fat has 9 calories per gram. Protein for a bodybuilder should be within the range of 0.8 to 1.2 g per day per pound of body weight. The remaining needed calories can be split between carbs and fat based on individual needs.
@@ -566,3 +578,7 @@ Sometimes you will hear people say to build a strength base before focusing on h
 Short rest or long rest between sets? that is the question. the answer is basically, rest until you feel recovered, up to 5 minutes. Using very short rest times is a potential time-saving technique but be warned:
 
 ![rest time](https://web.archive.org/web/20190729165355if_/https://scontent-dfw5-1.cdninstagram.com/vp/6c5c58d3d5d2d3fdab6d0227efac5c41/5DD4D86A/t51.2885-15/e35/s1080x1080/66218438_125104022096078_7958016487877369881_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com "rest time")
+
+##### effect of weight loss on hormones
+
+![weight loss hormones](https://web.archive.org/web/20190729182044if_/https://scontent-dfw5-1.cdninstagram.com/vp/dd6f6f06eae1b450cce92a7257e53eaa/5DEDAE68/t51.2885-15/e35/65789291_507108570031168_4014664920204986259_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com "weight loss hormones")
