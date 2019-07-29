@@ -78,4 +78,19 @@ class Show
       date += 1
     end
   end
+
+  # ./lift.rb show history [lift]
+  def self.history(data, args)
+    lift = args[2].to_sym
+    data[:history].each do |date, lifts|
+      next unless lifts[lift]
+      puts date
+      lifts[lift][:sets].each do |set|
+        norm_weight = normalize_weight(set[:weight], set[:reps].to_i, set[:rir])
+        rep_key = rep_range_key(set[:reps])
+        norm_rep = {max: 1, low: 6, mid: 11, high: 21}[rep_key]
+        puts "#{set[:weight]}x#{set[:reps]} @ RIR #{set[:rir]} => #{norm_weight}x#{norm_rep}"
+      end
+    end
+  end
 end

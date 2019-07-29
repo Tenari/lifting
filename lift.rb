@@ -99,7 +99,7 @@ def log_sets(data, args)
   record = data[:history][Date.today][lift] || {sets: []}
   rir = 1
   args.each_with_index do |arg, index|
-    if arg.include?('x')
+    if arg.include?('x') && index != 0
       record[:sets].push({weight: arg.split('x').first.to_i, reps: arg.split('x').last.to_i})
     elsif arg == '-rir'
       rir = args[index+1].to_i
@@ -112,12 +112,17 @@ def log_sets(data, args)
   # update the max
   record[:sets].each do |set|
     max_key = rep_range_key(set[:reps].to_i)
-    # calculate based off 1 rep in reserve (rir) 
-    mod = set[:rir].to_i - 1
-    new_max = (RM_CONVERSION[RR_INDEX[max_key]].to_f * set[:weight].to_i / RM_CONVERSION[mod+set[:reps].to_i].to_f).round
+    new_max = normalize_weight(set[:weight].to_i, set[:reps].to_i, set[:rir].to_i)
     data[:exercises][lift][max_key] = new_max if new_max > (data[:exercises][lift][max_key]||0)
   end
   File.write(FILENAME, YAML.dump(data))
+end
+
+def normalize_weight(weight, reps, rir)
+  max_key = rep_range_key(reps)
+  # calculate based off 1 rep in reserve (rir) 
+  mod = rir - 1
+  return (RM_CONVERSION[RR_INDEX[max_key]].to_f * weight / RM_CONVERSION[mod+reps].to_f).round
 end
 
 def reset_data(data)
@@ -137,12 +142,8 @@ if ARGV[0] == 'show'
     Show.program(data)
   elsif ARGV[1] == 'lifts'
     Show.matching_lifts(data, ARGV[2])
-  elsif ARGV[1] == 'workout'
-    Show.workout(data, ARGV)
-  elsif ARGV[1] == 'week'
-    Show.week(data, ARGV)
-  elsif ARGV[1] == 'schedule'
-    Show.schedule(data, ARGV)
+  else
+    Show.send(ARGV[1], data, ARGV)
   end
 elsif ARGV[0] == 'add'
   self.send("add_#{ARGV[1]}", data, ARGV)
