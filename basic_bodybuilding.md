@@ -446,7 +446,7 @@ https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
             - push pull legs
             - upper lower
             - bro split
-          - rest time
+          - [rest time](#rest-times)
           - tempo
             - super slow
             - eccentric vs isometric vs concentric
@@ -560,3 +560,9 @@ To address true plateaus ask yoru self these question:
 ##### building a strength base
 
 Sometimes you will hear people say to build a strength base before focusing on hypertrophy as a way to get bigger, but there's actually a case to be made for the opposite. First, in order for muscle to grow, all that's required is a sufficiently powerful stimulus. What constitutes such a stimulus is relative to your current level of adaptation. Thus if lifting 10lbs is hard enough for you, you will grow off of 10 lbs, where I might require 50lbs in the same movement. The weight itself is not the most important factor. What matters is its intensity for you, and of course, how much volume you do with it. However, one thing heavy weight do affect is joint integrity and fatigue. Lifting very heavy weights puts more total strain on your joints, which do not recover nearly as quickly as muscles. Lifting heavy weights also puts a larger strain on your recovery abilities relative to when you were weaker and were lifting a lighter weight. This is because while your muscles adapted for the heavier weight, the rest of your body did not adapt to the same degree for the ability to recover from a workout. Thus, getting stronger **before** getting bigger actually can be considered bad because it more quickly brings you to the level where joint strain and total body fatigue recovery become salient factors in your training. Basically, if you can grow from a lighter weight, in general, you should do that
+
+##### rest times
+
+Short rest or long rest between sets? that is the question. the answer is basically, rest until you feel recovered, up to 5 minutes. Using very short rest times is a potential time-saving technique but be warned:
+
+![rest time](https://web.archive.org/web/20190729165355if_/https://scontent-dfw5-1.cdninstagram.com/vp/6c5c58d3d5d2d3fdab6d0227efac5c41/5DD4D86A/t51.2885-15/e35/s1080x1080/66218438_125104022096078_7958016487877369881_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com "rest time")
