@@ -439,7 +439,7 @@ https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
             - dropsets
           - intensity
             - reps in reserve
-            - training to failure
+            - [training to failure](#training-to-failure)
             - blood flow restriction
           - frequency
             - mwf
@@ -582,3 +582,11 @@ Short rest or long rest between sets? that is the question. the answer is basica
 ##### effect of weight loss on hormones
 
 ![weight loss hormones](https://web.archive.org/web/20190729182044if_/https://scontent-dfw5-1.cdninstagram.com/vp/dd6f6f06eae1b450cce92a7257e53eaa/5DEDAE68/t51.2885-15/e35/65789291_507108570031168_4014664920204986259_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com "weight loss hormones")
+
+##### training to failure
+
+Not worth it. Sets taken to true muscular failure have a substantial added fatigue/recovery cost, with only a minimum of increased muscle stimulus. Since bodybuilding at high levels substantially revolves around managing fatigue, and spending it in such a way as to produce maximum gainz, you'd be better off going to 1-3 reps shy of failure, and doing an extra set, in terms of total muscle growth.
+
+However, there are reasons to use true training to failure. First of all, it's rather difficult to know how many reps shy of failure you are if you never actually fail a rep, so going to failure is necessary at least on rare occasions if only to calibrate your intensity reps-in-reserve reporting. Second of all, training to failure has a psychological benefit in many men, since we often want to feel like we gave a session our all and did our best, etc. Thus using failure training sporadically can help motivate some trainees.
+
+Still though, frequently taking sets to true muscular failure is likely to be far more effort than it's worth and may prevent optimum gainz.
