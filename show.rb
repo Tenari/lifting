@@ -66,6 +66,13 @@ class Show
     self.workout(data, args, date+6)
   end
 
+  def self.month(data, args)
+    date = Date.today
+    30.times do |i|
+      self.workout(data, args, date+i)
+    end
+  end
+
   def self.schedule(data, args)
     date = Date.today
     misses = 0

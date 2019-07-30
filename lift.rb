@@ -38,6 +38,13 @@ def weight_for(data, reps, lift, rir = 1)
   data[:exercises][lift][key] * RM_CONVERSION[reps].to_f / RM_CONVERSION[RR_INDEX[key]].to_f
 end
 
+def normalize_weight(weight, reps, rir)
+  max_key = rep_range_key(reps)
+  # calculate based off 1 rep in reserve (rir) 
+  mod = rir - 1
+  return (RM_CONVERSION[RR_INDEX[max_key]].to_f * weight / RM_CONVERSION[mod+reps].to_f).round
+end
+
 def add_exercise(data, args)
   exercise = {}
   mapping = {'-n' => :name, '-1rm' => :max, '-p' => :primary, '-s' => :secondary, '-c' => :compound}
@@ -92,6 +99,85 @@ def add_workout_logic(data, workout_data, date)
   File.write(FILENAME, YAML.dump(data))
 end
 
+def schedule_program(data, args)
+  movements = {
+    squat: {primary: 'quads', secondary: 'hams', max:0, compound: true},
+    bench: {primary: 'chest', secondary: 'tricepts', max:0, compound: true},
+    :"pull up" => {primary: 'back', secondary: 'biceps', max:0, compound: true},
+    deadlift: {primary: 'hams', secondary: 'back', max:0, compound: true},
+    press: {primary: 'shoulders', secondary: 'chest', max:0, compound: true},
+    :"bent row" => {primary: 'back', secondary: 'biceps', max:0, compound: true},
+  }
+  days = { day1: ['squat', 'bench', 'pull up'], day2: ['deadlift', 'press', 'bent row'] }
+  data[:schedule] ||= {}
+  days.each do |key, list|
+    list.each do |lift|
+      data[:exercises][lift.to_sym] ||= movements[lift.to_sym]
+    end
+  end
+
+  # 1 set days
+  date = Date.today
+  workout = {}
+  days[:day1].each do |lift|
+    workout[lift] = {
+      sets: 1,
+      reps: 6,
+      rir: 2,
+      notes: lift == 'pull up' ? 'as many as you can in one set' : 'work up to until a set of 6 feels pretty heavy',
+    }
+  end
+  data[:schedule][date] = workout.dup
+
+  date += 2
+  workout = {}
+  days[:day2].each do |lift|
+    workout[lift] = {
+      sets: 1,
+      reps: 6,
+      rir: 2,
+      notes: lift == 'pull up' ? 'as many as you can in one set' : 'work up to until a set of 6 feels pretty heavy',
+    }
+  end
+  data[:schedule][date] = workout.dup
+
+  # 2 set days
+  [[:day1, 2],[:day2, 3],[:day1, 2],[:day2, 2]].each do |key, add|
+    date += add
+    workout = {}
+    days[key].each do |lift|
+      msg = ['squat', 'deadlift'].include?(lift) ? '10 lbs more than last time' : '5 lbs more than last time'
+      msg = 'add 1 rep to a set' if lift == 'pull up'
+      workout[lift] = {
+        sets: 2,
+        reps: 6,
+        rir: 2,
+        notes: msg,
+      }
+    end
+    data[:schedule][date] = workout
+  end
+
+  # 3 set days
+  mapping = {0 => :day1, 2 => :day2, 4 => :day1, 7=>:day2, 9=>:day1, 11=> :day2}
+  5.times do |two_week|
+    14.times do |day|
+      date += 1
+      next unless day_key = mapping[day]
+      workout = {}
+      days[day_key].each do |lift|
+        workout[lift] = {
+          sets: 3, reps: 6, rir: 2, notes: lift == 'pull up' ? 'add 1 rep to a set' : 'add 5 lbs to last lift'
+        }
+      end
+
+      data[:schedule][date] = workout
+    end
+  end
+  File.write(FILENAME, YAML.dump(data))
+  puts "next 3 months of workouts are scheduled."
+end
+
 def log_sets(data, args)
   lift = args[0].to_sym
   data[:history] ||= {}
@@ -118,13 +204,6 @@ def log_sets(data, args)
   File.write(FILENAME, YAML.dump(data))
 end
 
-def normalize_weight(weight, reps, rir)
-  max_key = rep_range_key(reps)
-  # calculate based off 1 rep in reserve (rir) 
-  mod = rir - 1
-  return (RM_CONVERSION[RR_INDEX[max_key]].to_f * weight / RM_CONVERSION[mod+reps].to_f).round
-end
-
 def reset_data(data)
   data[:exercises].each do |lift, details|
     details[:max] = 0
@@ -149,6 +228,9 @@ elsif ARGV[0] == 'add'
   self.send("add_#{ARGV[1]}", data, ARGV)
 elsif ARGV[0] == 'log'
   log_sets(data, ARGV.drop(1)) # ./lift.rb log [lift] [set..] -rir 2       adds the set(s) to your history
+elsif ARGV[0] == 'schedule' && ARGV[1] == 'program'
+#   ./lift.rb schedule program --beginner       schedules the default beginner program
+  schedule_program(data, ARGV)
 elsif ARGV[0] == 'program'
   Show.program(data)
   keep_going = true
