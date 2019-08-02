@@ -100,4 +100,26 @@ class Show
       end
     end
   end
+
+  # ./lift.rb show volume [day_count optional(default to 7)]
+  # prints how many sets youve done per muscle over the last day_count days
+  def self.volume(data, args)
+    days_back = (args[2] || 7).to_i
+    results = {}
+    date = Date.today
+    days_back.times do |i|
+      next unless workout = data[:history][date - i]
+      print("#{date-i} ")
+      workout.each do |lift, hash|
+        muscle = data[:exercises][lift.to_sym][:primary]
+        results[muscle] ||= 0
+        results[muscle] += hash[:sets].count
+      end
+    end
+
+    puts "\nMUSCLE     SETS"
+    data[:muscles].each do |muscle|
+      puts("%-10s %s" % [muscle, results[muscle]])
+    end
+  end
 end

@@ -114,8 +114,7 @@ workout 1.3 @ RIR 3
 
 workout 2.1 @ RIR 3
   low bar bent row    4x11
-  goodmorning         3x11
-  stiff-leg deadlift  2x11
+  goodmorning         4x11
   ...
   upright row         3x15
   nosebreaker         2x15
@@ -125,8 +124,7 @@ workout 2.1 @ RIR 3
 workout 2.2 @ RIR 3
   bench               3x11
   db flyes            3x11
-  front squat         3x11
-  squat               3x11
+  front squat         4x11
   ...
   db bent reverse fly 2x15
   bar standing curl   2x15 try BFR
@@ -135,8 +133,7 @@ workout 2.2 @ RIR 3
 
 workout 2.3 @ RIR 3
   low bar bent row    4x11
-  goodmorning         3x11
-  stiff-leg deadlift  2x11
+  stiff-leg deadlift  4x11
   ...
   upright row         3x15
   db overhead extension 2x15
@@ -256,3 +253,350 @@ The weights used during BFR should be light. As a rule, keep the loads at ~20-30
 Thereafter, perform a few additional sets of the chosen exercise while keeping rest periods at about 30 seconds or so. The short rest interval helps to heighten metabolic stress and pooling of blood in the working muscle. It also necessarily reduces the number of reps you're able to perform on successive sets.
 
 By the final set, assuming you maintain the same load, you'll probably only get around 8-10 reps. That's okay. As long as you follow the protocol as described, you'll achieve optimal anabolic benefits.
+
+===
+
+crazy impractical 6 sessions per day plan:
+    day 1
+      chest
+      biceps, abs, traps
+    day 2
+      quads
+      shoulders, triceps, calfs
+    day 3
+      back
+      shoulders, biceps, abs
+    day 4
+      hams
+      shoulders, triceps, calfs
+    day 5
+      chest
+      biceps, abs, traps
+    day 6
+      back
+      shoulders, triceps, calfs
+    day 7
+      rest
+
+day
+  1: big, little, little
+  2: big, little, little
+  3: big, little, little
+  4: big, little, little
+  5: big, little, little
+  6: big, little, little
+
+day 1:
+  1: chest, biceps, biceps
+  2: chest, abs, abs
+  3: chest, traps, traps
+  4: chest, biceps, biceps
+  5: chest, abs, abs
+  6: chest, traps, traps
+
+===
+
+wednesday workout 4.1 @ RIR 1
+  bench               3x6
+  db flyes            3x6
+  front squat         3x6
+  ...
+  upright row         3x9
+  db standing curl    2x9
+  calfs               2x9
+  bar shrug           2x9
+
+thursday workout 4.2 @ RIR 1
+  low bar bent row    3x6
+  chin up             3 sets RIR 1
+  stiff-leg deadlift  3x6
+  ...
+  db bent reverse fly 3x9
+  nosebreaker         2x9
+  reverse crunch      2
+  wrist curl          2x12
+
+saturday
+  8am    workout 4.3.1 @ RIR 1
+    bench               1x6
+    upright row         1x9
+  10am   workout 4.3.2 @ RIR 1
+    db flyes            1x6
+    squat               1x6
+    calfs               2x9
+  1pm   workout 4.3.3 @ RIR 1
+    bench               1x6
+    upright row         1x9
+  3pm   workout 4.3.4 @ RIR 1
+    db flyes            1x6
+    squat               1x6
+    bar standing curl   2x9
+  6pm   workout 4.3.5 @ RIR 1
+    bench               1x6
+    upright row         1x9
+  9pm   workout 4.3.6 @ RIR 1
+    db flyes            1x6
+    squat               1x6
+    bar shrug           2x9
+
+sunday 
+  8am   workout 4.4.1 @ RIR 1
+    low bar bent row    3x6
+    db bent reverse fly 1x9
+    db overhead extension 2x9
+  1pm   workout 4.4.2 @ RIR 1
+    goodmorning         3x6
+    db bent reverse fly 1x9
+    crunch              2
+  7pm   workout 4.4.3 @ RIR 1
+    chin up             3 sets RIR 1
+    db bent reverse fly 1x9
+    wrist curl          2x12
+
+
+the post
+----------
+Question regarding intensity, fatigue, stimulus, volume and an impractical training program. (mini sessions)
+----------
+Of course the best way to answer this question would just be to try it and take notes, but Im still interested in people's thoughts.
+
+And obviously, this is **incredibly** impractical for anyone who has a life, but....
+
+**What kind of gainz do you think would result from a plan that sought to reduce fatigue and raise total stimulus/volume by splitting workouts up into many mini-sessions throughout the day?**
+
+The principles behind this idea:
+
+* volume is a primary driver of hypertrophy
+* pushing sets to muscular failure generally seems to get you a lot more fatigue than the stimulus is worth
+* shortening rest times seems to get you a lot of fatigue that just reduces your ability to lift heavy and get good stimulus
+* keeping fatigue as low as possible facilities more volume
+* big muscles recover more slowly than small muscles
+
+The idea is that because of the principles above, we should seek to make individual sessions very easy (low fatigue) overall, and just compensate by doing a ton of sessions to get in the volume.
+
+An example program applying this idea would looks something like:
+
+**mini session**
+
+* warm up sets
+* 1 hard (1-3 reps-in-reserve) set of the "big" muscle group you're working that day
+* 2 hard sets for one of the "small" muscle groups you're working that day
+
+**day**
+
+6 mini sessions spaced evenly throughout the day. Ex:
+
+day 1 - Big: chest. Small: biceps, abs, traps
+
+    8am - warmup, bench x1, curls x2
+    11am - warmup, dumbell flyes x1,  crunch x2
+    2pm - warmup, bench x1, shrugs x2
+    5pm - warmup, dumbell flyes x1,  curls x2
+    8pm - warmup, bench x1, crunch x2
+    11pm - warmup, dumbell flyes x1, shrugs x2
+
+**week**
+
+train 6 days per week, picking one "big" muscle and 3 little muscles per day. ex:
+
+    day 1
+      chest
+      biceps, abs, traps
+    day 2
+      quads
+      shoulders, triceps, calfs
+    day 3
+      back
+      shoulders, biceps, abs
+    day 4
+      hams
+      shoulders, triceps, calfs
+    day 5
+      chest
+      biceps, abs, traps
+    day 6
+      back
+      shoulders, triceps, calfs
+    day 7
+      rest
+
+---
+
+Program Summary:
+
+week 1:  6 sets, 14/18 reps, RIR 3, rWrWrWr
+week 2:  8 sets, 12/16 reps, RIR 2, rWWrWWr
+week 3: 10 sets, 10/14 reps, RIR 2, rWWrWWr
+week 4: 12 sets,  8/12 reps, RIR 1, rWWWrWW
+week 5:  3 sets, 15 reps, RIR 4, rrWrrWr
+
+workout 1.1 chest, shoulders, biceps, hams, calfs, traps
+workout 1.2 back, shoulders, triceps, quads, abs, forearm
+workout 1.3 chest, shoulders, biceps, hams, calfs, traps
+
+workout 2.1 back, shoulders, triceps, quads, abs, forearm
+workout 2.2 chest, shoulders, biceps, hams, calfs, traps
+workout 2.3 back, shoulders, triceps, quads, abs, forearm
+workout 2.4 chest, shoulders, biceps, hams, calfs, traps
+
+workout 3.1 back, shoulders, triceps, quads, abs, forearm
+workout 3.2 chest, shoulders, biceps, hams, calfs, traps
+workout 3.3 back, shoulders, triceps, quads, abs, forearm
+workout 3.4 chest, shoulders, biceps, hams, calfs, traps
+
+workout 4.1 back, shoulders, triceps, quads, abs, forearm
+workout 4.2 chest, shoulders, biceps, hams, calfs, traps
+workout 4.3 back, shoulders, triceps, quads, abs, forearm
+workout 4.4 chest, shoulders, biceps, hams, calfs, traps
+workout 4.5 back, shoulders, triceps, quads, abs, forearm
+
+workout 5.1 chest, shoulders, biceps, hams, calfs, traps
+workout 5.2 back, shoulders, triceps, quads, abs, forearm
+
+workout 1.1
+  bench                 3x14
+  front squat           3x14
+  db lat raises         2x18
+  bar standing curl     2x18
+  traps                 2x18
+  calfs                 2x18
+
+workout 1.2
+  low bar bent row      4x14
+  goodmorning           4x14
+  chin up               2x10
+  upright row           2x18
+  db overhead extension 2x18
+  crunch                2x18
+  wrist curl            2x18
+
+workout 1.3
+  bench                 3x14
+  front squat           3x14
+  db lat raises         2x18
+  db standing curl      2x18
+  traps                 2x18
+  calfs                 2x18
+
+---
+
+workout 2.1
+  low bar bent row      2x12
+  stiff-leg deadlift    3x12
+  chin up               2x11
+  upright row           2x16
+  nosebreaker           2x16
+  crunch                2x16
+  wrist curl            2x16
+
+workout 2.2
+  bench                 2x12
+  front squat           3x12
+  db flyes              2x12
+  db lat raises         2x16
+  bar standing curl     2x16
+  traps                 2x16
+  calfs                 2x16
+
+workout 2.3
+  chin up               2x12
+  goodmorning           3x12
+  low bar bent row      2x12
+  upright row           2x16
+  db overhead extension 2x16
+  crunch                2x16
+  wrist curl            2x16
+
+workout 2.4
+  bench                 2x12
+  front squat           3x12
+  db flyes              2x12
+  db lat raises         2x16
+  db standing curl      2x16
+  traps                 2x16
+  calfs                 2x16
+
+---
+
+workout 3.1
+  low bar bent row      3x10
+  stiff-leg deadlift    3x10
+  chin up               2x13
+  upright row           2x14
+  nosebreaker           2x14
+  crunch                2x14
+  wrist curl            2x14
+
+workout 3.2
+  bench                 3x10
+  front squat           3x10
+  db flyes              2x10
+  db lat raises         2x14
+  bar standing curl     2x14
+  traps                 2x14
+  calfs                 2x14
+
+workout 3.3
+  chin up               3x14
+  goodmorning           3x10
+  low bar bent row      2x10
+  upright row           2x14
+  db overhead extension 2x14
+  crunch                2x14
+  wrist curl            2x14
+
+workout 3.4
+  db flyes              3x10
+  front squat           3x10
+  bench                 2x10
+  db lat raises         2x14
+  db standing curl      2x14
+  traps                 2x14
+  calfs                 2x14
+
+---
+
+workout 4.1
+  low bar bent row      2x8
+  stiff-leg deadlift    2x8
+  chin up               2x8
+  upright row           2x12
+  nosebreaker           2x12
+  crunch                2x12
+  wrist curl            2x12
+
+workout 4.2
+  bench                 3x8
+  front squat           3x8
+  db flyes              3x8
+  db lat raises         2x12
+  bar standing curl     2x12
+  traps                 2x12
+  calfs                 2x12
+
+workout 4.3
+  chin up               2x8
+  goodmorning           2x8
+  low bar bent row      2x8
+  upright row           2x12
+  db overhead extension 2x12
+  crunch                2x12
+  wrist curl            2x12
+
+workout 4.4
+  db flyes              3x8
+  front squat           3x8
+  bench                 3x8
+  db lat raises         2x12
+  db standing curl      2x12
+  traps                 2x12
+  calfs                 2x12
+
+workout 4.5
+  low bar bent row      2x8
+  stiff-leg deadlift    2x8
+  chin up               2x8
+  upright row           2x12
+  db overhead extension 2x12
+  crunch                2x12
+  wrist curl            2x12

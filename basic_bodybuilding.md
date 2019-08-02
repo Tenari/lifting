@@ -396,10 +396,15 @@ https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
       - bulking
       - cutting
         - periodized dieting
+        - refeeds
+        - rate of weight loss closely linked to rate of muscle loss (slower allows you to retain more lean muscle)
       - macronutrients
         - protein
+          - essential amino acids
         - fat
         - carbs
+          - insulin
+          - carb cycling
     - nutrient timing
     - supplements
       - creatine
@@ -483,6 +488,8 @@ https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
         - calves
         - forearms
         - traps
+    - cardio
+      - metabolic adaption (hunter gatherers similar overall energy expenditure to sedentary modern noobs)
 
 ##### training variables summary
 
