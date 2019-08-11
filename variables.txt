@@ -245,7 +245,6 @@ workout 5.2 @ RIR 4
   wrist curl          2x18
 
 
-
 BFR notes (https://www.t-nation.com/training/blood-flow-restriction-training)
 
 The weights used during BFR should be light. As a rule, keep the loads at ~20-30% of 1RM for a given exercise. Combined with occlusion, you should get about ~20-25 reps on the first set.
@@ -600,3 +599,81 @@ workout 4.5
   db overhead extension 2x12
   crunch                2x12
   wrist curl            2x12
+
+----------------
+
+Program Summary (add one rep)
+
+Muscle Priorities:
+
+neck, chest, arms, shoulders, traps, forearms
+abs, back
+quads, glutes, hams
+calves
+
+weekly schedule:
+
+1     (sat)
+  chest
+  neck, biceps, shoulders, abs
+2     (sun)
+  back
+  traps, triceps, shoulders, forearms
+3     (mon)
+  squat/deadlift, quads/hams specific
+  calves, neck, upright row (shoulders+biceps)
+4 off (tues)
+5     (wed)
+  chest
+  neck, biceps, shoulders, abs
+6     (thurs)
+  back
+  traps, triceps, shoulders, forearms
+7 off (fri)
+
+
+number of sets per body part:
+neck (10-20 reps)
+  10 stretch rolls each way
+  1 hand resisted rotation each way
+  1 no weight forward tuck
+  1 no weight extension
+  1 weighted forward tuck
+  1 weighted extension
+  1 bridges
+chest
+  2 bench (6-12 reps)
+  3 flyes (8-15 reps)
+biceps (8-15 reps)
+  4 curls (either db or bar)
+shoulders (8-15 reps)
+  3 db lat raises/db bent reverse fly
+abs (15-30 reps)
+  2 crunches
+back (6-12 reps)
+  3 chins/bent row
+traps (8-15 reps)
+  2 shrugs
+triceps (8-15 reps)
+  2 nosebreaker/db overhead extension
+forearms (10-20 reps)
+  2 reverse grip barbell curl
+  2 wrist curl each side
+  1 pinch hold for time up to 100 seconds
+squat day
+  2 back squat (6-12 reps)
+  3 goodmorning/SLDL (8-15 reps)
+deadlift day
+  2 deadlift (6-12 reps)
+  3 front squat (6-12 reps)
+calves
+  4 stretch bar loaded (8-15 reps)
+2 upright row (8-15 reps)
+  
+Block system: progression occur primarily through adding reps. every exercise, try to add at least 1 rep somewhere in the exercise. once you get to sets across for the given rep maximum for an exercise, step back down to the rep minimum and add weight on the bar. (ie, once you get to 2x12@160 for bench, go to 2x6@175)
+
+week 1: match previous week 4 weight/reps scheme
+week 2: improve reps
+week 3: improve reps
+week 4: improve reps
+week 5: deload. keep same reps from previous best, but drop weight such that instead of 0 rir, it'd be more like 4 rir. do a 3 day per week schedule of chest, legs, back

@@ -1,0 +1,126 @@
+---
+:muscles:
+- chest
+- shoulders
+- back
+- biceps
+- triceps
+- quads
+- hams
+- calfs
+- abs
+- traps
+- forearm
+- neck
+:exercises:
+  :bench:
+    :primary: chest
+    :secondary: triceps
+    :max: 0
+    :compound: true
+    :mid: 0
+    :low: 0
+  :db flyes:
+    :primary: chest
+    :max: 0
+    :mid: 0
+    :low: 0
+  :press:
+    :primary: shoulders
+    :secondary: triceps
+    :max: 0
+    :compound: true
+  :upright row:
+    :primary: shoulders
+    :secondary: biceps
+    :max: 0
+    :mid: 0
+  :db bent reverse fly:
+    :primary: shoulders
+    :max: 0
+    :mid: 0
+    :low: 0
+  :chin up:
+    :primary: back
+    :secondary: biceps
+    :max: 0
+  :low bar bent row:
+    :primary: back
+    :max: 0
+    :mid: 0
+    :low: 0
+  :squat:
+    :max: 276
+    :primary: quads
+    :secondary: hams
+    :compound: true
+  :front squat:
+    :max: 0
+    :primary: quads
+    :compound: true
+    :mid: 0
+    :low: 0
+  :deadlift:
+    :max: 0
+    :primary: hams
+    :secondary: quads
+    :compound: true
+  :bar standing curl:
+    :max: 0
+    :primary: biceps
+    :mid: 0
+    :low: 0
+  :db standing curl:
+    :max: 0
+    :primary: biceps
+    :mid: 0
+  :db overhead extension:
+    :max: 0
+    :primary: triceps
+    :mid: 0
+  :calfs:
+    :max: 0
+    :primary: calfs
+    :mid: 0
+  :crunch:
+    :max: 0
+    :primary: abs
+    :mid: 0
+  :bar shrug:
+    :max: 0
+    :primary: traps
+    :mid: 0
+    :low: 0
+  :wrist curl:
+    :max: 0
+    :primary: forearm
+    :mid: 0
+    :low: 0
+  :goodmorning:
+    :max: 0
+    :primary: hams
+    :mid: 0
+  :nosebreaker:
+    :max: 0
+    :primary: triceps
+    :mid: 0
+  :stiff-leg deadlift:
+    :max: 0
+    :primary: hams
+    :mid: 0
+    :low: 0
+  :db lat raises:
+    :primary: shoulders
+    :max: 0
+    :mid: 0
+  :reverse crunch:
+    :max: 0
+    :primary: abs
+  :neck curl:
+    :mid: 0
+    :primary: neck
+  :neck extension:
+    :mid: 0
+    :primary: neck
+:schedule: {}
+:history: {}

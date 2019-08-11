@@ -5,6 +5,7 @@ Usage:
 ```
 git clone https://github.com/Tenari/lifting
 cd lifting
+mv data2.yml data.yml
 ./lift.rb reset
 ```
 
