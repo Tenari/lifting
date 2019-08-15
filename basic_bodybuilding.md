@@ -406,11 +406,21 @@ https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
           - insulin
           - carb cycling
     - nutrient timing
-    - supplements
-      - creatine
-      - caffeine
+    - [supplements](https://www.ncbi.nlm.nih.gov/m/pubmed/30604177/) [and](https://www.youtube.com/watch?v=e84bC4Od6Ug)
       - whey protein
-      - multivitamin
+      - fish oil
+      - muscle builders
+        - creatine (powdered creatine monohydrate)
+        - L-citruline vs citruline malate (prefer malate)
+        - beta-alanine
+      - vitamins
+        - vitamin D
+        - vitamin K2-7
+        - multivitamin
+      - fat loss
+        - caffeine
+        - yohimbine (negated while elevated insulin levels) (fasted exercise)
+        - synephrine
   - recovery
     - sleep
     - mind
