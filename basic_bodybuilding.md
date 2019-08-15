@@ -406,17 +406,18 @@ https://www.youtube.com/watch?v=CNQ9Y4LUk5E HIT approach
           - insulin
           - carb cycling
     - nutrient timing
-    - [supplements](https://www.ncbi.nlm.nih.gov/m/pubmed/30604177/) [and](https://www.youtube.com/watch?v=e84bC4Od6Ug)
-      - whey protein
+    - [supplements](https://web.archive.org/web/20190815195415/https://www.ncbi.nlm.nih.gov/m/pubmed/30604177/) [and](https://www.youtube.com/watch?v=e84bC4Od6Ug)
+      - whey protein (or rice/soy/pea if you want)
+        - (serving size near to total protein g)
       - fish oil
       - muscle builders
         - creatine (powdered creatine monohydrate)
         - L-citruline vs citruline malate (prefer malate)
-        - beta-alanine
+        - [beta-alanine](https://web.archive.org/web/20170901175007/https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3374095/)
       - vitamins
         - vitamin D
         - vitamin K2-7
-        - multivitamin
+        - multivitamin (most have too much of things you dont need and not enough of what you do need)
       - fat loss
         - caffeine
         - yohimbine (negated while elevated insulin levels) (fasted exercise)
