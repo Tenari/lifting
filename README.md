@@ -21,6 +21,14 @@ example:
 
 - To list available exercises: `./lift.rb show lifts`
 - To add an exercise: `./lift.rb add exercise -n [name] -1rm [max] -p [primary muscle group] -s [optional secondary muscle group] [-c if a compound exercise]`
+- To see what weight you should use for a given exercise based on your history:
+
+```
+./lift.rb show weight [lift] [reps] [rir (optional assume 1)]
+
+$ ./lift.rb show weight bench 5 1
+estimated weight = 190lbs
+```
 
 Then devise your lifting program and insert it day by day by:
 

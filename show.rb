@@ -122,4 +122,13 @@ class Show
       puts("%-10s %s" % [muscle, results[muscle]])
     end
   end
+
+  # ./lift.rb show weight [lift] [reps] [rir (optional assume 1)]
+  # estimated weight = 135lbs
+  def self.weight(data, args)
+    return puts("./lift.rb show weight [lift] [reps] [rir (optional assume 1)]") if args.length < 4
+
+    weight = weight_for(data, args[3].to_i, args[2].to_sym, (args[4] || 1).to_i).round.to_i
+    puts "estimated weight = #{weight}lbs"
+  end
 end
