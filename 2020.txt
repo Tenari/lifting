@@ -1,14 +1,5 @@
 Planned
 
-sat - block 1 workout 1 (A)
-  bench         3x15 @ 15RM -15
-  deadlift      3x15 @ 15RM -15
-  db lat raises 2x16 @ 19RM
-  db curl       2x16 @ 19RM
-  neck ext      2x16 @ 25lbs
-  neck curl     2x16 @ 12.5lbs
-  reverse crunches
-
 mon - block 1 workout 2 (B)
   front squat          3x15 @ 15RM -15
   bar shrug            2x15 @ 15RM -15
@@ -79,3 +70,13 @@ sat - block 1 workout 8 (B)
 ===
 
 Done
+
+1/4 sat - block 1 workout 1 (A)
+  bench         3x15 @ 15RM -15 (135)
+  deadlift      3x15 @ 15RM -15 (165)
+  db lat raises 2x16 @ 19RM   18lbs
+  db curl       2x16 @ 19RM   25lbs
+  neck ext      2x16 @ 25lbs
+  neck curl     2x16 @ 12.5lbs
+  reverse crunches  8
+
