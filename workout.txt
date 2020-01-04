@@ -1,0 +1,37 @@
+bench 3x6 1
+db_flyes 3x6 1
+front_squat 3x6 1
+upright_row 3x9 1
+db_standing_curl 2x9 1
+calfs 2x9 1
+bar_shrug 2x9 1
+=====
+2019-08-15
+=====
+low_bar_bent_row 3x6 1
+chin_up 3x10 1
+stiff-leg_deadlift 3x6 1
+db_bent_reverse_fly 3x9 1
+nosebreaker 2x9 1
+reverse_crunch 2x20 1
+wrist_curl 2x12 1
+=====
+2019-08-17
+=====
+bench 3x6 1
+db_flyes 3x6 1
+squat 3x6 1
+upright_row 3x9 1
+bar_standing_curl 2x9 1
+calfs 2x9 1
+bar_shrug 2x9 1
+=====
+2019-08-18
+=====
+low_bar_bent_row 3x6 1
+chin_up 3x10 1
+goodmorning 3x6 1
+db_bent_reverse_fly 3x9 1
+db_overhead_extension 2x9 1
+crunch 2x20 1
+wrist_curl 2x12 1

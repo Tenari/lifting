@@ -1,0 +1,97 @@
+12 possible workouts: morning and evening every day, with 1 day off
+
+Big muscles: chest, back, quads, hams
+Little muscles: shoulders, biceps, triceps, abs, calfs, traps, forearms, neck
+
+Big muscles take 48 hours to recover
+Little muscles take 24 hours to recover
+
+Thus, do a plan like
+  morning
+    big upper body muscle x N sets
+    3 little muscles x 2 sets each
+  evening
+    big lower body muscle x N sets
+    3 little muscles x 2 sets each
+
+Day 1:
+  morning
+    chest
+    biceps, abs, traps
+  evening
+    quads
+    shoulders, calfs, forearms
+
+Day 2:
+  morning
+    back
+    triceps, abs, neck
+  evening
+    hams
+    shoulders, calfs, forearms
+
+Day 3:
+  morning
+    chest
+    biceps, abs, traps
+  evening
+    quads
+    shoulders, calfs, forearms
+
+Day 4:
+  morning
+    back
+    triceps, abs, neck
+  evening
+    hams
+    shoulders, calfs, forearms
+
+Day 5:
+  morning
+    chest
+    biceps, abs, traps
+  evening
+    quads
+    shoulders, calfs, forearms
+
+Day 6:
+  morning
+    back
+    triceps, abs, neck
+  evening
+    hams
+    shoulders, calfs, forearms
+
+---
+
+week 1 (6 sets)
+  day 1: chest 2      quads 2
+  day 2: back 2       hams 2
+  day 3: chest 2      quads 2
+  day 4: back 2       hams 2
+  day 5: chest 2      quads 2
+  day 6: back 2       hams 2
+
+week 2 (8 sets)
+  day 1: chest 3      quads 2
+  day 2: back 3       hams 2
+  day 3: chest 2      quads 2
+  day 4: back 2       hams 2
+  day 5: chest 3      quads 2
+  day 6: back 3       hams 2
+
+week 3 (10 sets)
+  day 1: chest 3      quads 2
+  day 2: back 3       hams 2
+  day 3: chest 4      quads 2
+  day 4: back 4       hams 2
+  day 5: chest 3      quads 2
+  day 6: back 3       hams 2
+
+week 4 (12 sets)
+  day 1: chest 4      quads 2
+  day 2: back 4       hams 2
+  day 3: chest 4      quads 2
+  day 4: back 4       hams 2
+  day 5: chest 4      quads 2
+  day 6: back 4       hams 2

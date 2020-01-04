@@ -1,0 +1,518 @@
+big
+  chest
+    bench/flyes
+  back
+    bent rows/chins
+  quads
+    front squat/hack squat
+  hams
+    goodmorning/sldl
+little
+  shoulders
+    lat raises/bent reverse fly
+  neck
+    tuck+extension
+  traps
+    shrugs
+  biceps
+    db curl, bar curl
+  triceps
+    nosebreaker
+  forearms
+    wrist curl,pinch hold
+  calves
+    stretch bar loaded
+  abs
+    crunches/leg raises
+
+A
+chest
+hams
+shoulders(rear)
+neck
+biceps
+forearms
+abs
+
+B
+back
+quads
+shoulders(side)
+traps
+triceps
+calves
+grip
+
+week structure: rABrABr
+
+week 1+2 15/18 6sets/4sets
+week 3+4 10/13 8sets/6sets
+week 5+6 5/8   10sets/8sets
+week 7   5+5lbs/10+1set
+week 8 off
+week 9 off
+
+
+block 1 workout 1A
+  bench         3x15 @ 15RM -15
+  goodmorning   3x15 @ 15RM -15
+  bent rev fly  2x16 @ 15lbs
+  neck ext      2x16 @ 20lbs
+  neck curl     2x16 @ 10lbs
+  db curl       2x16 @ 25lbs
+  wrist curl    2x16 @ 20lbs
+  crunches
+
+block 1 workout 1B
+  bent rows     3x15 @ 15RM -15 (150-15= 135)
+  front squat   3x15 @ 15RM -15 (150-15= 135)
+  db lat raises 2x15 @ 17lbs
+  bar shrug     2x15 @ 165lbs
+  db tricep kickback   2x15 @ 15lbs
+  calves        2x15 @ 95lbs
+  pinch grip    for time
+
+block 1 workout 2A
+  flyes         3x15 @ 15RM -5 (20-5= 15)
+  goodmorning   3x15 @ 15RM -10 (80)
+  bent rev fly  2x17 @ 15lbs
+  neck ext      2x17 @ 20lbs
+  neck curl     2x17 @ 10lbs
+  db curl       2x16 @ 25lbs
+  wrist curl    1x17 @ 20lbs
+  wrist ext     1x14 @ 15lbs
+  crunches
+
+block 1 workout 2B
+  chins         3xN  @ 0 (11,10,10)
+  front squat   3x15 @ 15RM -10 (140)
+  db lat raises 2x16 @ 16.5lbs (15 + 1.5)
+  bar shrug     2x15 @ 170lbs
+  db tricep kickback   2x16 @ 15lbs
+  calfs         2x16 @ 100lbs
+  pinch grip    for time
+
+block 1 workout 3A
+  bench         3x15 @ 15RM -5 (145)
+  goodmorning   3x15 @ 15RM -5 (85)
+  bent rev fly  2x18 @ 15lbs
+  neck ext      2x18 @ 20lbs
+  neck curl     2x18 @ 10lbs
+  db curl       2x17 @ 25lbs
+  wrist curl    1x18 @ 20lbs
+  wrist ext     1x15 @ 15lbs
+  ab roller     6
+
+block 1 workout 3B
+  bent rows     3x15 @ 15RM -5 (145)
+  front squat   3x15 @ 15RM -5 (145)
+  db lat raises 2x17 @ 16.5lbs (15 + 1.5)
+  bar shrug     2x15 @ 175lbs
+  db tricep kickback   2x17 @ 15lbs
+  calfs         2x16 @ 100lbs
+  pinch grip    for time
+
+block 1 workout 4A
+  flyes         3x15 @ 15RM (20 or 25 if its too easy)
+  goodmorning   3x15 @ 15RM (90)
+  bent rev fly  2x19 @ 15lbs
+  neck ext      2x19 @ 20lbs
+  neck curl     2x19 @ 10lbs
+  db curl       2x18 @ 25lbs
+  wrist curl    1x19 @ 20lbs
+  wrist ext     1x15 @ 15lbs
+  ab roller     7
+
+block 1 workout 4B
+  chins         3xN  @ 5lbs (11,10,10 goal)
+  front squat   3x15 @ 15RM (150)
+  db lat raises 2x18 @ 16.5lbs (15 + 1.5)
+  bar shrug     2x15 @ 180lbs
+  db tricep kickback   2x18 @ 15lbs
+  calfs         2x16 @ 105lbs
+  pinch grip    for time
+
+========
+
+block 2 workout 1A
+  bench             3x10 @ 10RM -15 (170 - 15 = 155)
+  goodmorning       3x10 @ 10RM -15 (115 - 15 = 100)
+  bent rev fly      2x10 @ 15lbs (perfect form)
+  neck ext          2x10 @ 25lbs
+  neck curl         2x10 @ 12.5lbs
+  db standing curl  2x10 @ 30lbs
+  wrist curl        2x10 @ 25lbs
+  wrist ext         1x10 @ 16.5lbs
+
+block 2 workout 1B
+  bent rows             3x10 @ 10RM -15 (180-15=165)
+  front squat           3x10 @ 10RM -15 (165-15=150)
+  db lat raises         2x10 @ 20lbs
+  bar shrug             2x10 @ 10RM -15 (190-15=175)
+  db tricep kickback    2x10 @ 20lbs
+  calves                2x10 @ 10RM -15 (125-15=110)
+  abs
+
+block 2 workout 2A
+  bench             3x10 @ 10RM -10 (160)
+  goodmorning       3x10 @ 10RM -10 (105)
+  bent rev fly      2x11 @ 15lbs (perfect form)
+  neck ext          2x11 @ 25lbs
+  neck curl         2x11 @ 12.5lbs
+  db standing curl  2x11 @ 30lbs
+  wrist curl        2x11 @ 25lbs
+  wrist ext         1x11 @ 16.5lbs
+
+block 2 workout 2B
+  chins                 3xN  @ 5lbs (n ~= 10)
+  front squat           3x10 @ 10RM -10 (155)
+  db lat raises         2x11 @ 20lbs
+  bar shrug             2x10 @ 10RM -10 (180)
+  db tricep kickback    2x11 @ 20lbs
+  calves                2x10 @ 10RM -10 (115)
+  abs                   6
+
+block 2 workout 3A
+  bench             3x10 @ 10RM -5 (165)
+  goodmorning       3x10 @ 10RM -5 (110)
+  bent rev fly      2x12 @ 15lbs (perfect form -- really make it hard on yourself. slow on the eccentric)
+  neck ext          2x12 @ 25lbs
+  neck curl         2x12 @ 12.5lbs
+  db standing curl  2x12 @ 30lbs
+  wrist curl        2x12 @ 25lbs
+  wrist ext         1x12 @ 16.5lbs
+
+block 2 workout 3B
+  bent rows             3x10 @ 10RM -5 (175)
+  front squat           3x10 @ 10RM -5 (160)
+  db lat raises         2x12 @ 20lbs
+  bar shrug             2x10 @ 10RM -5 (185)
+  db tricep kickback    2x12 @ 20lbs
+  calves                2x10 @ 10RM -5 (120)
+  abs                   7
+
+block 2 workout 4A
+  bench             3x10 @ 10RM (170)
+  goodmorning       3x10 @ 10RM (115, 120, 120)
+  bent rev fly      2x14 @ 15lbs (perfect form)
+  neck ext          2x13 @ 25lbs
+  neck curl         2x13 @ 12.5lbs
+  db standing curl  2x13 @ 30lbs
+  wrist curl        2x13 @ 25lbs
+  wrist ext         1x13 @ 16.5lbs
+
+block 2 workout 4B
+  chins                 3xN  @ 10lbs (n ~= 10)
+  front squat           3x10 @ 10RM (165)
+  db lat raises         2x13 @ 20lbs
+  bar shrug             2x10 @ 10RM (190)
+  db tricep kickback    2x13 @ 20lbs
+  calves                2x10 @ 10RM (125)
+  abs                   8
+
+=======
+
+block 3 workout 1A
+  bench             3x5 @ 5RM -25 (200 - 25 = 175)
+  goodmorning       3x5 @ 5RM -15 (140 - 15 = 125)
+  bent rev fly      2x8 @ 20lbs
+  neck ext          2x8 @ 30lbs
+  neck curl         2x8 @ 15lbs
+  db standing curl  2x8 @ 35lbs
+  wrist curl        2x8 @ 30lbs
+  wrist ext         1x8 @ 20lbs
+
+block 3 workout 1B
+  bent rows             3x5 @ 5RM -25 (200-25=175)
+  front squat           3x5 @ (165)
+  db lat raises         3x6 @ 25lbs
+  bar shrug             2x5 @ 5RM -30 (185)
+  db tricep kickback    2x8 @ 25lbs
+  calves                2x5 @ 5RM -15 (145-15=130)
+  abs                   6
+
+block 3 workout 2A
+  bench             3x5 @ 5RM -15 (185)
+  goodmorning       3x5 @ 5RM -10 (130)
+  bent rev fly      2x9 @ 20lbs
+  neck ext          2x9 @ 30lbs
+  neck curl         2x9 @ 15lbs
+  db standing curl  2x9 @ 35lbs
+  wrist curl        2x9 @ 30lbs
+  wrist ext         1x9 @ 20lbs
+
+block 3 workout 2B - sun
+  chins                 3x8 @ 15lbs
+  front squat           3x5 @ (175)
+  db lat raises         3x7 @ 25lbs
+  bar shrug             2x5 @ 5RM -20 (195)
+  db tricep kickback    2x9 @ 25lbs
+  calves                2x5 @ 5RM -10 (135)
+  abs                   7
+
+block 3 workout 3A - tues
+  bench             3x5 @ 5RM -5 (195)
+  goodmorning       3x5 @ 5RM -5 (135)
+  bent rev fly      2x10 @ 20lbs
+  neck ext          2x10 @ 30lbs
+  neck curl         2x10 @ 15lbs
+  db standing curl  2x10 @ 35lbs
+  wrist curl        2x10 @ 30lbs
+  wrist ext         1x10 @ 20lbs
+
+block 3 workout 3B - thurs
+  bent rows             3x5 @ 5RM -5 (195)
+  front squat           3x5 @ (185)
+  db lat raises         3x8 @ 25lbs
+  bar shrug             2x5 @ 5RM -10 (205)
+  db tricep kickback    2x10 @ 25lbs
+  calves                2x5 @ 5RM -5 (140)
+  abs                   8
+
+block 3 workout 4A - sat
+  bench             3x5 @ 5RM (200)
+  goodmorning       3x5 @ 5RM (140)
+  bent rev fly      2x11 @ 20lbs
+  neck ext          2x11 @ 30lbs
+  neck curl         2x11 @ 15lbs
+  db standing curl  2x11 @ 35lbs
+  wrist curl        2x11 @ 30lbs
+  wrist ext         1x11 @ 20lbs
+
+block 3 workout 4B - sun
+  chins                 3x8 @ 20lbs
+  front squat           3x5 @ (195)
+  db lat raises         3x9 @ 25lbs
+  bar shrug             2x5 @ 5RM (215)
+  db tricep kickback    2x11 @ 25lbs
+  calves                2x5 @ 5RM (145)
+  abs                   9
+
+---------
+
+extra block workout 1A - tues
+  db flyes          3x8 @ 8RM (?)
+  deadlift          3x5 @ 5RM (?)
+  bent rev fly      2x10 @ 20lbs
+  neck ext          2x12 @ 30lbs
+  neck curl         2x12 @ 15lbs
+  db sitting curl   2x10 @ 35lbs (concentration curl in MAX muscle plan)
+  wrist curl        2x11 @ 30lbs
+  wrist ext         1x11 @ 20lbs
+
+extra block workout 1B - thurs
+  reverse-grip bent row 3x5 @ 5RM (?) (stand at 45 degree angled back, head up, hands like youre gonna curl it)
+  squat                 3x5 @ 5RM (?)
+  db lat raises         4x8 @ 25lbs
+  bar shrug             3x5 @ 5RM (220)
+  db tricep kickback    2x10 @ 25lbs
+  calves                2x5 @ 5RM (145)
+  abs                   10
+
+
+
+
+
+
+========================= ROUND 2 ====================================
+
+
+
+
+
+
+
+
+block 1 workout 1A - sat
+  db flyes        3x15 @ 19RM (20)
+  stiff-leg dl    3x15 @ 15RM -15 (135)
+  db lat raises   2x15 @ 16.5lbs
+  neck ext        2x15 @ 25lbs
+  neck curl       2x15 @ 12.5lbs
+  db sitting curl 2x15 @ 25lbs
+  wrist curl      2x15 @ 20lbs
+  wrist ext       1x15 @ 10lbs
+
+block 1 workout 1B - sun
+  reverse-grip bent row  3x15 @ 15RM -15 (95)
+  squat                  3x15 @ 15RM -15 (165)
+  db lat raises          2x15 @ 16.5lbs
+  bar shrug              2x15 @ 170lbs
+  db tricep kickback     2x15 @ 15lbs
+  calves (low)           2x15 @ bar shrug weight
+  crunches
+
+block 1 workout 2A - tues
+  db flyes        3x16 @ 19RM (25)
+  stiff-leg dl    3x15 @ 15RM -10 (140)
+  db lat raises   2x16 @ 16.5lbs
+  neck ext        2x16 @ 25lbs
+  neck curl       2x16 @ 12.5lbs
+  db sitting curl 2x16 @ 25lbs
+  wrist curl      2x16 @ 20lbs
+  wrist ext       1x16 @ 10lbs
+
+block 1 workout 2B - thu
+  squat                  3x15 @ 15RM -10 (170)
+  reverse-grip bent row  3x15 @ 15RM -10 (100)
+  db lat raises          2x16 @ 16.5lbs
+  bar shrug              2x15 @ 175lbs
+  db tricep kickback     2x16 @ 15lbs
+  calves (low)           2x15 @ bar shrug weight
+  crunches
+
+block 1 workout 3A - sat nov 2
+  db flyes        3x17 @ 19RM (25)
+  stiff-leg dl    3x15 @ 15RM -5 (145)
+  db lat raises   2x17 @ 16.5lbs
+  neck ext        2x17 @ 25lbs
+  neck curl       2x17 @ 12.5lbs
+  db sitting curl 2x17 @ 25lbs
+  wrist curl      2x17 @ 20lbs
+  wrist ext       1x17 @ 10lbs
+
+block 1 workout 3B - sun nov 3
+  squat                  3x15 @ 15RM -5 (175)
+  reverse-grip bent row  3x15 @ 15RM -5 (105)
+  db lat raises          2x17 @ 16.5lbs
+  bar shrug              2x15 @ 180lbs
+  db tricep kickback     2x17 @ 15lbs
+  calves (low)           2x15 @ bar shrug weight
+  crunches
+
+block 1 workout 4A
+  db flyes        3x18 @ 19RM
+  stiff-leg dl    3x15 @ 15RM (150)
+  db lat raises   2x18 @ 16.5lbs
+  neck ext        2x18 @ 25lbs
+  neck curl       2x18 @ 12.5lbs
+  db sitting curl 2x18 @ 25lbs
+  wrist curl      2x18 @ 20lbs
+  wrist ext       1x18 @ 10lbs
+
+block 1 workout 4B
+  squat                  3x15 @ 15RM (180)
+  reverse-grip bent row  3x15 @ 15RM (110)
+  db lat raises          2x18 @ 16.5lbs
+  bar shrug              2x15 @ 185lbs
+  db tricep kickback     2x18 @ 15lbs
+  calves (low)           2x15 @ bar shrug weight
+  crunches
+ 
+===========
+
+block 2 workout 1A - sat
+  db flyes        3x11 @ 19RM (30)
+  stiff-leg dl    3x10 @ 10RM -15 (165 -15 = 150)
+  db lat raises   2x11 @ 20lbs
+  neck ext        2x11 @ 30lbs
+  neck curl       2x11 @ 15lbs
+  db sitting curl 2x11 @ 30lbs
+  wrist curl      2x11 @ 25lbs
+  wrist ext       1x11 @ 11.5lbs
+
+block 2 workout 1B - sun
+  squat                  3x10 @ 10RM -15 (180)
+  reverse-grip bent row  3x10 @ 10RM -15 (115)
+  db lat raises          2x11 @ 20lbs
+  bar shrug              2x10 @ 185lbs
+  db tricep kickback     2x11 @ 20lbs
+  calves (low)           2x10 @ bar shrug weight
+  crunches
+
+block 2 workout 2A - tues
+  db flyes        3x12 @ 19RM (30)
+  stiff-leg dl    3x10 @ 10RM -10 (155)
+  db lat raises   2x12 @ 20lbs
+  neck ext        2x12 @ 30lbs
+  neck curl       2x12 @ 15lbs
+  db sitting curl 2x12 @ 30lbs
+  wrist curl      2x12 @ 25lbs
+  wrist ext       1x12 @ 11.5lbs
+
+block 2 workout 2B - thu
+  squat                  3x10 @ 10RM -10 (185)
+  reverse-grip bent row  3x10 @ 10RM -10 (120)
+  db lat raises          2x12 @ 20lbs
+  bar shrug              2x10 @ 190lbs
+  db tricep kickback     2x12 @ 20lbs
+  calves (low)           2x10 @ bar shrug weight
+  crunches
+
+block 2 workout 3A - sat
+  db flyes        3x13 @ 19RM (30)
+  stiff-leg dl    3x10 @ 10RM -5 (160)
+  db lat raises   2x13 @ 20lbs
+  neck ext        2x13 @ 30lbs
+  neck curl       2x13 @ 15lbs
+  db sitting curl 2x13 @ 30lbs
+  wrist curl      2x13 @ 25lbs
+  wrist ext       1x13 @ 11.5lbs
+
+block 2 workout 3B - sun
+  squat                  3x10 @ 10RM -5 (190)
+  reverse-grip bent row  3x10 @ 10RM -5 (125)
+  db lat raises          2x13 @ 20lbs
+  bar shrug              2x10 @ 195lbs
+  db tricep kickback     2x13 @ 20lbs
+  calves (low)           2x10 @ bar shrug weight
+  crunches
+
+block 2 workout 4A
+  db flyes        3x14 @ 19RM (30)
+  stiff-leg dl    3x10 @ 10RM (165)
+  db lat raises   2x14 @ 20lbs
+  neck ext        2x14 @ 30lbs
+  neck curl       2x14 @ 15lbs
+  db sitting curl 2x14 @ 30lbs
+  wrist curl      2x14 @ 25lbs
+  wrist ext       1x14 @ 11.5lbs
+
+block 2 workout 4B
+  squat                  3x10 @ 10RM (195)
+  reverse-grip bent row  3x10 @ 10RM (130)
+  db lat raises          2x14 @ 20lbs
+  bar shrug              2x10 @ 200lbs
+  db tricep kickback     2x14 @ 20lbs
+  calves (low)           2x10 @ bar shrug weight
+  crunches
+ 
+===========
+
+block 3 workout 1A - sat
+  db flyes        3x7 @ 10RM (35)
+  stiff-leg dl    3x5 @ 5RM -15 (165)
+  db lat raises   3x7 @ 25lbs
+  neck ext        2x7 @ 35lbs
+  neck curl       2x7 @ 17.5lbs
+  db sitting curl 2x7 @ 35lbs
+  wrist curl      2x7 @ 30lbs
+  wrist ext       1x7 @ 15lbs
+
+block 3 workout 1B - sun
+  squat                  3x5 @ 5RM -15 (195)
+  reverse-grip bent row  3x5 @ 5RM -15 (130)
+  db lat raises          3x7 @ 25lbs
+  bar shrug              2x5 @ 205lbs
+  db tricep kickback     2x7 @ 25lbs
+  calves (low)           2x5 @ bar shrug weight
+  crunches
+
+block 3 workout 2A - tues
+  db flyes        3x8 @ 10RM (35)
+  stiff-leg dl    3x5 @ 5RM -10 (170)
+  db lat raises   3x8 @ 25lbs
+  neck ext        2x8 @ 35lbs
+  neck curl       2x8 @ 17.5lbs
+  db sitting curl 2x8 @ 35lbs
+  wrist curl      2x8 @ 30lbs
+  wrist ext       1x8 @ 15lbs
+
+block 3 workout 2B - thur
+  squat                  3x5 @ 5RM -10 (200)
+  reverse-grip bent row  3x5 @ 5RM -10 (135)
+  db lat raises          3x8 @ 25lbs
+  bar shrug              2x5 @ 210lbs
+  db tricep kickback     2x8 @ 25lbs
+  calves (low)           2x5 @ bar shrug weight
+  crunches
