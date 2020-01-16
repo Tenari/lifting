@@ -16,111 +16,4582 @@
   :bench:
     :primary: chest
     :secondary: triceps
-    :max: 0
+    :max: 235
     :compound: true
-    :mid: 0
-    :low: 0
+    :mid: 160
+    :low: 196
+  :leg-up bench:
+    :primary: chest
+    :secondary: triceps
+    :compound: true
+    :max: 0
+    :low: 153
   :db flyes:
     :primary: chest
     :max: 0
-    :mid: 0
-    :low: 0
+    :mid: 32
+    :low: 38
+    :high: 20
   :press:
     :primary: shoulders
     :secondary: triceps
-    :max: 0
+    :max: 146
     :compound: true
   :upright row:
     :primary: shoulders
     :secondary: biceps
-    :max: 0
-    :mid: 0
+    :max: 114
+    :mid: 90
+    :low: 97
   :db bent reverse fly:
     :primary: shoulders
     :max: 0
-    :mid: 0
-    :low: 0
+    :mid: 20
+    :low: 22
   :chin up:
     :primary: back
     :secondary: biceps
-    :max: 0
+    :max: 25
+    :mid: 5
+    :low: 22
+  :reverse-grip bent row:
+    :primary: back
+    :secondary: biceps
+    :max: 167
+    :mid: 124
+    :low: 150
   :low bar bent row:
     :primary: back
-    :max: 0
-    :mid: 0
-    :low: 0
+    :max: 235
+    :mid: 160
+    :low: 199
   :squat:
     :max: 276
     :primary: quads
     :secondary: hams
     :compound: true
+    :low: 227
+    :mid: 194
   :front squat:
-    :max: 0
+    :max: 229
     :primary: quads
     :compound: true
-    :mid: 0
-    :low: 0
+    :mid: 195
+    :low: 185
   :deadlift:
-    :max: 0
+    :max: 343
     :primary: hams
     :secondary: quads
     :compound: true
+    :mid: 194
   :bar standing curl:
-    :max: 0
+    :max: 102
     :primary: biceps
-    :mid: 0
-    :low: 0
+    :mid: 67
+    :low: 75
   :db standing curl:
-    :max: 0
+    :max: 40
     :primary: biceps
-    :mid: 0
+    :mid: 34
+    :low: 39
   :db overhead extension:
     :max: 0
     :primary: triceps
-    :mid: 0
-  :calfs:
-    :max: 0
-    :primary: calfs
-    :mid: 0
-  :crunch:
-    :max: 0
-    :primary: abs
-    :mid: 0
-  :bar shrug:
-    :max: 0
-    :primary: traps
-    :mid: 0
-    :low: 0
-  :wrist curl:
-    :max: 0
-    :primary: forearm
-    :mid: 0
-    :low: 0
-  :goodmorning:
-    :max: 0
-    :primary: hams
-    :mid: 0
-  :nosebreaker:
-    :max: 0
+    :mid: 29
+  :db tricep kickback:
+    :max: 29
     :primary: triceps
-    :mid: 0
-  :stiff-leg deadlift:
-    :max: 0
+    :mid: 25
+    :low: 28
+  :calfs:
+    :max: 175
+    :primary: calfs
+    :mid: 120
+    :low: 144
+  :crunch:
+    :max: 18
+    :primary: abs
+    :mid: 30
+  :bar shrug:
+    :max: 265
+    :primary: traps
+    :mid: 205
+    :low: 236
+  :wrist curl:
+    :max: 28
+    :primary: forearm
+    :mid: 29
+    :low: 38
+    :high: 15
+  :goodmorning:
+    :max: 173
     :primary: hams
-    :mid: 0
-    :low: 0
+    :mid: 107
+    :low: 138
+  :nosebreaker:
+    :max: 69
+    :primary: triceps
+    :mid: 56
+  :stiff-leg deadlift:
+    :max: 209
+    :primary: hams
+    :mid: 166
+    :low: 190
   :db lat raises:
     :primary: shoulders
-    :max: 0
-    :mid: 0
+    :max: 28
+    :mid: 21
+    :low: 28
   :reverse crunch:
-    :max: 0
+    :max: 10
     :primary: abs
   :neck curl:
-    :mid: 0
+    :mid: 16
     :primary: neck
+    :low: 18
   :neck extension:
-    :mid: 0
+    :mid: 32
     :primary: neck
-:schedule: {}
-:history: {}
+    :low: 38
+  :db sitting curl:
+    :max: 36
+    :primary: biceps
+    :low: 39
+    :mid: 32
+:program:
+- :chest: 12
+  :shoulders: 12
+  :biceps: 6
+  :triceps: 6
+  :format: rWrWrWr
+  :reps: 15
+  :workouts:
+  - :press: 2
+    :db bent reverse fly: 2
+    :chin up: 2
+  - :bench: 2
+    :db flyes: 2
+    :low bar bent row: 2
+  - :press: 2
+    :db bent reverse fly: 2
+    :chin up: 2
+- :chest: 12
+  :shoulders: 12
+  :biceps: 6
+  :triceps: 6
+  :format: rWrWrWr
+  :reps: 15
+  :workouts:
+  - :bench: 2
+    :db flyes: 2
+    :low bar bent row: 2
+  - :press: 2
+    :db bent reverse fly: 2
+    :chin up: 2
+  - :bench: 2
+    :db flyes: 2
+    :low bar bent row: 2
+:schedule:
+  2019-07-24:
+    bench:
+      :sets: 4
+      :reps: 14
+      :rir: 3
+    front squat:
+      :sets: 4
+      :reps: 14
+      :rir: 3
+    upright row:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+    bar standing curl:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+      :notes: try BFR
+    calfs:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+    bar shrug:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+  2019-07-17:
+    bench:
+      :sets: 3
+      :reps: 15
+      :rir: 4
+    front squat:
+      :sets: 3
+      :reps: 15
+      :rir: 4
+    upright row:
+      :sets: 2
+      :reps: 15
+      :rir: 4
+    bar standing curl:
+      :sets: 2
+      :reps: 18
+      :rir: 4
+      :notes: try BFR
+    calfs:
+      :sets: 2
+      :reps: 18
+      :rir: 4
+    bar shrug:
+      :sets: 2
+      :reps: 18
+      :rir: 4
+  2019-07-20:
+    low bar bent row:
+      :sets: 3
+      :reps: 15
+      :rir: 4
+    goodmorning:
+      :sets: 3
+      :reps: 15
+      :rir: 4
+    db lat raises:
+      :sets: 2
+      :reps: 18
+      :rir: 4
+    nosebreaker:
+      :sets: 2
+      :reps: 18
+      :rir: 4
+    crunch:
+      :sets: 2
+      :reps: 18
+      :rir: 4
+    wrist curl:
+      :sets: 2
+      :reps: 18
+      :rir: 4
+  2019-07-26:
+    low bar bent row:
+      :sets: 4
+      :reps: 14
+      :rir: 3
+    chin up:
+      :sets: 2
+      :reps: 14
+      :rir: 3
+    goodmorning:
+      :sets: 4
+      :reps: 14
+      :rir: 3
+    db lat raises:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+    db overhead extension:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+    crunch:
+      :sets: 2
+      :reps: 20
+      :rir: 3
+    wrist curl:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+  2019-07-28:
+    bench:
+      :sets: 4
+      :reps: 14
+      :rir: 3
+    front squat:
+      :sets: 4
+      :reps: 14
+      :rir: 3
+    upright row:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+    db standing curl:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+      :notes: try BFR
+    calfs:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+    bar shrug:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+  2019-07-31:
+    low bar bent row:
+      :sets: 4
+      :reps: 11
+      :rir: 3
+    goodmorning:
+      :sets: 4
+      :reps: 11
+      :rir: 3
+    upright row:
+      :sets: 3
+      :reps: 15
+      :rir: 3
+    nosebreaker:
+      :sets: 2
+      :reps: 15
+      :rir: 3
+    reverse crunch:
+      :sets: 2
+      :reps: 20
+      :rir: 3
+    wrist curl:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+  2019-08-02:
+    bench:
+      :sets: 3
+      :reps: 11
+      :rir: 3
+    db flyes:
+      :sets: 3
+      :reps: 11
+      :rir: 3
+    front squat:
+      :sets: 4
+      :reps: 11
+      :rir: 3
+    db bent reverse fly:
+      :sets: 2
+      :reps: 15
+      :rir: 3
+      :notes: 
+    bar standing curl:
+      :sets: 2
+      :reps: 15
+      :rir: 3
+      :notes: try BFR
+    calfs:
+      :sets: 2
+      :reps: 15
+      :rir: 3
+    bar shrug:
+      :sets: 2
+      :reps: 15
+      :rir: 3
+  2019-08-04:
+    low bar bent row:
+      :sets: 4
+      :reps: 11
+      :rir: 3
+    stiff-leg deadlift:
+      :sets: 4
+      :reps: 11
+      :rir: 3
+    upright row:
+      :sets: 3
+      :reps: 15
+      :rir: 3
+    db overhead extension:
+      :sets: 2
+      :reps: 15
+      :rir: 3
+    crunch:
+      :sets: 2
+      :reps: 20
+      :rir: 3
+    wrist curl:
+      :sets: 2
+      :reps: 18
+      :rir: 3
+  2019-08-07:
+    bench:
+      :sets: 3
+      :reps: 8
+      :rir: 2
+    db flyes:
+      :sets: 2
+      :reps: 8
+      :rir: 2
+    front squat:
+      :sets: 3
+      :reps: 8
+      :rir: 2
+    upright row:
+      :sets: 3
+      :reps: 12
+      :rir: 2
+    db standing curl:
+      :sets: 2
+      :reps: 12
+      :rir: 2
+    calfs:
+      :sets: 2
+      :reps: 12
+      :rir: 2
+    bar shrug:
+      :sets: 2
+      :reps: 12
+      :rir: 2
+  2019-08-08:
+    low bar bent row:
+      :sets: 3
+      :reps: 8
+      :rir: 2
+    chin up:
+      :sets: 2
+      :reps: 10
+      :rir: 2
+    stiff-leg deadlift:
+      :sets: 3
+      :reps: 8
+      :rir: 2
+    db bent reverse fly:
+      :sets: 2
+      :reps: 12
+      :rir: 2
+    nosebreaker:
+      :sets: 2
+      :reps: 12
+      :rir: 2
+    reverse crunch:
+      :sets: 2
+      :reps: 15
+      :rir: 2
+    wrist curl:
+      :sets: 2
+      :reps: 12
+      :rir: 2
+  2019-08-10:
+    bench:
+      :sets: 3
+      :reps: 8
+      :rir: 2
+    db flyes:
+      :sets: 2
+      :reps: 8
+      :rir: 2
+    squat:
+      :sets: 3
+      :reps: 8
+      :rir: 2
+    upright row:
+      :sets: 3
+      :reps: 12
+      :rir: 2
+    bar standing curl:
+      :sets: 2
+      :reps: 12
+      :rir: 2
+    calfs:
+      :sets: 2
+      :reps: 12
+      :rir: 2
+    bar shrug:
+      :sets: 2
+      :reps: 12
+      :rir: 2
+  2019-08-11:
+    low bar bent row:
+      :sets: 3
+      :reps: 8
+      :rir: 2
+    chin up:
+      :sets: 2
+      :reps: 10
+      :rir: 2
+    goodmorning:
+      :sets: 3
+      :reps: 8
+      :rir: 2
+    db bent reverse fly:
+      :sets: 2
+      :reps: 12
+      :rir: 2
+    db overhead extension:
+      :sets: 2
+      :reps: 12
+      :rir: 2
+    crunch:
+      :sets: 2
+      :reps: 15
+      :rir: 2
+    wrist curl:
+      :sets: 2
+      :reps: 12
+      :rir: 2
+  2019-08-14:
+    bench:
+      :sets: 3
+      :reps: 6
+      :rir: 1
+    db flyes:
+      :sets: 3
+      :reps: 6
+      :rir: 1
+    front squat:
+      :sets: 3
+      :reps: 6
+      :rir: 1
+    upright row:
+      :sets: 3
+      :reps: 9
+      :rir: 1
+    db standing curl:
+      :sets: 2
+      :reps: 9
+      :rir: 1
+    calfs:
+      :sets: 2
+      :reps: 9
+      :rir: 1
+    bar shrug:
+      :sets: 2
+      :reps: 9
+      :rir: 1
+  2019-08-15:
+    low bar bent row:
+      :sets: 3
+      :reps: 6
+      :rir: 1
+    chin up:
+      :sets: 3
+      :reps: 10
+      :rir: 1
+    stiff-leg deadlift:
+      :sets: 3
+      :reps: 6
+      :rir: 1
+    db bent reverse fly:
+      :sets: 3
+      :reps: 9
+      :rir: 1
+    nosebreaker:
+      :sets: 2
+      :reps: 9
+      :rir: 1
+    reverse crunch:
+      :sets: 2
+      :reps: 20
+      :rir: 1
+    wrist curl:
+      :sets: 2
+      :reps: 12
+      :rir: 1
+  2019-08-17:
+    bench:
+      :sets: 3
+      :reps: 6
+      :rir: 1
+    db flyes:
+      :sets: 3
+      :reps: 6
+      :rir: 1
+    squat:
+      :sets: 3
+      :reps: 6
+      :rir: 1
+    upright row:
+      :sets: 3
+      :reps: 9
+      :rir: 1
+    bar standing curl:
+      :sets: 2
+      :reps: 9
+      :rir: 1
+    calfs:
+      :sets: 2
+      :reps: 9
+      :rir: 1
+    bar shrug:
+      :sets: 2
+      :reps: 9
+      :rir: 1
+  2019-08-19:
+    low bar bent row:
+      :sets: 3
+      :reps: 6
+      :rir: 1
+    chin up:
+      :sets: 3
+      :reps: 10
+      :rir: 1
+    goodmorning:
+      :sets: 3
+      :reps: 6
+      :rir: 1
+    db bent reverse fly:
+      :sets: 3
+      :reps: 9
+      :rir: 1
+    db overhead extension:
+      :sets: 2
+      :reps: 9
+      :rir: 1
+    crunch:
+      :sets: 2
+      :reps: 20
+      :rir: 1
+    wrist curl:
+      :sets: 2
+      :reps: 12
+      :rir: 1
+:history:
+  2019-07-12:
+    :front squat:
+      :sets:
+      - :weight: 175
+        :reps: 6
+        :rir: 2
+    :deadlift:
+      :sets:
+      - :weight: 280
+        :reps: 5
+        :rir: 1
+    :bench:
+      :sets:
+      - :weight: 180
+        :reps: 5
+        :rir: 2
+      - :weight: 180
+        :reps: 5
+        :rir: 1
+      - :weight: 180
+        :reps: 5
+        :rir: 1
+    :low bar bent row:
+      :sets:
+      - :weight: 155
+        :reps: 8
+        :rir: 2
+    :bar standing curl:
+      :sets:
+      - :weight: 85
+        :reps: 5
+        :rir: 1
+      - :weight: 85
+        :reps: 5
+        :rir: 1
+    :bar shrug:
+      :sets:
+      - :weight: 165
+        :reps: 8
+        :rir: 1
+      - :weight: 165
+        :reps: 7
+        :rir: 1
+  2019-07-14:
+    :squat:
+      :sets:
+      - :weight: 235
+        :reps: 5
+        :rir: 1
+    :upright row:
+      :sets:
+      - :weight: 95
+        :reps: 5
+        :rir: 2
+      - :weight: 95
+        :reps: 5
+        :rir: 1
+      - :weight: 90
+        :reps: 8
+        :rir: 1
+    :deadlift:
+      :sets:
+      - :weight: 290
+        :reps: 5
+        :rir: 1
+    :bench:
+      :sets:
+      - :weight: 185
+        :reps: 5
+        :rir: 2
+      - :weight: 185
+        :reps: 5
+        :rir: 2
+      - :weight: 185
+        :reps: 5
+        :rir: 2
+    :low bar bent row:
+      :sets:
+      - :weight: 160
+        :reps: 10
+        :rir: 3
+    :bar standing curl:
+      :sets:
+      - :weight: 90
+        :reps: 5
+        :rir: 0
+      - :weight: 90
+        :reps: 5
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 175
+        :reps: 8
+        :rir: 3
+      - :weight: 175
+        :reps: 10
+        :rir: 2
+  2019-07-17:
+    :bench:
+      :sets:
+      - :weight: 145
+        :reps: 15
+        :rir: 3
+      - :weight: 145
+        :reps: 13
+        :rir: 2
+      - :weight: 140
+        :reps: 11
+        :rir: 1
+    :front squat:
+      :sets:
+      - :weight: 140
+        :reps: 15
+        :rir: 3
+      - :weight: 135
+        :reps: 15
+        :rir: 3
+      - :weight: 135
+        :reps: 13
+        :rir: 4
+    :upright row:
+      :sets:
+      - :weight: 75
+        :reps: 13
+        :rir: 2
+      - :weight: 75
+        :reps: 11
+        :rir: 3
+    :bar standing curl:
+      :sets:
+      - :weight: 60
+        :reps: 13
+        :rir: 4
+    :db standing curl:
+      :sets:
+      - :weight: 25
+        :reps: 10
+        :rir: 2
+    :calfs:
+      :sets:
+      - :weight: 60
+        :reps: 20
+        :rir: 5
+      - :weight: 95
+        :reps: 18
+        :rir: 5
+    :bar shrug:
+      :sets:
+      - :weight: 145
+        :reps: 18
+        :rir: 4
+      - :weight: 145
+        :reps: 15
+        :rir: 4
+  2019-07-20:
+    :low bar bent row:
+      :sets:
+      - :weight: 140
+        :reps: 15
+        :rir: 4
+      - :weight: 140
+        :reps: 13
+        :rir: 4
+      - :weight: 135
+        :reps: 13
+        :rir: 3
+    :goodmorning:
+      :sets:
+      - :weight: 75
+        :reps: 14
+        :rir: 4
+      - :weight: 75
+        :reps: 15
+        :rir: 4
+      - :weight: 75
+        :reps: 12
+        :rir: 5
+    :db lat raises:
+      :sets:
+      - :weight: 19
+        :reps: 13
+        :rir: 3
+      - :weight: 10
+        :reps: 18
+        :rir: 3
+    :nosebreaker:
+      :sets:
+      - :weight: 45
+        :reps: 14
+        :rir: 4
+      - :weight: 45
+        :reps: 15
+        :rir: 3
+    :crunch:
+      :sets:
+      - :weight: 10
+        :reps: 20
+        :rir: 4
+      - :weight: 11
+        :reps: 18
+        :rir: 4
+    :wrist curl:
+      :sets:
+      - :weight: 19
+        :reps: 13
+        :rir: 3
+      - :weight: 19
+        :reps: 10
+        :rir: 3
+  2019-07-24:
+    :bench:
+      :sets:
+      - :weight: 140
+        :reps: 14
+        :rir: 4
+      - :weight: 140
+        :reps: 14
+        :rir: 3
+      - :weight: 140
+        :reps: 13
+        :rir: 3
+      - :weight: 140
+        :reps: 9
+        :rir: 2
+    :front squat:
+      :sets:
+      - :weight: 145
+        :reps: 12
+        :rir: 3
+      - :weight: 140
+        :reps: 14
+        :rir: 3
+      - :weight: 140
+        :reps: 12
+        :rir: 3
+      - :weight: 135
+        :reps: 11
+        :rir: 4
+    :upright row:
+      :sets:
+      - :weight: 65
+        :reps: 18
+        :rir: 4
+      - :weight: 65
+        :reps: 15
+        :rir: 3
+    :calfs:
+      :sets:
+      - :weight: 95
+        :reps: 18
+        :rir: 5
+      - :weight: 95
+        :reps: 19
+        :rir: 4
+    :bar standing curl:
+      :sets:
+      - :weight: 60
+        :reps: 15
+        :rir: 3
+      - :weight: 60
+        :reps: 10
+        :rir: 3
+    :bar shrug:
+      :sets:
+      - :weight: 150
+        :reps: 18
+        :rir: 3
+      - :weight: 150
+        :reps: 15
+        :rir: 3
+  2019-07-26:
+    :low bar bent row:
+      :sets:
+      - :weight: 145
+        :reps: 14
+        :rir: 3
+      - :weight: 145
+        :reps: 12
+        :rir: 3
+      - :weight: 135
+        :reps: 14
+        :rir: 3
+      - :weight: 135
+        :reps: 11
+        :rir: 3
+    :chin up:
+      :sets:
+      - :weight: 15
+        :reps: 3
+        :rir: 1
+      - :weight: 0
+        :reps: 3
+        :rir: 1
+      - :weight: 0
+        :reps: 3
+        :rir: 1
+    :goodmorning:
+      :sets:
+      - :weight: 75
+        :reps: 14
+        :rir: 4
+      - :weight: 75
+        :reps: 14
+        :rir: 4
+      - :weight: 75
+        :reps: 14
+        :rir: 3
+      - :weight: 75
+        :reps: 14
+        :rir: 3
+    :db lat raises:
+      :sets:
+      - :weight: 18
+        :reps: 13
+        :rir: 3
+      - :weight: 14
+        :reps: 18
+        :rir: 4
+    :db overhead extension:
+      :sets:
+      - :weight: 20
+        :reps: 18
+        :rir: 5
+      - :weight: 25
+        :reps: 18
+        :rir: 3
+    :crunch:
+      :sets:
+      - :weight: 25
+        :reps: 16
+        :rir: 5
+      - :weight: 20
+        :reps: 17
+        :rir: 4
+    :wrist curl:
+      :sets:
+      - :weight: 15
+        :reps: 20
+        :rir: 3
+      - :weight: 15
+        :reps: 16
+        :rir: 3
+  2019-07-28:
+    :front squat:
+      :sets:
+      - :weight: 140
+        :reps: 16
+        :rir: 3
+      - :weight: 140
+        :reps: 14
+        :rir: 3
+      - :weight: 140
+        :reps: 13
+        :rir: 3
+      - :weight: 135
+        :reps: 13
+        :rir: 3
+    :bench:
+      :sets:
+      - :weight: 145
+        :reps: 14
+        :rir: 3
+      - :weight: 140
+        :reps: 14
+        :rir: 2
+      - :weight: 140
+        :reps: 11
+        :rir: 2
+      - :weight: 135
+        :reps: 10
+        :rir: 2
+    :upright row:
+      :sets:
+      - :weight: 65
+        :reps: 18
+        :rir: 3
+      - :weight: 65
+        :reps: 17
+        :rir: 2
+    :calfs:
+      :sets:
+      - :weight: 0
+        :reps: 18
+        :rir: 5
+      - :weight: 25
+        :reps: 18
+        :rir: 4
+    :db standing curl:
+      :sets:
+      - :weight: 28
+        :reps: 13
+        :rir: 2
+      - :weight: 20
+        :reps: 15
+        :rir: 1
+    :bar shrug:
+      :sets:
+      - :weight: 150
+        :reps: 18
+        :rir: 5
+      - :weight: 150
+        :reps: 17
+        :rir: 4
+  2019-07-31:
+    :low bar bent row:
+      :sets:
+      - :weight: 150
+        :reps: 12
+        :rir: 3
+      - :weight: 150
+        :reps: 11
+        :rir: 3
+      - :weight: 150
+        :reps: 11
+        :rir: 3
+      - :weight: 145
+        :reps: 11
+        :rir: 3
+    :goodmorning:
+      :sets:
+      - :weight: 85
+        :reps: 12
+        :rir: 4
+      - :weight: 85
+        :reps: 11
+        :rir: 3
+      - :weight: 85
+        :reps: 12
+        :rir: 3
+      - :weight: 85
+        :reps: 11
+        :rir: 3
+    :upright row:
+      :sets:
+      - :weight: 65
+        :reps: 17
+        :rir: 3
+      - :weight: 65
+        :reps: 16
+        :rir: 2
+    :nosebreaker:
+      :sets:
+      - :weight: 45
+        :reps: 18
+        :rir: 3
+      - :weight: 45
+        :reps: 18
+        :rir: 3
+    :reverse crunch:
+      :sets:
+      - :weight: 0
+        :reps: 20
+        :rir: 5
+      - :weight: 0
+        :reps: 18
+        :rir: 5
+    :wrist curl:
+      :sets:
+      - :weight: 15
+        :reps: 19
+        :rir: 3
+      - :weight: 15
+        :reps: 15
+        :rir: 3
+  2019-08-02:
+    :db flyes:
+      :sets:
+      - :weight: 18
+        :reps: 11
+        :rir: 5
+      - :weight: 20
+        :reps: 11
+        :rir: 3
+      - :weight: 20
+        :reps: 11
+        :rir: 2
+    :front squat:
+      :sets:
+      - :weight: 145
+        :reps: 11
+        :rir: 4
+      - :weight: 145
+        :reps: 11
+        :rir: 3
+      - :weight: 145
+        :reps: 11
+        :rir: 3
+      - :weight: 145
+        :reps: 11
+        :rir: 2
+    :bench:
+      :sets:
+      - :weight: 135
+        :reps: 11
+        :rir: 3
+      - :weight: 135
+        :reps: 11
+        :rir: 3
+      - :weight: 135
+        :reps: 11
+        :rir: 2
+    :db bent reverse fly:
+      :sets:
+      - :weight: 8
+        :reps: 18
+        :rir: 3
+      - :weight: 9
+        :reps: 15
+        :rir: 3
+    :bar standing curl:
+      :sets:
+      - :weight: 45
+        :reps: 15
+        :rir: 3
+      - :weight: 45
+        :reps: 15
+        :rir: 2
+    :calfs:
+      :sets:
+      - :weight: 25
+        :reps: 16
+        :rir: 4
+    :bar shrug:
+      :sets:
+      - :weight: 165
+        :reps: 15
+        :rir: 4
+      - :weight: 165
+        :reps: 15
+        :rir: 2
+  2019-08-04:
+    :low bar bent row:
+      :sets:
+      - :weight: 150
+        :reps: 12
+        :rir: 3
+      - :weight: 150
+        :reps: 12
+        :rir: 3
+      - :weight: 150
+        :reps: 11
+        :rir: 3
+      - :weight: 150
+        :reps: 11
+        :rir: 2
+    :stiff-leg deadlift:
+      :sets:
+      - :weight: 135
+        :reps: 11
+        :rir: 3
+      - :weight: 135
+        :reps: 11
+        :rir: 3
+      - :weight: 135
+        :reps: 11
+        :rir: 2
+      - :weight: 135
+        :reps: 8
+        :rir: 3
+    :upright row:
+      :sets:
+      - :weight: 65
+        :reps: 15
+        :rir: 4
+      - :weight: 65
+        :reps: 15
+        :rir: 3
+      - :weight: 65
+        :reps: 15
+        :rir: 2
+    :db overhead extension:
+      :sets:
+      - :weight: 25
+        :reps: 16
+        :rir: 3
+      - :weight: 25
+        :reps: 15
+        :rir: 3
+    :crunch:
+      :sets:
+      - :weight: 15
+        :reps: 20
+        :rir: 3
+      - :weight: 15
+        :reps: 20
+        :rir: 3
+    :wrist curl:
+      :sets:
+      - :weight: 15
+        :reps: 20
+        :rir: 3
+      - :weight: 15
+        :reps: 10
+        :rir: 1
+  2019-08-07:
+    :bench:
+      :sets:
+      - :weight: 155
+        :reps: 8
+        :rir: 2
+      - :weight: 155
+        :reps: 8
+        :rir: 2
+      - :weight: 155
+        :reps: 8
+        :rir: 1
+    :db flyes:
+      :sets:
+      - :weight: 28
+        :reps: 8
+        :rir: 0
+      - :weight: 28
+        :reps: 6
+        :rir: 1
+    :front squat:
+      :sets:
+      - :weight: 165
+        :reps: 8
+        :rir: 2
+      - :weight: 165
+        :reps: 8
+        :rir: 2
+      - :weight: 165
+        :reps: 8
+        :rir: 1
+    :upright row:
+      :sets:
+      - :weight: 75
+        :reps: 15
+        :rir: 2
+      - :weight: 75
+        :reps: 12
+        :rir: 1
+      - :weight: 75
+        :reps: 12
+        :rir: 1
+    :calfs:
+      :sets:
+      - :weight: 75
+        :reps: 12
+        :rir: 4
+      - :weight: 95
+        :reps: 12
+        :rir: 4
+    :db standing curl:
+      :sets:
+      - :weight: 28
+        :reps: 12
+        :rir: 0
+      - :weight: 25
+        :reps: 11
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 185
+        :reps: 12
+        :rir: 2
+      - :weight: 185
+        :reps: 9
+        :rir: 1
+  2019-08-08:
+    :low bar bent row:
+      :sets:
+      - :weight: 170
+        :reps: 8
+        :rir: 2
+      - :weight: 170
+        :reps: 8
+        :rir: 1
+      - :weight: 165
+        :reps: 8
+        :rir: 2
+    :chin up:
+      :sets:
+      - :weight: 0
+        :reps: 10
+        :rir: 2
+      - :weight: 0
+        :reps: 8
+        :rir: 1
+    :stiff-leg deadlift:
+      :sets:
+      - :weight: 135
+        :reps: 10
+        :rir: 2
+      - :weight: 135
+        :reps: 9
+        :rir: 3
+      - :weight: 135
+        :reps: 8
+        :rir: 3
+    :db bent reverse fly:
+      :sets:
+      - :weight: 13
+        :reps: 10
+        :rir: 1
+      - :weight: 13
+        :reps: 8
+        :rir: 2
+    :nosebreaker:
+      :sets:
+      - :weight: 45
+        :reps: 20
+        :rir: 2
+      - :weight: 55
+        :reps: 12
+        :rir: 1
+    :reverse crunch:
+      :sets:
+      - :weight: 0
+        :reps: 17
+        :rir: 3
+      - :weight: 0
+        :reps: 15
+        :rir: 2
+    :wrist curl:
+      :sets:
+      - :weight: 16
+        :reps: 18
+        :rir: 2
+      - :weight: 15
+        :reps: 11
+        :rir: 2
+    :neck curl:
+      :sets:
+      - :weight: 10
+        :reps: 12
+        :rir: 2
+    :neck extension:
+      :sets:
+      - :weight: 10
+        :reps: 12
+        :rir: 5
+  2019-08-10:
+    :db flyes:
+      :sets:
+      - :weight: 28
+        :reps: 8
+        :rir: 3
+      - :weight: 28
+        :reps: 8
+        :rir: 2
+      - :weight: 28
+        :reps: 8
+        :rir: 1
+    :leg-up bench:
+      :sets:
+      - :weight: 135
+        :reps: 9
+        :rir: 3
+      - :weight: 135
+        :reps: 9
+        :rir: 2
+    :squat:
+      :sets:
+      - :weight: 205
+        :reps: 8
+        :rir: 3
+      - :weight: 205
+        :reps: 8
+        :rir: 2
+    :upright row:
+      :sets:
+      - :weight: 80
+        :reps: 12
+        :rir: 3
+      - :weight: 80
+        :reps: 12
+        :rir: 2
+      - :weight: 80
+        :reps: 12
+        :rir: 1
+    :calfs:
+      :sets:
+      - :weight: 0
+        :reps: 25
+        :rir: 4
+    :bar standing curl:
+      :sets:
+      - :weight: 60
+        :reps: 12
+        :rir: 2
+      - :weight: 60
+        :reps: 12
+        :rir: 1
+    :bar shrug:
+      :sets:
+      - :weight: 185
+        :reps: 12
+        :rir: 2
+      - :weight: 185
+        :reps: 12
+        :rir: 2
+  2019-08-11:
+    :chin up:
+      :sets:
+      - :weight: 0
+        :reps: 10
+        :rir: 2
+      - :weight: 0
+        :reps: 10
+        :rir: 1
+      - :weight: 0
+        :reps: 8
+        :rir: 2
+    :low bar bent row:
+      :sets:
+      - :weight: 165
+        :reps: 8
+        :rir: 1
+      - :weight: 155
+        :reps: 8
+        :rir: 2
+    :goodmorning:
+      :sets:
+      - :weight: 95
+        :reps: 8
+        :rir: 3
+      - :weight: 95
+        :reps: 8
+        :rir: 3
+      - :weight: 95
+        :reps: 8
+        :rir: 3
+    :db bent reverse fly:
+      :sets:
+      - :weight: 9
+        :reps: 16
+        :rir: 3
+      - :weight: 11
+        :reps: 12
+        :rir: 3
+    :db tricep kickback:
+      :sets:
+      - :weight: 15
+        :reps: 15
+        :rir: 2
+      - :weight: 15
+        :reps: 14
+        :rir: 2
+    :crunch:
+      :sets:
+      - :weight: 20
+        :reps: 17
+        :rir: 5
+      - :weight: 25
+        :reps: 17
+        :rir: 5
+    :wrist curl:
+      :sets:
+      - :weight: 15
+        :reps: 21
+        :rir: 2
+      - :weight: 17
+        :reps: 10
+        :rir: 1
+      - :weight: 17
+        :reps: 20
+        :rir: 2
+    :neck curl:
+      :sets:
+      - :weight: 10
+        :reps: 12
+        :rir: 2
+    :neck extension:
+      :sets:
+      - :weight: 15
+        :reps: 12
+        :rir: 5
+      - :weight: 20
+        :reps: 12
+        :rir: 4
+  2019-08-14:
+    :front squat:
+      :sets:
+      - :weight: 175
+        :reps: 8
+        :rir: 1
+      - :weight: 185
+        :reps: 6
+        :rir: 1
+      - :weight: 180
+        :reps: 6
+        :rir: 1
+    :bench:
+      :sets:
+      - :weight: 165
+        :reps: 8
+        :rir: 1
+      - :weight: 165
+        :reps: 7
+        :rir: 1
+      - :weight: 165
+        :reps: 6
+        :rir: 1
+    :db flyes:
+      :sets:
+      - :weight: 29
+        :reps: 6
+        :rir: 1
+      - :weight: 29
+        :reps: 6
+        :rir: 1
+      - :weight: 29
+        :reps: 6
+        :rir: 1
+    :upright row:
+      :sets:
+      - :weight: 85
+        :reps: 14
+        :rir: 1
+      - :weight: 90
+        :reps: 11
+        :rir: 1
+      - :weight: 90
+        :reps: 10
+        :rir: 0
+    :calfs:
+      :sets:
+      - :weight: 0
+        :reps: 20
+        :rir: 5
+      - :weight: 0
+        :reps: 20
+        :rir: 5
+    :db standing curl:
+      :sets:
+      - :weight: 29
+        :reps: 11
+        :rir: 1
+      - :weight: 29
+        :reps: 10
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 185
+        :reps: 10
+        :rir: 1
+      - :weight: 185
+        :reps: 9
+        :rir: 1
+      - :weight: 185
+        :reps: 9
+        :rir: 1
+  2019-08-15:
+    :low bar bent row:
+      :sets:
+      - :weight: 185
+        :reps: 6
+        :rir: 1
+      - :weight: 185
+        :reps: 6
+        :rir: 1
+      - :weight: 185
+        :reps: 6
+        :rir: 0
+    :chin up:
+      :sets:
+      - :weight: 0
+        :reps: 10
+        :rir: 2
+      - :weight: 0
+        :reps: 10
+        :rir: 1
+      - :weight: 0
+        :reps: 7
+        :rir: 1
+    :stiff-leg deadlift:
+      :sets:
+      - :weight: 155
+        :reps: 8
+        :rir: 2
+      - :weight: 160
+        :reps: 7
+        :rir: 1
+      - :weight: 160
+        :reps: 8
+        :rir: 1
+    :db bent reverse fly:
+      :sets:
+      - :weight: 13
+        :reps: 9
+        :rir: 1
+      - :weight: 13
+        :reps: 9
+        :rir: 1
+      - :weight: 13
+        :reps: 10
+        :rir: 1
+    :db tricep kickback:
+      :sets:
+      - :weight: 20
+        :reps: 12
+        :rir: 1
+      - :weight: 20
+        :reps: 12
+        :rir: 1
+    :reverse crunch:
+      :sets:
+      - :weight: 0
+        :reps: 16
+        :rir: 6
+      - :weight: 0
+        :reps: 16
+        :rir: 3
+    :wrist curl:
+      :sets:
+      - :weight: 20
+        :reps: 18
+        :rir: 1
+      - :weight: 20
+        :reps: 6
+        :rir: 1
+  2019-08-17:
+    :bench:
+      :sets:
+      - :weight: 185
+        :reps: 6
+        :rir: 1
+      - :weight: 185
+        :reps: 6
+        :rir: 1
+      - :weight: 185
+        :reps: 6
+        :rir: 0
+    :db flyes:
+      :sets:
+      - :weight: 29
+        :reps: 6
+        :rir: 1
+      - :weight: 29
+        :reps: 6
+        :rir: 1
+      - :weight: 29
+        :reps: 6
+        :rir: 0
+    :db lat raises:
+      :sets:
+      - :weight: 15
+        :reps: 20
+        :rir: 0
+      - :weight: 20
+        :reps: 11
+        :rir: 0
+      - :weight: 20
+        :reps: 10
+        :rir: 0
+    :calfs:
+      :sets:
+      - :weight: 0
+        :reps: 20
+        :rir: 5
+      - :weight: 0
+        :reps: 20
+        :rir: 5
+    :bar standing curl:
+      :sets:
+      - :weight: 65
+        :reps: 12
+        :rir: 1
+      - :weight: 70
+        :reps: 10
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 190
+        :reps: 9
+        :rir: 2
+      - :weight: 190
+        :reps: 11
+        :rir: 0
+  2019-08-19:
+    :low bar bent row:
+      :sets:
+      - :weight: 185
+        :reps: 8
+        :rir: 1
+      - :weight: 185
+        :reps: 7
+        :rir: 1
+      - :weight: 185
+        :reps: 7
+        :rir: 1
+    :chin up:
+      :sets:
+      - :weight: 0
+        :reps: 10
+        :rir: 2
+      - :weight: 0
+        :reps: 10
+        :rir: 1
+      - :weight: 0
+        :reps: 10
+        :rir: 0
+    :goodmorning:
+      :sets:
+      - :weight: 105
+        :reps: 6
+        :rir: 3
+      - :weight: 105
+        :reps: 7
+        :rir: 3
+      - :weight: 105
+        :reps: 8
+        :rir: 2
+    :db bent reverse fly:
+      :sets:
+      - :weight: 15
+        :reps: 11
+        :rir: 2
+      - :weight: 15
+        :reps: 10
+        :rir: 2
+      - :weight: 15
+        :reps: 20
+        :rir: 0
+    :crunch:
+      :sets:
+      - :weight: 25
+        :reps: 20
+        :rir: 0
+      - :weight: 25
+        :reps: 15
+        :rir: 2
+    :db tricep kickback:
+      :sets:
+      - :weight: 25
+        :reps: 10
+        :rir: 1
+      - :weight: 25
+        :reps: 9
+        :rir: 1
+    :wrist curl:
+      :sets:
+      - :weight: 20
+        :reps: 18
+        :rir: 1
+      - :weight: 15
+        :reps: 9
+        :rir: 1
+    :neck curl:
+      :sets:
+      - :weight: 10
+        :reps: 12
+        :rir: 2
+    :neck extension:
+      :sets:
+      - :weight: 20
+        :reps: 18
+        :rir: 2
+  2019-09-01:
+    :bench:
+      :sets:
+      - :weight: 135
+        :reps: 15
+        :rir: 4
+      - :weight: 135
+        :reps: 15
+        :rir: 3
+      - :weight: 135
+        :reps: 15
+        :rir: 1
+    :goodmorning:
+      :sets:
+      - :weight: 75
+        :reps: 15
+        :rir: 4
+      - :weight: 75
+        :reps: 15
+        :rir: 3
+      - :weight: 75
+        :reps: 15
+        :rir: 3
+    :db bent reverse fly:
+      :sets:
+      - :weight: 15
+        :reps: 15
+        :rir: 2
+      - :weight: 15
+        :reps: 15
+        :rir: 2
+    :neck extension:
+      :sets:
+      - :weight: 20
+        :reps: 16
+        :rir: 4
+      - :weight: 20
+        :reps: 16
+        :rir: 4
+    :neck curl:
+      :sets:
+      - :weight: 10
+        :reps: 16
+        :rir: 2
+      - :weight: 10
+        :reps: 15
+        :rir: 1
+    :db standing curl:
+      :sets:
+      - :weight: 25
+        :reps: 15
+        :rir: 2
+      - :weight: 25
+        :reps: 15
+        :rir: 1
+    :wrist curl:
+      :sets:
+      - :weight: 20
+        :reps: 16
+        :rir: 3
+      - :weight: 15
+        :reps: 13
+        :rir: 2
+  2019-09-02:
+    :low bar bent row:
+      :sets:
+      - :weight: 135
+        :reps: 15
+        :rir: 3
+      - :weight: 135
+        :reps: 15
+        :rir: 2
+      - :weight: 135
+        :reps: 15
+        :rir: 1
+    :front squat:
+      :sets:
+      - :weight: 135
+        :reps: 15
+        :rir: 2
+      - :weight: 135
+        :reps: 15
+        :rir: 1
+    :db lat raises:
+      :sets:
+      - :weight: 16
+        :reps: 15
+        :rir: 2
+      - :weight: 16
+        :reps: 15
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 165
+        :reps: 15
+        :rir: 3
+      - :weight: 165
+        :reps: 15
+        :rir: 0
+    :db tricep kickback:
+      :sets:
+      - :weight: 15
+        :reps: 15
+        :rir: 2
+      - :weight: 15
+        :reps: 15
+        :rir: 1
+    :calfs:
+      :sets:
+      - :weight: 95
+        :reps: 15
+        :rir: 4
+  2019-09-04:
+    :db flyes:
+      :sets:
+      - :weight: 15
+        :reps: 15
+        :rir: 5
+      - :weight: 15
+        :reps: 15
+        :rir: 4
+      - :weight: 15
+        :reps: 15
+        :rir: 4
+    :goodmorning:
+      :sets:
+      - :weight: 80
+        :reps: 15
+        :rir: 5
+      - :weight: 80
+        :reps: 15
+        :rir: 4
+      - :weight: 80
+        :reps: 15
+        :rir: 4
+    :db bent reverse fly:
+      :sets:
+      - :weight: 15
+        :reps: 17
+        :rir: 2
+      - :weight: 15
+        :reps: 17
+        :rir: 0
+    :neck curl:
+      :sets:
+      - :weight: 10
+        :reps: 16
+        :rir: 1
+      - :weight: 10
+        :reps: 14
+        :rir: 1
+    :neck extension:
+      :sets:
+      - :weight: 20
+        :reps: 18
+        :rir: 4
+      - :weight: 20
+        :reps: 17
+        :rir: 4
+    :db standing curl:
+      :sets:
+      - :weight: 25
+        :reps: 16
+        :rir: 1
+      - :weight: 25
+        :reps: 16
+        :rir: 0
+    :wrist curl:
+      :sets:
+      - :weight: 20
+        :reps: 17
+        :rir: 3
+      - :weight: 15
+        :reps: 14
+        :rir: 0
+  2019-09-06:
+    :chin up:
+      :sets:
+      - :weight: 0
+        :reps: 11
+        :rir: 1
+      - :weight: 0
+        :reps: 10
+        :rir: 1
+      - :weight: 0
+        :reps: 10
+        :rir: 1
+    :front squat:
+      :sets:
+      - :weight: 140
+        :reps: 15
+        :rir: 2
+      - :weight: 140
+        :reps: 15
+        :rir: 1
+      - :weight: 140
+        :reps: 15
+        :rir: 0
+    :db lat raises:
+      :sets:
+      - :weight: 16
+        :reps: 16
+        :rir: 1
+      - :weight: 16
+        :reps: 15
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 170
+        :reps: 15
+        :rir: 2
+      - :weight: 170
+        :reps: 15
+        :rir: 0
+    :db tricep kickback:
+      :sets:
+      - :weight: 15
+        :reps: 16
+        :rir: 2
+      - :weight: 15
+        :reps: 16
+        :rir: 1
+  2019-09-08:
+    :bench:
+      :sets:
+      - :weight: 145
+        :reps: 15
+        :rir: 1
+      - :weight: 145
+        :reps: 15
+        :rir: 0
+      - :weight: 145
+        :reps: 12
+        :rir: 1
+    :goodmorning:
+      :sets:
+      - :weight: 85
+        :reps: 15
+        :rir: 3
+      - :weight: 85
+        :reps: 15
+        :rir: 3
+      - :weight: 85
+        :reps: 15
+        :rir: 3
+    :db bent reverse fly:
+      :sets:
+      - :weight: 15
+        :reps: 18
+        :rir: 1
+      - :weight: 15
+        :reps: 18
+        :rir: 1
+    :neck curl:
+      :sets:
+      - :weight: 10
+        :reps: 15
+        :rir: 2
+      - :weight: 10
+        :reps: 18
+        :rir: 0
+    :neck extension:
+      :sets:
+      - :weight: 20
+        :reps: 18
+        :rir: 3
+      - :weight: 20
+        :reps: 18
+        :rir: 3
+    :db standing curl:
+      :sets:
+      - :weight: 25
+        :reps: 17
+        :rir: 2
+      - :weight: 25
+        :reps: 17
+        :rir: 1
+    :wrist curl:
+      :sets:
+      - :weight: 20
+        :reps: 18
+        :rir: 2
+      - :weight: 15
+        :reps: 15
+        :rir: 0
+  2019-09-09:
+    :low bar bent row:
+      :sets:
+      - :weight: 145
+        :reps: 15
+        :rir: 2
+      - :weight: 145
+        :reps: 15
+        :rir: 1
+      - :weight: 145
+        :reps: 15
+        :rir: 1
+    :front squat:
+      :sets:
+      - :weight: 145
+        :reps: 15
+        :rir: 2
+      - :weight: 145
+        :reps: 15
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 16
+        :reps: 17
+        :rir: 2
+      - :weight: 16
+        :reps: 17
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 175
+        :reps: 15
+        :rir: 2
+      - :weight: 175
+        :reps: 15
+        :rir: 1
+    :db tricep kickback:
+      :sets:
+      - :weight: 15
+        :reps: 18
+        :rir: 2
+      - :weight: 15
+        :reps: 17
+        :rir: 1
+    :calfs:
+      :sets:
+      - :weight: 100
+        :reps: 15
+        :rir: 5
+      - :weight: 100
+        :reps: 15
+        :rir: 5
+  2019-09-12:
+    :db flyes:
+      :sets:
+      - :weight: 20
+        :reps: 15
+        :rir: 3
+      - :weight: 20
+        :reps: 15
+        :rir: 3
+      - :weight: 20
+        :reps: 21
+        :rir: 1
+    :goodmorning:
+      :sets:
+      - :weight: 95
+        :reps: 15
+        :rir: 3
+      - :weight: 95
+        :reps: 15
+        :rir: 2
+      - :weight: 95
+        :reps: 15
+        :rir: 3
+    :db bent reverse fly:
+      :sets:
+      - :weight: 15
+        :reps: 19
+        :rir: 2
+      - :weight: 15
+        :reps: 19
+        :rir: 0
+    :neck curl:
+      :sets:
+      - :weight: 10
+        :reps: 19
+        :rir: 1
+      - :weight: 10
+        :reps: 19
+        :rir: 0
+    :neck extension:
+      :sets:
+      - :weight: 20
+        :reps: 20
+        :rir: 3
+      - :weight: 20
+        :reps: 20
+        :rir: 3
+    :db standing curl:
+      :sets:
+      - :weight: 25
+        :reps: 18
+        :rir: 1
+      - :weight: 25
+        :reps: 18
+        :rir: 0
+    :wrist curl:
+      :sets:
+      - :weight: 20
+        :reps: 19
+        :rir: 1
+      - :weight: 15
+        :reps: 15
+        :rir: 1
+  2019-09-13:
+    :chin up:
+      :sets:
+      - :weight: 5
+        :reps: 11
+        :rir: 2
+      - :weight: 5
+        :reps: 10
+        :rir: 1
+      - :weight: 5
+        :reps: 10
+        :rir: 0
+    :front squat:
+      :sets:
+      - :weight: 150
+        :reps: 15
+        :rir: 2
+      - :weight: 150
+        :reps: 15
+        :rir: 1
+    :db lat raises:
+      :sets:
+      - :weight: 16
+        :reps: 18
+        :rir: 0
+      - :weight: 16
+        :reps: 16
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 180
+        :reps: 15
+        :rir: 0
+      - :weight: 180
+        :reps: 15
+        :rir: 0
+    :db tricep kickback:
+      :sets:
+      - :weight: 15
+        :reps: 18
+        :rir: 2
+      - :weight: 15
+        :reps: 18
+        :rir: 0
+    :calfs:
+      :sets:
+      - :weight: 105
+        :reps: 15
+        :rir: 4
+      - :weight: 105
+        :reps: 15
+        :rir: 4
+  2019-09-15:
+    :bench:
+      :sets:
+      - :weight: 155
+        :reps: 10
+        :rir: 3
+      - :weight: 155
+        :reps: 10
+        :rir: 3
+      - :weight: 155
+        :reps: 10
+        :rir: 2
+    :goodmorning:
+      :sets:
+      - :weight: 100
+        :reps: 10
+        :rir: 3
+      - :weight: 100
+        :reps: 10
+        :rir: 3
+      - :weight: 100
+        :reps: 10
+        :rir: 3
+    :db bent reverse fly:
+      :sets:
+      - :weight: 15
+        :reps: 10
+        :rir: 3
+      - :weight: 15
+        :reps: 10
+        :rir: 2
+    :neck extension:
+      :sets:
+      - :weight: 25
+        :reps: 10
+        :rir: 5
+      - :weight: 25
+        :reps: 10
+        :rir: 4
+    :neck curl:
+      :sets:
+      - :weight: 12
+        :reps: 10
+        :rir: 2
+      - :weight: 12
+        :reps: 10
+        :rir: 1
+    :db standing curl:
+      :sets:
+      - :weight: 29
+        :reps: 10
+        :rir: 2
+      - :weight: 29
+        :reps: 10
+        :rir: 1
+    :wrist curl:
+      :sets:
+      - :weight: 25
+        :reps: 10
+        :rir: 3
+      - :weight: 16
+        :reps: 10
+        :rir: 1
+      - :weight: 25
+        :reps: 10
+        :rir: 3
+  2019-09-16:
+    :low bar bent row:
+      :sets:
+      - :weight: 165
+        :reps: 10
+        :rir: 2
+      - :weight: 165
+        :reps: 10
+        :rir: 1
+      - :weight: 165
+        :reps: 10
+        :rir: 1
+    :front squat:
+      :sets:
+      - :weight: 150
+        :reps: 10
+        :rir: 3
+      - :weight: 150
+        :reps: 10
+        :rir: 3
+      - :weight: 150
+        :reps: 10
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 20
+        :reps: 10
+        :rir: 2
+      - :weight: 20
+        :reps: 10
+        :rir: 1
+    :bar shrug:
+      :sets:
+      - :weight: 175
+        :reps: 10
+        :rir: 4
+      - :weight: 175
+        :reps: 10
+        :rir: 4
+    :db tricep kickback:
+      :sets:
+      - :weight: 20
+        :reps: 10
+        :rir: 3
+      - :weight: 20
+        :reps: 10
+        :rir: 2
+    :calfs:
+      :sets:
+      - :weight: 110
+        :reps: 10
+        :rir: 6
+      - :weight: 110
+        :reps: 10
+        :rir: 6
+  2019-09-18:
+    :bench:
+      :sets:
+      - :weight: 160
+        :reps: 10
+        :rir: 3
+      - :weight: 160
+        :reps: 10
+        :rir: 2
+      - :weight: 160
+        :reps: 10
+        :rir: 2
+    :goodmorning:
+      :sets:
+      - :weight: 105
+        :reps: 10
+        :rir: 3
+      - :weight: 105
+        :reps: 10
+        :rir: 3
+      - :weight: 105
+        :reps: 10
+        :rir: 3
+    :db bent reverse fly:
+      :sets:
+      - :weight: 15
+        :reps: 11
+        :rir: 3
+      - :weight: 15
+        :reps: 12
+        :rir: 2
+    :neck extension:
+      :sets:
+      - :weight: 25
+        :reps: 11
+        :rir: 4
+      - :weight: 25
+        :reps: 11
+        :rir: 4
+    :neck curl:
+      :sets:
+      - :weight: 12
+        :reps: 11
+        :rir: 2
+      - :weight: 12
+        :reps: 11
+        :rir: 1
+    :db standing curl:
+      :sets:
+      - :weight: 29
+        :reps: 11
+        :rir: 2
+      - :weight: 29
+        :reps: 11
+        :rir: 1
+    :wrist curl:
+      :sets:
+      - :weight: 25
+        :reps: 11
+        :rir: 2
+      - :weight: 16
+        :reps: 11
+        :rir: 1
+      - :weight: 25
+        :reps: 13
+        :rir: 1
+  2019-09-19:
+    :chin up:
+      :sets:
+      - :weight: 5
+        :reps: 10
+        :rir: 3
+      - :weight: 5
+        :reps: 10
+        :rir: 3
+      - :weight: 5
+        :reps: 10
+        :rir: 2
+    :front squat:
+      :sets:
+      - :weight: 155
+        :reps: 10
+        :rir: 3
+      - :weight: 155
+        :reps: 10
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 20
+        :reps: 10
+        :rir: 2
+      - :weight: 20
+        :reps: 10
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 180
+        :reps: 10
+        :rir: 3
+      - :weight: 180
+        :reps: 10
+        :rir: 2
+    :db tricep kickback:
+      :sets:
+      - :weight: 20
+        :reps: 11
+        :rir: 2
+      - :weight: 20
+        :reps: 11
+        :rir: 2
+    :calfs:
+      :sets:
+      - :weight: 115
+        :reps: 10
+        :rir: 4
+  2019-09-22:
+    :bench:
+      :sets:
+      - :weight: 165
+        :reps: 10
+        :rir: 2
+      - :weight: 165
+        :reps: 10
+        :rir: 2
+      - :weight: 165
+        :reps: 10
+        :rir: 1
+    :goodmorning:
+      :sets:
+      - :weight: 110
+        :reps: 10
+        :rir: 4
+      - :weight: 110
+        :reps: 10
+        :rir: 3
+      - :weight: 110
+        :reps: 10
+        :rir: 3
+    :db bent reverse fly:
+      :sets:
+      - :weight: 15
+        :reps: 12
+        :rir: 3
+      - :weight: 15
+        :reps: 12
+        :rir: 2
+    :neck extension:
+      :sets:
+      - :weight: 25
+        :reps: 12
+        :rir: 4
+      - :weight: 25
+        :reps: 12
+        :rir: 4
+    :neck curl:
+      :sets:
+      - :weight: 12
+        :reps: 12
+        :rir: 2
+      - :weight: 12
+        :reps: 12
+        :rir: 1
+    :db standing curl:
+      :sets:
+      - :weight: 29
+        :reps: 12
+        :rir: 1
+      - :weight: 29
+        :reps: 12
+        :rir: 0
+    :wrist curl:
+      :sets:
+      - :weight: 25
+        :reps: 12
+        :rir: 2
+      - :weight: 25
+        :reps: 12
+        :rir: 2
+      - :weight: 16
+        :reps: 12
+        :rir: 0
+  2019-09-23:
+    :low bar bent row:
+      :sets:
+      - :weight: 175
+        :reps: 10
+        :rir: 2
+      - :weight: 175
+        :reps: 10
+        :rir: 1
+      - :weight: 175
+        :reps: 10
+        :rir: 1
+    :front squat:
+      :sets:
+      - :weight: 160
+        :reps: 10
+        :rir: 3
+      - :weight: 160
+        :reps: 10
+        :rir: 2
+      - :weight: 160
+        :reps: 10
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 20
+        :reps: 12
+        :rir: 2
+      - :weight: 20
+        :reps: 12
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 185
+        :reps: 10
+        :rir: 3
+      - :weight: 185
+        :reps: 10
+        :rir: 2
+    :db tricep kickback:
+      :sets:
+      - :weight: 20
+        :reps: 12
+        :rir: 1
+      - :weight: 20
+        :reps: 12
+        :rir: 1
+    :calfs:
+      :sets:
+      - :weight: 120
+        :reps: 10
+        :rir: 5
+      - :weight: 120
+        :reps: 10
+        :rir: 5
+  2019-09-25:
+    :goodmorning:
+      :sets:
+      - :weight: 115
+        :reps: 10
+        :rir: 4
+      - :weight: 120
+        :reps: 10
+        :rir: 3
+      - :weight: 120
+        :reps: 10
+        :rir: 3
+    :bench:
+      :sets:
+      - :weight: 170
+        :reps: 10
+        :rir: 3
+      - :weight: 170
+        :reps: 10
+        :rir: 2
+      - :weight: 170
+        :reps: 10
+        :rir: 1
+    :db bent reverse fly:
+      :sets:
+      - :weight: 15
+        :reps: 14
+        :rir: 1
+      - :weight: 15
+        :reps: 14
+        :rir: 1
+    :neck extension:
+      :sets:
+      - :weight: 25
+        :reps: 13
+        :rir: 4
+      - :weight: 25
+        :reps: 13
+        :rir: 4
+    :neck curl:
+      :sets:
+      - :weight: 12
+        :reps: 14
+        :rir: 2
+      - :weight: 12
+        :reps: 13
+        :rir: 2
+    :db standing curl:
+      :sets:
+      - :weight: 29
+        :reps: 13
+        :rir: 0
+      - :weight: 29
+        :reps: 13
+        :rir: 0
+    :wrist curl:
+      :sets:
+      - :weight: 25
+        :reps: 13
+        :rir: 2
+      - :weight: 25
+        :reps: 13
+        :rir: 2
+      - :weight: 16
+        :reps: 13
+        :rir: 0
+  2019-09-29:
+    :bench:
+      :sets:
+      - :weight: 175
+        :reps: 5
+        :rir: 4
+      - :weight: 175
+        :reps: 5
+        :rir: 3
+      - :weight: 175
+        :reps: 5
+        :rir: 3
+    :goodmorning:
+      :sets:
+      - :weight: 125
+        :reps: 5
+        :rir: 5
+      - :weight: 125
+        :reps: 5
+        :rir: 4
+      - :weight: 125
+        :reps: 5
+        :rir: 4
+    :db bent reverse fly:
+      :sets:
+      - :weight: 20
+        :reps: 8
+        :rir: 2
+      - :weight: 20
+        :reps: 8
+        :rir: 2
+    :neck extension:
+      :sets:
+      - :weight: 30
+        :reps: 8
+        :rir: 4
+      - :weight: 30
+        :reps: 8
+        :rir: 3
+    :neck curl:
+      :sets:
+      - :weight: 15
+        :reps: 8
+        :rir: 2
+      - :weight: 15
+        :reps: 8
+        :rir: 1
+    :db standing curl:
+      :sets:
+      - :weight: 35
+        :reps: 8
+        :rir: 2
+      - :weight: 35
+        :reps: 8
+        :rir: 0
+    :wrist curl:
+      :sets:
+      - :weight: 30
+        :reps: 8
+        :rir: 1
+      - :weight: 20
+        :reps: 8
+        :rir: 2
+  2019-10-01:
+    :low bar bent row:
+      :sets:
+      - :weight: 175
+        :reps: 5
+        :rir: 3
+      - :weight: 175
+        :reps: 5
+        :rir: 3
+      - :weight: 175
+        :reps: 5
+        :rir: 2
+    :front squat:
+      :sets:
+      - :weight: 165
+        :reps: 5
+        :rir: 4
+      - :weight: 165
+        :reps: 5
+        :rir: 3
+      - :weight: 165
+        :reps: 5
+        :rir: 3
+    :db lat raises:
+      :sets:
+      - :weight: 25
+        :reps: 6
+        :rir: 1
+      - :weight: 25
+        :reps: 6
+        :rir: 0
+      - :weight: 25
+        :reps: 6
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 185
+        :reps: 5
+        :rir: 5
+      - :weight: 185
+        :reps: 5
+        :rir: 5
+    :db tricep kickback:
+      :sets:
+      - :weight: 25
+        :reps: 8
+        :rir: 1
+      - :weight: 25
+        :reps: 8
+        :rir: 1
+    :calfs:
+      :sets:
+      - :weight: 135
+        :reps: 5
+        :rir: 5
+      - :weight: 135
+        :reps: 5
+        :rir: 5
+  2019-10-02:
+    :bench:
+      :sets:
+      - :weight: 185
+        :reps: 5
+        :rir: 2
+      - :weight: 185
+        :reps: 5
+        :rir: 2
+      - :weight: 185
+        :reps: 5
+        :rir: 2
+    :goodmorning:
+      :sets:
+      - :weight: 130
+        :reps: 5
+        :rir: 3
+      - :weight: 130
+        :reps: 5
+        :rir: 2
+    :db bent reverse fly:
+      :sets:
+      - :weight: 20
+        :reps: 9
+        :rir: 1
+      - :weight: 20
+        :reps: 9
+        :rir: 1
+    :neck extension:
+      :sets:
+      - :weight: 30
+        :reps: 9
+        :rir: 3
+      - :weight: 30
+        :reps: 9
+        :rir: 3
+    :neck curl:
+      :sets:
+      - :weight: 15
+        :reps: 9
+        :rir: 2
+      - :weight: 15
+        :reps: 10
+        :rir: 1
+    :db standing curl:
+      :sets:
+      - :weight: 35
+        :reps: 9
+        :rir: 1
+      - :weight: 35
+        :reps: 9
+        :rir: 0
+    :wrist curl:
+      :sets:
+      - :weight: 30
+        :reps: 9
+        :rir: 2
+      - :weight: 20
+        :reps: 9
+        :rir: 0
+  2019-10-06:
+    :chin up:
+      :sets:
+      - :weight: 15
+        :reps: 10
+        :rir: 2
+      - :weight: 15
+        :reps: 10
+        :rir: 1
+      - :weight: 15
+        :reps: 9
+        :rir: 0
+    :front squat:
+      :sets:
+      - :weight: 175
+        :reps: 5
+        :rir: 3
+      - :weight: 175
+        :reps: 5
+        :rir: 3
+      - :weight: 175
+        :reps: 5
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 25
+        :reps: 7
+        :rir: 0
+      - :weight: 25
+        :reps: 7
+        :rir: 0
+      - :weight: 25
+        :reps: 7
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 195
+        :reps: 5
+        :rir: 3
+      - :weight: 195
+        :reps: 5
+        :rir: 3
+    :db tricep kickback:
+      :sets:
+      - :weight: 25
+        :reps: 9
+        :rir: 2
+      - :weight: 25
+        :reps: 9
+        :rir: 2
+    :calfs:
+      :sets:
+      - :weight: 135
+        :reps: 5
+        :rir: 4
+      - :weight: 135
+        :reps: 5
+        :rir: 4
+  2019-10-08:
+    :bench:
+      :sets:
+      - :weight: 195
+        :reps: 5
+        :rir: 2
+      - :weight: 195
+        :reps: 5
+        :rir: 1
+      - :weight: 195
+        :reps: 5
+        :rir: 1
+    :goodmorning:
+      :sets:
+      - :weight: 135
+        :reps: 5
+        :rir: 3
+      - :weight: 135
+        :reps: 5
+        :rir: 3
+      - :weight: 135
+        :reps: 5
+        :rir: 2
+    :db bent reverse fly:
+      :sets:
+      - :weight: 20
+        :reps: 10
+        :rir: 1
+      - :weight: 20
+        :reps: 10
+        :rir: 0
+    :neck extension:
+      :sets:
+      - :weight: 30
+        :reps: 10
+        :rir: 3
+      - :weight: 30
+        :reps: 10
+        :rir: 2
+    :neck curl:
+      :sets:
+      - :weight: 15
+        :reps: 10
+        :rir: 2
+      - :weight: 15
+        :reps: 10
+        :rir: 1
+    :db standing curl:
+      :sets:
+      - :weight: 35
+        :reps: 10
+        :rir: 1
+      - :weight: 35
+        :reps: 10
+        :rir: 0
+  2019-10-10:
+    :front squat:
+      :sets:
+      - :weight: 185
+        :reps: 5
+        :rir: 3
+      - :weight: 185
+        :reps: 5
+        :rir: 3
+      - :weight: 185
+        :reps: 5
+        :rir: 2
+    :low bar bent row:
+      :sets:
+      - :weight: 195
+        :reps: 5
+        :rir: 2
+      - :weight: 195
+        :reps: 5
+        :rir: 2
+      - :weight: 195
+        :reps: 5
+        :rir: 1
+    :db lat raises:
+      :sets:
+      - :weight: 25
+        :reps: 8
+        :rir: 1
+      - :weight: 25
+        :reps: 8
+        :rir: 1
+      - :weight: 25
+        :reps: 8
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 205
+        :reps: 5
+        :rir: 3
+      - :weight: 205
+        :reps: 5
+        :rir: 1
+    :db tricep kickback:
+      :sets:
+      - :weight: 25
+        :reps: 10
+        :rir: 1
+      - :weight: 25
+        :reps: 10
+        :rir: 1
+    :calfs:
+      :sets:
+      - :weight: 140
+        :reps: 5
+        :rir: 3
+      - :weight: 140
+        :reps: 5
+        :rir: 1
+  2019-10-12:
+    :bench:
+      :sets:
+      - :weight: 200
+        :reps: 5
+        :rir: 1
+      - :weight: 200
+        :reps: 5
+        :rir: 1
+      - :weight: 200
+        :reps: 5
+        :rir: 0
+    :goodmorning:
+      :sets:
+      - :weight: 140
+        :reps: 5
+        :rir: 3
+      - :weight: 140
+        :reps: 5
+        :rir: 2
+      - :weight: 140
+        :reps: 5
+        :rir: 2
+    :db bent reverse fly:
+      :sets:
+      - :weight: 20
+        :reps: 11
+        :rir: 1
+      - :weight: 20
+        :reps: 11
+        :rir: 0
+    :neck extension:
+      :sets:
+      - :weight: 30
+        :reps: 11
+        :rir: 3
+      - :weight: 30
+        :reps: 11
+        :rir: 2
+    :neck curl:
+      :sets:
+      - :weight: 15
+        :reps: 11
+        :rir: 2
+      - :weight: 15
+        :reps: 11
+        :rir: 0
+    :db standing curl:
+      :sets:
+      - :weight: 35
+        :reps: 11
+        :rir: 0
+      - :weight: 35
+        :reps: 8
+        :rir: 0
+    :wrist curl:
+      :sets:
+      - :weight: 30
+        :reps: 11
+        :rir: 0
+      - :weight: 20
+        :reps: 11
+        :rir: 0
+  2019-10-13:
+    :chin up:
+      :sets:
+      - :weight: 20
+        :reps: 8
+        :rir: 2
+      - :weight: 20
+        :reps: 8
+        :rir: 2
+      - :weight: 20
+        :reps: 8
+        :rir: 1
+    :front squat:
+      :sets:
+      - :weight: 195
+        :reps: 5
+        :rir: 1
+      - :weight: 195
+        :reps: 5
+        :rir: 1
+    :db lat raises:
+      :sets:
+      - :weight: 25
+        :reps: 9
+        :rir: 0
+      - :weight: 25
+        :reps: 9
+        :rir: 0
+      - :weight: 25
+        :reps: 8
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 215
+        :reps: 5
+        :rir: 3
+      - :weight: 215
+        :reps: 5
+        :rir: 2
+    :db tricep kickback:
+      :sets:
+      - :weight: 25
+        :reps: 11
+        :rir: 1
+      - :weight: 25
+        :reps: 11
+        :rir: 0
+  2019-10-15:
+    :db flyes:
+      :sets:
+      - :weight: 30
+        :reps: 8
+        :rir: 3
+      - :weight: 35
+        :reps: 8
+        :rir: 1
+      - :weight: 35
+        :reps: 8
+        :rir: 0
+      - :weight: 35
+        :reps: 6
+        :rir: 0
+    :deadlift:
+      :sets:
+      - :weight: 275
+        :reps: 5
+        :rir: 2
+      - :weight: 285
+        :reps: 5
+        :rir: 2
+      - :weight: 290
+        :reps: 5
+        :rir: 0
+    :db bent reverse fly:
+      :sets:
+      - :weight: 20
+        :reps: 10
+        :rir: 0
+      - :weight: 20
+        :reps: 10
+        :rir: 0
+    :db sitting curl:
+      :sets:
+      - :weight: 35
+        :reps: 8
+        :rir: 0
+      - :weight: 35
+        :reps: 8
+        :rir: 0
+  2019-10-26:
+    :db flyes:
+      :sets:
+      - :weight: 20
+        :reps: 15
+        :rir: 3
+      - :weight: 20
+        :reps: 15
+        :rir: 3
+      - :weight: 20
+        :reps: 15
+        :rir: 3
+    :stiff-leg deadlift:
+      :sets:
+      - :weight: 135
+        :reps: 15
+        :rir: 2
+      - :weight: 135
+        :reps: 15
+        :rir: 3
+      - :weight: 135
+        :reps: 15
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 15
+        :reps: 15
+        :rir: 3
+      - :weight: 15
+        :reps: 15
+        :rir: 2
+    :neck extension:
+      :sets:
+      - :weight: 25
+        :reps: 15
+        :rir: 5
+      - :weight: 25
+        :reps: 15
+        :rir: 5
+    :neck curl:
+      :sets:
+      - :weight: 12
+        :reps: 15
+        :rir: 3
+      - :weight: 12
+        :reps: 15
+        :rir: 1
+    :db sitting curl:
+      :sets:
+      - :weight: 25
+        :reps: 15
+        :rir: 3
+      - :weight: 25
+        :reps: 15
+        :rir: 0
+    :wrist curl:
+      :sets:
+      - :weight: 20
+        :reps: 17
+        :rir: 2
+      - :weight: 20
+        :reps: 17
+        :rir: 2
+      - :weight: 10
+        :reps: 15
+        :rir: 2
+  2019-10-27:
+    :reverse-grip bent row:
+      :sets:
+      - :weight: 95
+        :reps: 15
+        :rir: 3
+      - :weight: 95
+        :reps: 15
+        :rir: 4
+      - :weight: 95
+        :reps: 15
+        :rir: 4
+    :squat:
+      :sets:
+      - :weight: 175
+        :reps: 14
+        :rir: 2
+      - :weight: 165
+        :reps: 15
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 16
+        :reps: 15
+        :rir: 2
+      - :weight: 16
+        :reps: 15
+        :rir: 1
+    :bar shrug:
+      :sets:
+      - :weight: 170
+        :reps: 15
+        :rir: 2
+      - :weight: 170
+        :reps: 15
+        :rir: 2
+    :db tricep kickback:
+      :sets:
+      - :weight: 15
+        :reps: 15
+        :rir: 4
+  2019-10-28:
+    :db tricep kickback:
+      :sets:
+      - :weight: 15
+        :reps: 15
+        :rir: 2
+  2019-10-29:
+    :db flyes:
+      :sets:
+      - :weight: 25
+        :reps: 16
+        :rir: 2
+      - :weight: 25
+        :reps: 16
+        :rir: 1
+      - :weight: 25
+        :reps: 16
+        :rir: 0
+    :stiff-leg deadlift:
+      :sets:
+      - :weight: 140
+        :reps: 15
+        :rir: 4
+      - :weight: 140
+        :reps: 15
+        :rir: 3
+    :db lat raises:
+      :sets:
+      - :weight: 16
+        :reps: 16
+        :rir: 2
+      - :weight: 16
+        :reps: 16
+        :rir: 2
+    :neck extension:
+      :sets:
+      - :weight: 25
+        :reps: 16
+        :rir: 4
+      - :weight: 25
+        :reps: 16
+        :rir: 3
+    :neck curl:
+      :sets:
+      - :weight: 12
+        :reps: 16
+        :rir: 1
+      - :weight: 12
+        :reps: 16
+        :rir: 0
+    :db sitting curl:
+      :sets:
+      - :weight: 25
+        :reps: 16
+        :rir: 2
+      - :weight: 25
+        :reps: 16
+        :rir: 1
+    :wrist curl:
+      :sets:
+      - :weight: 20
+        :reps: 16
+        :rir: 2
+      - :weight: 20
+        :reps: 16
+        :rir: 2
+      - :weight: 10
+        :reps: 16
+        :rir: 2
+  2019-10-31:
+    :squat:
+      :sets:
+      - :weight: 170
+        :reps: 15
+        :rir: 1
+      - :weight: 170
+        :reps: 15
+        :rir: 2
+    :reverse-grip bent row:
+      :sets:
+      - :weight: 100
+        :reps: 15
+        :rir: 3
+      - :weight: 100
+        :reps: 15
+        :rir: 2
+      - :weight: 100
+        :reps: 15
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 16
+        :reps: 16
+        :rir: 2
+      - :weight: 16
+        :reps: 16
+        :rir: 2
+    :bar shrug:
+      :sets:
+      - :weight: 175
+        :reps: 15
+        :rir: 3
+      - :weight: 175
+        :reps: 15
+        :rir: 3
+    :db tricep kickback:
+      :sets:
+      - :weight: 15
+        :reps: 16
+        :rir: 3
+      - :weight: 15
+        :reps: 16
+        :rir: 2
+  2019-11-02:
+    :db flyes:
+      :sets:
+      - :weight: 25
+        :reps: 17
+        :rir: 2
+      - :weight: 25
+        :reps: 17
+        :rir: 2
+      - :weight: 25
+        :reps: 17
+        :rir: 1
+    :stiff-leg deadlift:
+      :sets:
+      - :weight: 145
+        :reps: 15
+        :rir: 4
+      - :weight: 145
+        :reps: 15
+        :rir: 3
+      - :weight: 145
+        :reps: 15
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 16
+        :reps: 17
+        :rir: 2
+      - :weight: 16
+        :reps: 17
+        :rir: 1
+    :neck extension:
+      :sets:
+      - :weight: 25
+        :reps: 17
+        :rir: 3
+      - :weight: 25
+        :reps: 17
+        :rir: 3
+    :neck curl:
+      :sets:
+      - :weight: 12
+        :reps: 17
+        :rir: 2
+      - :weight: 12
+        :reps: 17
+        :rir: 0
+    :db sitting curl:
+      :sets:
+      - :weight: 25
+        :reps: 17
+        :rir: 2
+      - :weight: 25
+        :reps: 17
+        :rir: 0
+    :wrist curl:
+      :sets:
+      - :weight: 20
+        :reps: 17
+        :rir: 2
+      - :weight: 10
+        :reps: 17
+        :rir: 2
+      - :weight: 20
+        :reps: 17
+        :rir: 2
+  2019-11-04:
+    :squat:
+      :sets:
+      - :weight: 175
+        :reps: 15
+        :rir: 2
+      - :weight: 175
+        :reps: 15
+        :rir: 2
+    :reverse-grip bent row:
+      :sets:
+      - :weight: 105
+        :reps: 15
+        :rir: 3
+      - :weight: 105
+        :reps: 15
+        :rir: 2
+      - :weight: 105
+        :reps: 15
+        :rir: 1
+    :db lat raises:
+      :sets:
+      - :weight: 16
+        :reps: 17
+        :rir: 2
+      - :weight: 16
+        :reps: 17
+        :rir: 1
+    :bar shrug:
+      :sets:
+      - :weight: 185
+        :reps: 15
+        :rir: 2
+      - :weight: 185
+        :reps: 15
+        :rir: 0
+    :db tricep kickback:
+      :sets:
+      - :weight: 15
+        :reps: 17
+        :rir: 3
+      - :weight: 15
+        :reps: 17
+        :rir: 1
+  2019-11-05:
+    :db flyes:
+      :sets:
+      - :weight: 25
+        :reps: 17
+        :rir: 3
+      - :weight: 25
+        :reps: 18
+        :rir: 1
+      - :weight: 25
+        :reps: 18
+        :rir: 0
+    :stiff-leg deadlift:
+      :sets:
+      - :weight: 150
+        :reps: 15
+        :rir: 2
+      - :weight: 150
+        :reps: 15
+        :rir: 1
+    :db lat raises:
+      :sets:
+      - :weight: 16
+        :reps: 18
+        :rir: 1
+      - :weight: 16
+        :reps: 18
+        :rir: 0
+    :neck extension:
+      :sets:
+      - :weight: 25
+        :reps: 18
+        :rir: 4
+      - :weight: 25
+        :reps: 18
+        :rir: 4
+    :neck curl:
+      :sets:
+      - :weight: 12
+        :reps: 18
+        :rir: 1
+      - :weight: 12
+        :reps: 19
+        :rir: 0
+    :db sitting curl:
+      :sets:
+      - :weight: 25
+        :reps: 18
+        :rir: 1
+      - :weight: 25
+        :reps: 18
+        :rir: 0
+    :wrist curl:
+      :sets:
+      - :weight: 20
+        :reps: 18
+        :rir: 1
+      - :weight: 10
+        :reps: 18
+        :rir: 1
+      - :weight: 20
+        :reps: 18
+        :rir: 1
+  2019-11-07:
+    :squat:
+      :sets:
+      - :weight: 180
+        :reps: 15
+        :rir: 0
+      - :weight: 180
+        :reps: 15
+        :rir: 1
+    :reverse-grip bent row:
+      :sets:
+      - :weight: 110
+        :reps: 15
+        :rir: 2
+      - :weight: 110
+        :reps: 15
+        :rir: 2
+      - :weight: 110
+        :reps: 16
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 16
+        :reps: 18
+        :rir: 1
+      - :weight: 16
+        :reps: 18
+        :rir: 0
+    :bar shrug:
+      :sets:
+      - :weight: 185
+        :reps: 15
+        :rir: 1
+      - :weight: 185
+        :reps: 15
+        :rir: 0
+    :db tricep kickback:
+      :sets:
+      - :weight: 15
+        :reps: 18
+        :rir: 1
+      - :weight: 15
+        :reps: 18
+        :rir: 1
+  2019-11-09:
+    :db flyes:
+      :sets:
+      - :weight: 30
+        :reps: 11
+        :rir: 2
+      - :weight: 30
+        :reps: 11
+        :rir: 1
+      - :weight: 30
+        :reps: 11
+        :rir: 1
+    :stiff-leg deadlift:
+      :sets:
+      - :weight: 150
+        :reps: 10
+        :rir: 4
+      - :weight: 150
+        :reps: 10
+        :rir: 3
+      - :weight: 150
+        :reps: 10
+        :rir: 3
+    :db lat raises:
+      :sets:
+      - :weight: 20
+        :reps: 12
+        :rir: 3
+      - :weight: 20
+        :reps: 11
+        :rir: 2
+    :neck extension:
+      :sets:
+      - :weight: 30
+        :reps: 11
+        :rir: 3
+      - :weight: 30
+        :reps: 11
+        :rir: 2
+    :neck curl:
+      :sets:
+      - :weight: 15
+        :reps: 11
+        :rir: 2
+      - :weight: 15
+        :reps: 11
+        :rir: 1
+    :db sitting curl:
+      :sets:
+      - :weight: 30
+        :reps: 11
+        :rir: 3
+      - :weight: 30
+        :reps: 11
+        :rir: 2
+    :wrist curl:
+      :sets:
+      - :weight: 25
+        :reps: 14
+        :rir: 3
+      - :weight: 11
+        :reps: 11
+        :rir: 3
+      - :weight: 25
+        :reps: 11
+        :rir: 3
+  2019-11-11:
+    :squat:
+      :sets:
+      - :weight: 180
+        :reps: 10
+        :rir: 3
+      - :weight: 180
+        :reps: 10
+        :rir: 3
+      - :weight: 180
+        :reps: 10
+        :rir: 3
+    :reverse-grip bent row:
+      :sets:
+      - :weight: 115
+        :reps: 10
+        :rir: 3
+      - :weight: 115
+        :reps: 10
+        :rir: 3
+      - :weight: 115
+        :reps: 10
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 20
+        :reps: 11
+        :rir: 3
+      - :weight: 20
+        :reps: 11
+        :rir: 2
+    :bar shrug:
+      :sets:
+      - :weight: 185
+        :reps: 10
+        :rir: 4
+      - :weight: 185
+        :reps: 10
+        :rir: 3
+    :db tricep kickback:
+      :sets:
+      - :weight: 20
+        :reps: 11
+        :rir: 3
+      - :weight: 20
+        :reps: 11
+        :rir: 2
+  2019-11-12:
+    :db flyes:
+      :sets:
+      - :weight: 30
+        :reps: 12
+        :rir: 3
+      - :weight: 30
+        :reps: 12
+        :rir: 2
+      - :weight: 30
+        :reps: 12
+        :rir: 1
+    :stiff-leg deadlift:
+      :sets:
+      - :weight: 155
+        :reps: 10
+        :rir: 3
+      - :weight: 155
+        :reps: 10
+        :rir: 3
+      - :weight: 155
+        :reps: 10
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 20
+        :reps: 12
+        :rir: 2
+      - :weight: 20
+        :reps: 12
+        :rir: 2
+    :db sitting curl:
+      :sets:
+      - :weight: 30
+        :reps: 12
+        :rir: 2
+      - :weight: 30
+        :reps: 12
+        :rir: 0
+      - :weight: 30
+        :reps: 9
+        :rir: 0
+    :wrist curl:
+      :sets:
+      - :weight: 20
+        :reps: 14
+        :rir: 2
+      - :weight: 11
+        :reps: 12
+        :rir: 2
+      - :weight: 20
+        :reps: 12
+        :rir: 2
+  2019-11-16:
+    :db flyes:
+      :sets:
+      - :weight: 30
+        :reps: 13
+        :rir: 2
+      - :weight: 30
+        :reps: 13
+        :rir: 1
+      - :weight: 30
+        :reps: 13
+        :rir: 0
+    :stiff-leg deadlift:
+      :sets:
+      - :weight: 160
+        :reps: 10
+        :rir: 3
+      - :weight: 160
+        :reps: 10
+        :rir: 3
+      - :weight: 160
+        :reps: 10
+        :rir: 3
+    :db lat raises:
+      :sets:
+      - :weight: 20
+        :reps: 13
+        :rir: 2
+      - :weight: 20
+        :reps: 13
+        :rir: 1
+    :neck extension:
+      :sets:
+      - :weight: 30
+        :reps: 13
+        :rir: 3
+      - :weight: 30
+        :reps: 13
+        :rir: 2
+    :neck curl:
+      :sets:
+      - :weight: 15
+        :reps: 13
+        :rir: 1
+      - :weight: 15
+        :reps: 13
+        :rir: 0
+    :db sitting curl:
+      :sets:
+      - :weight: 30
+        :reps: 13
+        :rir: 2
+      - :weight: 30
+        :reps: 13
+        :rir: 0
+    :wrist curl:
+      :sets:
+      - :weight: 25
+        :reps: 13
+        :rir: 2
+      - :weight: 11
+        :reps: 13
+        :rir: 2
+      - :weight: 25
+        :reps: 12
+        :rir: 2
+  2019-11-17:
+    :squat:
+      :sets:
+      - :weight: 190
+        :reps: 10
+        :rir: 2
+      - :weight: 190
+        :reps: 10
+        :rir: 2
+    :reverse-grip bent row:
+      :sets:
+      - :weight: 125
+        :reps: 10
+        :rir: 3
+      - :weight: 125
+        :reps: 10
+        :rir: 2
+      - :weight: 125
+        :reps: 10
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 20
+        :reps: 13
+        :rir: 2
+      - :weight: 20
+        :reps: 13
+        :rir: 1
+    :bar shrug:
+      :sets:
+      - :weight: 195
+        :reps: 10
+        :rir: 3
+      - :weight: 195
+        :reps: 10
+        :rir: 1
+    :db tricep kickback:
+      :sets:
+      - :weight: 20
+        :reps: 13
+        :rir: 3
+      - :weight: 20
+        :reps: 13
+        :rir: 1
+  2019-11-19:
+    :db flyes:
+      :sets:
+      - :weight: 30
+        :reps: 14
+        :rir: 1
+      - :weight: 30
+        :reps: 14
+        :rir: 1
+      - :weight: 30
+        :reps: 14
+        :rir: 0
+    :stiff-leg deadlift:
+      :sets:
+      - :weight: 165
+        :reps: 10
+        :rir: 3
+      - :weight: 165
+        :reps: 10
+        :rir: 2
+      - :weight: 165
+        :reps: 10
+        :rir: 1
+    :db lat raises:
+      :sets:
+      - :weight: 20
+        :reps: 14
+        :rir: 1
+      - :weight: 20
+        :reps: 14
+        :rir: 1
+    :neck curl:
+      :sets:
+      - :weight: 15
+        :reps: 14
+        :rir: 2
+      - :weight: 15
+        :reps: 12
+        :rir: 1
+    :db sitting curl:
+      :sets:
+      - :weight: 30
+        :reps: 14
+        :rir: 1
+      - :weight: 30
+        :reps: 12
+        :rir: 0
+    :wrist curl:
+      :sets:
+      - :weight: 25
+        :reps: 14
+        :rir: 1
+      - :weight: 11
+        :reps: 14
+        :rir: 1
+      - :weight: 25
+        :reps: 14
+        :rir: 1
+  2019-11-21:
+    :squat:
+      :sets:
+      - :weight: 195
+        :reps: 10
+        :rir: 2
+      - :weight: 195
+        :reps: 10
+        :rir: 1
+    :reverse-grip bent row:
+      :sets:
+      - :weight: 130
+        :reps: 10
+        :rir: 3
+      - :weight: 130
+        :reps: 10
+        :rir: 2
+      - :weight: 130
+        :reps: 10
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 20
+        :reps: 14
+        :rir: 1
+      - :weight: 20
+        :reps: 14
+        :rir: 1
+    :bar shrug:
+      :sets:
+      - :weight: 205
+        :reps: 10
+        :rir: 3
+      - :weight: 205
+        :reps: 10
+        :rir: 1
+    :db tricep kickback:
+      :sets:
+      - :weight: 20
+        :reps: 14
+        :rir: 3
+      - :weight: 20
+        :reps: 16
+        :rir: 1
+  2019-11-24:
+    :db flyes:
+      :sets:
+      - :weight: 35
+        :reps: 7
+        :rir: 2
+      - :weight: 35
+        :reps: 7
+        :rir: 2
+      - :weight: 35
+        :reps: 7
+        :rir: 2
+    :stiff-leg deadlift:
+      :sets:
+      - :weight: 165
+        :reps: 5
+        :rir: 4
+      - :weight: 165
+        :reps: 5
+        :rir: 4
+      - :weight: 165
+        :reps: 5
+        :rir: 4
+    :db lat raises:
+      :sets:
+      - :weight: 25
+        :reps: 7
+        :rir: 2
+      - :weight: 25
+        :reps: 7
+        :rir: 2
+      - :weight: 25
+        :reps: 7
+        :rir: 2
+    :neck extension:
+      :sets:
+      - :weight: 35
+        :reps: 7
+        :rir: 3
+      - :weight: 35
+        :reps: 7
+        :rir: 3
+    :neck curl:
+      :sets:
+      - :weight: 17
+        :reps: 7
+        :rir: 3
+      - :weight: 17
+        :reps: 7
+        :rir: 3
+    :db sitting curl:
+      :sets:
+      - :weight: 35
+        :reps: 7
+        :rir: 3
+      - :weight: 35
+        :reps: 7
+        :rir: 3
+    :wrist curl:
+      :sets:
+      - :weight: 35
+        :reps: 7
+        :rir: 3
+      - :weight: 15
+        :reps: 7
+        :rir: 3
+  2019-11-26:
+    :squat:
+      :sets:
+      - :weight: 195
+        :reps: 5
+        :rir: 3
+      - :weight: 195
+        :reps: 5
+        :rir: 3
+      - :weight: 195
+        :reps: 5
+        :rir: 3
+    :reverse-grip bent row:
+      :sets:
+      - :weight: 135
+        :reps: 5
+        :rir: 3
+      - :weight: 135
+        :reps: 5
+        :rir: 3
+      - :weight: 135
+        :reps: 5
+        :rir: 3
+    :db lat raises:
+      :sets:
+      - :weight: 25
+        :reps: 7
+        :rir: 2
+      - :weight: 25
+        :reps: 7
+        :rir: 1
+      - :weight: 25
+        :reps: 7
+        :rir: 1
+    :bar shrug:
+      :sets:
+      - :weight: 205
+        :reps: 5
+        :rir: 3
+      - :weight: 205
+        :reps: 5
+        :rir: 3
+    :db tricep kickback:
+      :sets:
+      - :weight: 25
+        :reps: 7
+        :rir: 2
+      - :weight: 25
+        :reps: 7
+        :rir: 2
+  2019-11-29:
+    :deadlift:
+      :sets:
+      - :weight: 185
+        :reps: 13
+        :rir: 1
+  2019-12-04:
+    :squat:
+      :sets:
+      - :weight: 195
+        :reps: 5
+        :rir: 3
+      - :weight: 195
+        :reps: 5
+        :rir: 3
+      - :weight: 195
+        :reps: 5
+        :rir: 2
+    :db flyes:
+      :sets:
+      - :weight: 35
+        :reps: 7
+        :rir: 2
+      - :weight: 35
+        :reps: 7
+        :rir: 1
+      - :weight: 35
+        :reps: 7
+        :rir: 0
+    :db lat raises:
+      :sets:
+      - :weight: 25
+        :reps: 7
+        :rir: 2
+      - :weight: 25
+        :reps: 7
+        :rir: 2
+      - :weight: 25
+        :reps: 7
+        :rir: 2
+    :db sitting curl:
+      :sets:
+      - :weight: 35
+        :reps: 7
+        :rir: 2
+      - :weight: 35
+        :reps: 7
+        :rir: 2
+    :db tricep kickback:
+      :sets:
+      - :weight: 25
+        :reps: 7
+        :rir: 3
+      - :weight: 25
+        :reps: 7
+        :rir: 3
+  2019-12-07:
+    :squat:
+      :sets:
+      - :weight: 200
+        :reps: 5
+        :rir: 2
+      - :weight: 200
+        :reps: 5
+        :rir: 2
+      - :weight: 200
+        :reps: 5
+        :rir: 1
+    :db flyes:
+      :sets:
+      - :weight: 35
+        :reps: 8
+        :rir: 1
+      - :weight: 35
+        :reps: 8
+        :rir: 1
+      - :weight: 35
+        :reps: 8
+        :rir: 1
+    :db lat raises:
+      :sets:
+      - :weight: 25
+        :reps: 8
+        :rir: 2
+      - :weight: 25
+        :reps: 8
+        :rir: 2
+      - :weight: 25
+        :reps: 8
+        :rir: 1
+    :db sitting curl:
+      :sets:
+      - :weight: 35
+        :reps: 8
+        :rir: 2
+      - :weight: 35
+        :reps: 8
+        :rir: 2
+    :db tricep kickback:
+      :sets:
+      - :weight: 25
+        :reps: 8
+        :rir: 3
+      - :weight: 25
+        :reps: 8
+        :rir: 2
+  2019-12-09:
+    :squat:
+      :sets:
+      - :weight: 205
+        :reps: 5
+        :rir: 2
+      - :weight: 205
+        :reps: 5
+        :rir: 2
+      - :weight: 205
+        :reps: 5
+        :rir: 2
+    :db flyes:
+      :sets:
+      - :weight: 35
+        :reps: 9
+        :rir: 1
+      - :weight: 35
+        :reps: 9
+        :rir: 1
+      - :weight: 35
+        :reps: 8
+        :rir: 0
+    :db lat raises:
+      :sets:
+      - :weight: 25
+        :reps: 9
+        :rir: 1
+      - :weight: 25
+        :reps: 9
+        :rir: 1
+      - :weight: 25
+        :reps: 9
+        :rir: 1
+    :db sitting curl:
+      :sets:
+      - :weight: 35
+        :reps: 9
+        :rir: 1
+      - :weight: 35
+        :reps: 9
+        :rir: 1
+    :db tricep kickback:
+      :sets:
+      - :weight: 25
+        :reps: 9
+        :rir: 1
+      - :weight: 25
+        :reps: 9
+        :rir: 1
+  2019-12-13:
+    :squat:
+      :sets:
+      - :weight: 210
+        :reps: 5
+        :rir: 2
+      - :weight: 210
+        :reps: 5
+        :rir: 2
+      - :weight: 210
+        :reps: 5
+        :rir: 2
+    :db flyes:
+      :sets:
+      - :weight: 35
+        :reps: 10
+        :rir: 0
+      - :weight: 35
+        :reps: 10
+        :rir: 0
+      - :weight: 35
+        :reps: 10
+        :rir: 0
+    :db lat raises:
+      :sets:
+      - :weight: 25
+        :reps: 10
+        :rir: 1
+      - :weight: 25
+        :reps: 10
+        :rir: 0
+      - :weight: 25
+        :reps: 10
+        :rir: 0
+    :db sitting curl:
+      :sets:
+      - :weight: 35
+        :reps: 10
+        :rir: 1
+      - :weight: 35
+        :reps: 10
+        :rir: 0
+    :db tricep kickback:
+      :sets:
+      - :weight: 25
+        :reps: 10
+        :rir: 1
+      - :weight: 25
+        :reps: 10
+        :rir: 1
+  2020-01-04:
+    :bench:
+      :sets:
+      - :weight: 135
+        :reps: 15
+        :rir: 2
+      - :weight: 135
+        :reps: 15
+        :rir: 2
+      - :weight: 135
+        :reps: 11
+        :rir: 1
+    :deadlift:
+      :sets:
+      - :weight: 165
+        :reps: 15
+        :rir: 2
+      - :weight: 165
+        :reps: 15
+        :rir: 2
+      - :weight: 165
+        :reps: 15
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 18
+        :reps: 16
+        :rir: 2
+      - :weight: 18
+        :reps: 16
+        :rir: 2
+    :db standing curl:
+      :sets:
+      - :weight: 25
+        :reps: 16
+        :rir: 1
+    :neck extension:
+      :sets:
+      - :weight: 25
+        :reps: 16
+        :rir: 4
+    :neck curl:
+      :sets:
+      - :weight: 12
+        :reps: 16
+        :rir: 2
+  2020-01-06:
+    :front squat:
+      :sets:
+      - :weight: 135
+        :reps: 15
+        :rir: 2
+      - :weight: 135
+        :reps: 15
+        :rir: 1
+    :bar shrug:
+      :sets:
+      - :weight: 175
+        :reps: 15
+        :rir: 2
+      - :weight: 175
+        :reps: 15
+        :rir: 2
+      - :weight: 175
+        :reps: 15
+        :rir: 1
+    :db lat raises:
+      :sets:
+      - :weight: 18
+        :reps: 16
+        :rir: 3
+      - :weight: 18
+        :reps: 16
+        :rir: 2
+    :db standing curl:
+      :sets:
+      - :weight: 25
+        :reps: 16
+        :rir: 2
+      - :weight: 25
+        :reps: 15
+        :rir: 0
+    :wrist curl:
+      :sets:
+      - :weight: 20
+        :reps: 16
+        :rir: 4
+      - :weight: 20
+        :reps: 16
+        :rir: 4
+      - :weight: 10
+        :reps: 16
+        :rir: 3
+    :db tricep kickback:
+      :sets:
+      - :weight: 15
+        :reps: 16
+        :rir: 3
+  2020-01-08:
+    :bench:
+      :sets:
+      - :weight: 140
+        :reps: 15
+        :rir: 1
+      - :weight: 140
+        :reps: 14
+        :rir: 1
+    :deadlift:
+      :sets:
+      - :weight: 170
+        :reps: 15
+        :rir: 2
+      - :weight: 170
+        :reps: 15
+        :rir: 1
+    :db lat raises:
+      :sets:
+      - :weight: 18
+        :reps: 17
+        :rir: 2
+      - :weight: 18
+        :reps: 17
+        :rir: 1
+    :db standing curl:
+      :sets:
+      - :weight: 25
+        :reps: 17
+        :rir: 1
+      - :weight: 25
+        :reps: 16
+        :rir: 0
+    :neck extension:
+      :sets:
+      - :weight: 25
+        :reps: 17
+        :rir: 3
+      - :weight: 25
+        :reps: 17
+        :rir: 3
+    :neck curl:
+      :sets:
+      - :weight: 12
+        :reps: 17
+        :rir: 1
+  2020-01-10:
+    :front squat:
+      :sets:
+      - :weight: 140
+        :reps: 15
+        :rir: 2
+      - :weight: 140
+        :reps: 15
+        :rir: 2
+    :bar shrug:
+      :sets:
+      - :weight: 175
+        :reps: 15
+        :rir: 2
+      - :weight: 175
+        :reps: 15
+        :rir: 2
+      - :weight: 175
+        :reps: 15
+        :rir: 2
+    :db lat raises:
+      :sets:
+      - :weight: 18
+        :reps: 17
+        :rir: 2
+      - :weight: 18
+        :reps: 17
+        :rir: 1
+    :db standing curl:
+      :sets:
+      - :weight: 25
+        :reps: 17
+        :rir: 1
+    :wrist curl:
+      :sets:
+      - :weight: 20
+        :reps: 17
+        :rir: 3
+      - :weight: 20
+        :reps: 17
+        :rir: 3
+      - :weight: 10
+        :reps: 17
+        :rir: 3
+    :db tricep kickback:
+      :sets:
+      - :weight: 15
+        :reps: 17
+        :rir: 2
+  2020-01-13:
+    :bench:
+      :sets:
+      - :weight: 145
+        :reps: 15
+        :rir: 1
+      - :weight: 145
+        :reps: 14
+        :rir: 1
+      - :weight: 145
+        :reps: 10
+        :rir: 1
+    :deadlift:
+      :sets:
+      - :weight: 175
+        :reps: 15
+        :rir: 2
+      - :weight: 175
+        :reps: 15
+        :rir: 1
+    :db lat raises:
+      :sets:
+      - :weight: 18
+        :reps: 18
+        :rir: 2
+      - :weight: 18
+        :reps: 18
+        :rir: 1
+    :db standing curl:
+      :sets:
+      - :weight: 25
+        :reps: 18
+        :rir: 1
+      - :weight: 25
+        :reps: 15
+        :rir: 0
+    :neck extension:
+      :sets:
+      - :weight: 25
+        :reps: 18
+        :rir: 4
+    :neck curl:
+      :sets:
+      - :weight: 12
+        :reps: 18
+        :rir: 0
+  2020-01-15:
+    :front squat:
+      :sets:
+      - :weight: 145
+        :reps: 15
+        :rir: 2
+      - :weight: 145
+        :reps: 15
+        :rir: 2
+      - :weight: 145
+        :reps: 15
+        :rir: 1
+    :bar shrug:
+      :sets:
+      - :weight: 180
+        :reps: 15
+        :rir: 2
+      - :weight: 180
+        :reps: 15
+        :rir: 2
+      - :weight: 180
+        :reps: 15
+        :rir: 1
+    :db lat raises:
+      :sets:
+      - :weight: 18
+        :reps: 18
+        :rir: 2
+      - :weight: 18
+        :reps: 18
+        :rir: 1
+    :db standing curl:
+      :sets:
+      - :weight: 25
+        :reps: 18
+        :rir: 1
+    :wrist curl:
+      :sets:
+      - :weight: 20
+        :reps: 18
+        :rir: 3
+      - :weight: 10
+        :reps: 18
+        :rir: 3
+    :db tricep kickback:
+      :sets:
+      - :weight: 15
+        :reps: 18
+        :rir: 3
+      - :weight: 15
+        :reps: 18
+        :rir: 2

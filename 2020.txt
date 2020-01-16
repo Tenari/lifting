@@ -1,67 +1,19 @@
 Planned
 
-mon - block 1 workout 2 (B)
-  front squat          3x15 @ 15RM -15
-  bar shrug            2x15 @ 15RM -15
-  db lat raises        2x16 @ 19RM
-  db curl              2x16 @ 19RM
-  wrist curl           2x16 @ 20lbs
-  wrist ext            1x16 @ 10lbs
-  db tricep kickback   2x16 @ 19RM
-  calves               2x15 @ bar shrug weight
-
-wed - block 1 workout 3 (A)
-  bench         3x15 @ 15RM -10
-  deadlift      3x15 @ 15RM -10
-  db lat raises 2x17 @ 19RM
-  db curl       2x17 @ 19RM
-  neck ext      2x17 @ 25lbs
-  neck curl     2x17 @ 12.5lbs
-  reverse crunches
-
-fri - block 1 workout 4 (B)
-  front squat          3x15 @ 15RM -10
-  bar shrug            2x15 @ 15RM -10
-  db lat raises        2x17 @ 19RM
-  db curl              2x17 @ 19RM
-  wrist curl           2x17 @ 20lbs
-  wrist ext            1x17 @ 10lbs
-  db tricep kickback   2x17 @ 19RM
-  calves               2x15 @ bar shrug weight
-
-sun - block 1 workout 5 (A)
-  bench         3x15 @ 15RM -5
-  deadlift      3x15 @ 15RM -5
-  db lat raises 2x18 @ 19RM
-  db curl       2x18 @ 19RM
-  neck ext      2x18 @ 25lbs
-  neck curl     2x18 @ 12.5lbs
-  reverse crunches
-
-tue - block 1 workout 6 (B)
-  front squat          3x15 @ 15RM -5
-  bar shrug            2x15 @ 15RM -5
-  db lat raises        2x18 @ 19RM
-  db curl              2x18 @ 19RM
-  wrist curl           2x18 @ 20lbs
-  wrist ext            1x18 @ 10lbs
-  db tricep kickback   2x18 @ 19RM
-  calves               2x15 @ bar shrug weight
-
-thu - block 1 workout 7 (A)
-  bench         3x15 @ 15RM
-  deadlift      3x15 @ 15RM
-  db lat raises 2x19 @ 19RM
-  db curl       2x19 @ 19RM
+fri - block 1 workout 7 (A)
+  bench         3x15 @ 15RM (150)
+  deadlift      3x15 @ 15RM (180)
+  db lat raises 2x19 @ 18lbs
+  db curl       2x19 @ 25lbs
   neck ext      2x19 @ 25lbs
   neck curl     2x19 @ 12.5lbs
   reverse crunches
 
-sat - block 1 workout 8 (B)
-  front squat          3x15 @ 15RM
-  bar shrug            2x15 @ 15RM
-  db lat raises        2x19 @ 19RM
-  db curl              2x19 @ 19RM
+sun - block 1 workout 8 (B)
+  front squat          3x15 @ 15RM (150)
+  bar shrug            3x15 @ 15RM (185)
+  db lat raises        2x19 @ 18lbs
+  db curl              2x19 @ 25lbs
   wrist curl           2x19 @ 20lbs
   wrist ext            1x19 @ 10lbs
   db tricep kickback   2x19 @ 19RM
@@ -79,4 +31,52 @@ Done
   neck ext      2x16 @ 25lbs
   neck curl     2x16 @ 12.5lbs
   reverse crunches  8
+
+1/6 mon - block 1 workout 2 (B)
+  front squat          3x15 @ 15RM -15 (135)
+  bar shrug            3x15 @ 15RM -15 (175)
+  db lat raises        2x16 @ 18lbs
+  db curl              2x16 @ 25lbs
+  wrist curl           2x16 @ 20lbs
+  wrist ext            1x16 @ 10lbs
+  db tricep kickback   2x16 @ 19RM
+  calves               2x15 @ bar shrug weight
+
+1/8 wed - block 1 workout 3 (A)
+  bench         3x15 @ 15RM -10 (140)
+  deadlift      3x15 @ 15RM -10 (170)
+  db lat raises 2x17 @ 18lbs
+  db curl       2x17 @ 25lbs
+  neck ext      2x17 @ 25lbs
+  neck curl     2x17 @ 12.5lbs
+  reverse crunches    9
+
+1/10 fri - block 1 workout 4 (B)
+  front squat          3x15 @ 15RM -10 (140)
+  bar shrug            3x15 @ 15RM -10 (175)
+  db lat raises        2x17 @ 18lbs
+  db curl              2x17 @ 25lbs
+  wrist curl           2x17 @ 20lbs
+  wrist ext            1x17 @ 10lbs
+  db tricep kickback   2x17 @ 19RM
+  calves               2x15 @ bar shrug weight
+
+1/13 mon - block 1 workout 5 (A)
+  bench         3x15 @ 15RM -5 (145)
+  deadlift      3x15 @ 15RM -5 (175)
+  db lat raises 2x18 @ 18lbs
+  db curl       2x18 @ 25lbs
+  neck ext      2x18 @ 25lbs
+  neck curl     2x18 @ 12.5lbs
+  reverse crunches   10
+
+1/15 wed - block 1 workout 6 (B)
+  front squat          3x15 @ 15RM -5 (145)
+  bar shrug            3x15 @ 15RM -5 (180)
+  db lat raises        2x18 @ 18lbs
+  db curl              2x18 @ 25lbs
+  wrist curl           2x18 @ 20lbs
+  wrist ext            1x18 @ 10lbs
+  db tricep kickback   2x18 @ 19RM
+  calves               2x15 @ bar shrug weight
 
